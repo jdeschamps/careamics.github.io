@@ -31,20 +31,16 @@ jobs:
           npx markdown-link-check docs/**/*.md --progress -q
 
       - name: Set-up repositories
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          sh scripts/check_out_repos.sh
+        run: sh scripts/check_out_repos.sh
 
       - name: 📚 Build Docs
         run: |
           pip install -U pip
           pip install -r requirements.txt
-          ls src/
           mkdocs build --strict
         env:
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
-          #GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
+          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
 
       - name: ⬆️ Upload Pages Artifact
         uses: actions/upload-pages-artifact@v1
