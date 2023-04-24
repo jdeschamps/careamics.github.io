@@ -1,4 +1,78 @@
 site_name: My Docs
 
+nav:
+  - index.md
+
 theme:
   name: material
+  font: false
+  custom_dir: docs/.overrides
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: octicons/moon-24
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: octicons/sun-24
+        name: Switch to light mode
+
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    # - navigation.footer  # next/previous links in footer
+    - navigation.content_next # next/previous links bottom of content
+    # - navigation.instant  # hard to use with javascript on page load
+    # - navigation.tracking
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.icons
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tilde
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.progressbar:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: "#"
+
+plugins:
+  - search
+  - mkdocstrings
+  - spellcheck:
+      backends: # the backends you want to use
+        - codespell: # or nested configs
+            dictionaries: [clear, rare]
+
+watch:
+  - docs
