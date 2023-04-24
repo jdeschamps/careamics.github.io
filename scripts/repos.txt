@@ -1,2 +1,1 @@
 https://github.com/juglab-torch/microscopy-portfolio.git
-git@github.com:juglab-torch/n2v.git
