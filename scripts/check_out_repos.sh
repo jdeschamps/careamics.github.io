@@ -25,6 +25,10 @@ do
 
         # copy content of temp/src to src/ 
         cp -r $TEMP/$SRC/* $SRC
+ 
+        # list folder in src
+        ls -d $SRC/
+        ls -d $TEMP/
 
         # remove temp
         rm -rf $TEMP
