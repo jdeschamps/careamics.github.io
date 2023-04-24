@@ -78,7 +78,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          selection:
+          options:
             docstring_style: numpy
   - spellcheck:
       backends: # the backends you want to use
