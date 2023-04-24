@@ -75,16 +75,49 @@ markdown_extensions:
 plugins:
   # potentially we could use this: https://github.com/jdoiro3/mkdocs-multirepo-plugin
   - search
+
+  # Generate code documentation
+  # generate .md for a python modules
   - gen-files:
       scripts:
         - docs/gen_ref_pages.py
+  # allow navigation from a file, used together with gen-files
   - literate-nav:
       nav_file: SUMMARY.md
+  # generate docstrings
   - mkdocstrings:
       handlers:
         python:
           options:
             docstring_style: numpy
+
+  # last modified date
+  #- git-revision-date-localized:
+  #    enable_creation_date: true
+  #    type: timeago
+
+  # add committer info
+  - git-committers:
+      repository: pydev-guide/pydev-guide.github.io
+      branch: main
+      token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
+
+  # minify files
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      cache_safe: true
+      htmlmin_opts:
+        remove_comments: true
+      css_files:
+        - stylesheets/extra.css
+        - stylesheets/termynal.css
+      js_files:
+        - javascripts/extra.js
+        - javascripts/termynal.js
+
+  # check spelling in all files, including code documentation
   - spellcheck:
       backends: # the backends you want to use
         - codespell: # or nested configs
@@ -92,3 +125,11 @@ plugins:
 
 watch:
   - docs
+
+extra_css:
+  - stylesheets/termynal.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/termynal.js
+  - javascripts/extra.js
