@@ -16,10 +16,23 @@ do
     # clone repository
     git clone $p $TEMP
 
-    # copy content of temp/src to src/ 
-    cp -r $TEMP/$SRC/* $SRC
+    # extract repo name
+    REPO_NAME=$(echo $p | sed 's/.*\///')
 
-    # remove temp
-    rm -rf $TEMP
+    # if cloning was successful, a src folder will be created
+    if [ -d "$TEMP/$SRC" ]; then
+        echo "Cloning $REPO_NAME was successful"
+
+        # copy content of temp/src to src/ 
+        cp -r $TEMP/$SRC/* $SRC
+
+        # remove temp
+        rm -rf $TEMP
+    else
+        echo "Cloning $REPO_NAME failed"
+    fi
 
 done < $REPOS
+
+# print list of folders in src/
+ll $SRC
