@@ -4,4 +4,6 @@ mkdocs-spellcheck[all]
 mkdocs-git-revision-date-localized-plugin
 mkdocs-git-committers-plugin
 mkdocs-minify-plugin
+mkdocs-gen-files
+mkdocs-literate-nav
 mkdocstrings[python]
