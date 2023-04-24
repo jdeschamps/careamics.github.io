@@ -43,6 +43,3 @@ do
     fi
 
 done < $REPOS
-
-# list folder in src
-ls $SRC
