@@ -1,9 +1,10 @@
 site_name: My Docs
 
 nav:
-  - index.md
+  - Home: index.md
   - Guide:
       - guide/index.md
+  - Code Reference: reference/
 
 theme:
   name: material
@@ -43,33 +44,25 @@ theme:
 
 markdown_extensions:
   - admonition
-  - attr_list
-  - def_list
   - footnotes
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.tilde
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.progressbar:
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
       permalink: "#"
 
 plugins:
+  # potentially we could use this: https://github.com/jdoiro3/mkdocs-multirepo-plugin
   - search
-  - mkdocstrings
+  - gen-files:
+      scripts:
+        - docs/gen_ref_pages.py
+  - literate-nav:
+      nav_file: SUMMARY.md
+  - mkdocstrings:
+      handlers:
+        python:
+          selection:
+            docstring_style: numpy
   - spellcheck:
       backends: # the backends you want to use
         - codespell: # or nested configs

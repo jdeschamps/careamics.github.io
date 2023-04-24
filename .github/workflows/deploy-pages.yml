@@ -30,6 +30,12 @@ jobs:
           npm install markdown-link-check@"<3.11.1"
           npx markdown-link-check docs/**/*.md --progress -q
 
+      - name: Set-up repositories
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          sh scripts/check_out_repos.sh
+
       - name: 📚 Build Docs
         run: |
           pip install -U pip
