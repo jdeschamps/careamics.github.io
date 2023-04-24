@@ -34,5 +34,5 @@ do
 
 done < $REPOS
 
-# print list of folders in src/
-ll $SRC
+# list folder in src
+ls -d $SRC/
