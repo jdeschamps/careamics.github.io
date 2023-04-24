@@ -16,8 +16,11 @@ do
     # clone repository
     git clone $p $TEMP
 
-    # extract repo name
-    REPO_NAME=$(echo $p | sed 's/.*\///')
+    # extract repo name without .git
+    REPO_NAME=$(echo $p | sed 's/.*\///' | sed 's/.git//')
+
+    # replace hyphens by underscores
+    REPO_NAME=$(echo $REPO_NAME | sed 's/-/_/g')
 
     # if cloning was successful, a src folder will be created
     if [ -d "$TEMP/$SRC" ]; then
@@ -42,4 +45,4 @@ do
 done < $REPOS
 
 # list folder in src
-ls -d $SRC/
+ls $SRC
