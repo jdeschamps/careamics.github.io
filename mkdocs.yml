@@ -2,11 +2,12 @@ site_name: My Docs
 
 nav:
   - index.md
+  - Guide:
+      - guide/index.md
 
 theme:
   name: material
   font: false
-  custom_dir: docs/.overrides
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
