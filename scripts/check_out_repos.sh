@@ -25,13 +25,16 @@ do
 
         # copy content of temp/src to src/ 
         cp -r $TEMP/$SRC/* $SRC
- 
-        # list folder in src
-        ls -d $SRC/
-        ls -d $TEMP/
 
         # remove temp
         rm -rf $TEMP
+
+        # check if repo was copied to src
+        if [ -d "$SRC/$REPO_NAME" ]; then
+            echo "Copying $REPO_NAME was successful"
+        else
+            echo "Copying $REPO_NAME failed"
+        fi
     else
         echo "Cloning $REPO_NAME failed"
     fi
