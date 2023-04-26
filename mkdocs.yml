@@ -35,6 +35,7 @@ theme:
         name: Switch to light mode
 
   features:
+    - navigation.tabs
     - content.code.copy
     - content.code.annotate
     - content.action.edit
@@ -130,6 +131,7 @@ watch:
 extra_css:
   - stylesheets/termynal.css
   - stylesheets/extra.css
+  - stylesheets/landing_page.css
 
 extra_javascript:
   - javascripts/termynal.js
