@@ -1,3 +1,8 @@
+---
+icon: octicons/home-24
+description:  Guide and documentation.
+---
+
 # Denoising with deep learning
 
 Welcome to the marvelous world of [..]
