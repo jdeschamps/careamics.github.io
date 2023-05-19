@@ -14,6 +14,7 @@ nav:
 theme:
   name: material
   font: false
+  #logo: assets/dark.svg
   custom_dir: docs/.overrides
   palette:
     # Palette toggle for light mode
@@ -99,10 +100,10 @@ plugins:
   #    type: timeago
 
   # add committer info
-  - git-committers:
-      repository: pydev-guide/pydev-guide.github.io
-      branch: main
-      token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
+  #- git-committers:
+  #    repository: pydev-guide/pydev-guide.github.io
+  #    branch: main
+  #    token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
 
   # minify files
   - minify:

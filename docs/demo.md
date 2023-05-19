@@ -15,6 +15,7 @@ plt.plot(x, y)
 plt.show()
 ```
 
+1. This is a comment in the code block.
 
 === "C"
 

@@ -28,6 +28,14 @@
     text-align: center;
 }
 
+[data-md-color-scheme="slate"] .item:hover {
+    background-color: rgb(39, 43, 70);
+}
+
+[data-md-color-scheme="default"] .item:hover {
+    background-color: rgb(233, 233, 254);
+}
+
 .item a {
     display: block;
 }
