@@ -23,6 +23,7 @@ img.front-logo {
   width: 15%;
 }
 
+
 /* -------------- Header ----------------- */
 
 /* transparent header */
@@ -342,6 +343,8 @@ body[dir="rtl"] .metadata.page-metadata .contributors-text {
 .md-typeset .md-footer__link {
   color: var(--md-default-fg-color--light);
 }
+
+
 
 /* --------------- ProgressBar ------------------- */
 

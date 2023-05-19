@@ -1,3 +1,11 @@
+---
+icon: material/magnify
+description: Detailed guides on how to use various features of [..].
+tags:
+    - guides
+    - how to
+---
+
 # Guide
 
 This guide contains in-depth tutorials and examples to use our suite of 
