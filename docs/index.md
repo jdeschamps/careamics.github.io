@@ -4,4 +4,6 @@ description: Guide and documentation.
 template: home.html
 ---
 
-Welcome to [....]
+# Caeramic
+
+Caeramic is a deep-learning based restoration and segmentation suite. 

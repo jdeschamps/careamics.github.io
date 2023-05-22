@@ -1,4 +1,4 @@
-site_name: Jug lab torch
+site_name: CAREamics
 
 nav:
   - Home: index.md
@@ -14,7 +14,8 @@ nav:
 theme:
   name: material
   font: false
-  #logo: assets/dark.svg
+  logo: assets/logo_careamics.png
+  favicon: assets/icon_careamics.png
   custom_dir: docs/.overrides
   palette:
     # Palette toggle for light mode
