@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script is used to clone all repositories in repos.txt, it installs the 
+# This script is used to clone all repositories in repos.txt, it installs the
 # packages and move the content of their src folder into a single src folder.
 
 # Note: We could potentially use: https://github.com/jdoiro3/mkdocs-multirepo-plugin
@@ -33,7 +33,7 @@ do
         # attempt to install package from source
         pip install $TEMP
 
-        # copy content of temp/src to src/ 
+        # copy content of temp/src to src/
         cp -r $TEMP/$SRC/* $SRC
 
         # remove temp

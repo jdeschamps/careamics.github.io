@@ -10,7 +10,7 @@ import mkdocs_gen_files
 def sub_index_text(module_name):
     return f"# {module_name} \n" \
               f"Use the navigation index on the left to explore the documentation" \
-            
+
 
 index_text = "# Code Reference \n" \
              "In this page, you will find all the code documentation for " \
@@ -80,5 +80,3 @@ for path in sorted(Path("src").rglob("*.py")):
 # Write the navigation as a Markdown list in the literate navigation file
 with mkdocs_gen_files.open("reference/SUMMARY.md", "w") as nav_file:
     nav_file.writelines(nav.build_literate_nav())
-
-

@@ -6,4 +6,4 @@ template: home.html
 
 # Caeramic
 
-Caeramic is a deep-learning based restoration and segmentation suite. 
+Caeramic is a deep-learning based restoration and segmentation suite.

@@ -1,6 +1,5 @@
 # Demo
 
-
 !!!Note
     This is a demo of the markdown syntax used in this documentation. It is not
     part of the site.
@@ -39,8 +38,5 @@ plt.show()
     }
     ```
 
-
-
 ??? info "Click to expand"
     `???` makes for collapsible content
-
