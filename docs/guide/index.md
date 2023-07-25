@@ -8,9 +8,8 @@ tags:
 
 # Guide
 
-This guide contains in-depth tutorials and examples to use our suite of 
+This guide contains in-depth tutorials and examples to use our suite of
 algorithms.
-
 
 - Installation
 - Quick-start

@@ -1,63 +1,66 @@
 {% extends "base.html" %}
 {% block announce %}
-<div style="text-align: center">
-    <h4 style="color: rgb(255, 255, 170);">&#128679; UNDER CONSTRUCTION &#128679;</h4>
-</div>
+    <div style="text-align: center">
+        <h4 style="color: rgb(255, 255, 170);">&#128679; UNDER CONSTRUCTION &#128679;</h4>
+    </div>
 {% endblock %}
 {% block content %}
-{% include "partials/breadcrumbs.html" %}
-<div class="page-md">
-    {{
-    super() }}
-</div>
-
-<div class="container">
-    <div class="column">
-        <div class="item">
-            <a href="guide">
-                <img src="images/icon-repo-1.png" alt="Item 6">
-                <p>Guide</p>
-            </a>
+    {% include "partials/breadcrumbs.html" %}
+    <div class="page-md">{{ super() }}</div>
+    <div class="container">
+        <div class="column">
+            <div class="item">
+                <a href="guide">
+                    <img src="images/icon-repo-1.png" alt="Item 6">
+                    <p>Guide</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="reference">
+                    <img src="images/icon-repo-1.png" alt="Item 6">
+                    <p>Code reference</p>
+                </a>
+            </div>
         </div>
-        <div class="item">
-            <a href="reference">
-                <img src="images/icon-repo-1.png" alt="Item 6">
-                <p>Code reference</p>
-            </a>
-        </div>
-    </div>
-    <div class="column">
-        <div class="item">
-            <a href="examples">
-                <img src="images/icon-repo-2.png" alt="Item 6">
-                <p>Examples</p>
-            </a>
-        </div>
-        <div class="item">
-            <a href="resources">
-                <img src="images/icon-repo-1.png" alt="Item 6">
-                <p>Resources</p>
-            </a>
+        <div class="column">
+            <div class="item">
+                <a href="examples">
+                    <img src="images/icon-repo-2.png" alt="Item 6">
+                    <p>Examples</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="resources">
+                    <img src="images/icon-repo-1.png" alt="Item 6">
+                    <p>Resources</p>
+                </a>
+            </div>
         </div>
     </div>
-</div>
 {% endblock %}
 {% block footer %}
-<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
-    <li class="contributors-holder">
-        <span class="contributors-text">Contributors</span>
-        <ul class="contributors" data-bi-name="contributors">
-            {%- for user in committers -%}
-            {% if user.name %}
-            <li>
-                <a href="{{ user.repos }}" title="{{ user.name }}" data-bi-name="contributorprofile">
-                    <img src="/img/contributor.svg" data-src="{{ user.avatar }}?size=32" alt="{{ user.name }}" />
-                </a>
-            </li>
-            {% endif %}
-            {%- endfor -%}
-        </ul>
-    </li>
-</ul>
-{{ super() }}
+    <ul class="metadata page-metadata"
+        data-bi-name="page info"
+        lang="en-us"
+        dir="ltr">
+        <li class="contributors-holder">
+            <span class="contributors-text">Contributors</span>
+            <ul class="contributors" data-bi-name="contributors">
+                {%- for user in committers -%}
+                    {% if user.name %}
+                        <li>
+                            <a href="{{ user.repos }}"
+                               title="{{ user.name }}"
+                               data-bi-name="contributorprofile">
+                                <img src="/img/contributor.svg"
+                                     data-src="{{ user.avatar }}?size=32"
+                                     alt="{{ user.name }}" />
+                            </a>
+                        </li>
+                    {% endif %}
+                {%- endfor -%}
+            </ul>
+        </li>
+    </ul>
+    {{ super() }}
 {% endblock %}

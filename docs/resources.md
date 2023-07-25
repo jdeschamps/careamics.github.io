@@ -13,7 +13,6 @@ algorithms in [...].
 - [Original code](https://github.com/juglab/n2v)
 - [Publication](https://arxiv.org/abs/2211.08512)
 
-
 ## structN2V
 
 ## PN2V
