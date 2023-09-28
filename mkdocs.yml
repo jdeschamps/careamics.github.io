@@ -1,6 +1,8 @@
 site_name: ""
 repo_url: https://github.com/CAREamics/careamics
 repo_name: CAREamics
+#edit_uri: https://github.com/CAREamics/careamics.github.io/blob/main/docs/
+edit_uri: "" # disable the edit button
 
 nav:
   - Home: index.md
