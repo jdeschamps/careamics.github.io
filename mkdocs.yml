@@ -1,22 +1,23 @@
-site_name: CAREamics
+site_name: ""
+repo_url: https://github.com/CAREamics/careamics
+repo_name: CAREamics
 
 nav:
   - Home: index.md
-  - Guide:
-      - guide/index.md
-      - Installation: guide/installation.md
-  - Examples:
-      - examples/index.md
-  - Code Reference: reference/
-  - Resources: resources.md
+  - Installation: installation.md
+  - Reference:
+      - Configuration: reference/configuration.md
+  - Algorithms:
+      - N2V: algorithms/n2v.md
   - demo.md
 
 theme:
   name: material
-  font: false
-  logo: assets/logo_careamics.png
+  logo: assets/banner_careamics_large.png
   favicon: assets/icon_careamics.png
   custom_dir: docs/.overrides
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -37,7 +38,7 @@ theme:
         name: Switch to light mode
 
   features:
-    - navigation.tabs
+    #- navigation.tabs
     - content.code.copy
     - content.code.annotate
     - content.action.edit
@@ -61,7 +62,7 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.snippets
   - pymdownx.superfences
-  - pymdownx.progressbar:
+  #- pymdownx.progressbar:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.highlight:
@@ -82,18 +83,18 @@ plugins:
 
   # Generate code documentation
   # generate .md for a python modules
-  - gen-files:
-      scripts:
-        - docs/gen_ref_pages.py
+  # - gen-files:
+  #     scripts:
+  #       - docs/gen_ref_pages.py
   # allow navigation from a file, used together with gen-files
-  - literate-nav:
-      nav_file: SUMMARY.md
+  # - literate-nav:
+  #     nav_file: SUMMARY.md
   # generate docstrings
-  - mkdocstrings:
-      handlers:
-        python:
-          options:
-            docstring_style: numpy
+  # - mkdocstrings:
+  #     handlers:
+  #       python:
+  #         options:
+  #           docstring_style: numpy
 
   # last modified date
   #- git-revision-date-localized:
@@ -107,19 +108,19 @@ plugins:
   #    token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
 
   # minify files
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
-      cache_safe: true
-      htmlmin_opts:
-        remove_comments: true
-      css_files:
-        - stylesheets/extra.css
-        - stylesheets/termynal.css
-      js_files:
-        - javascripts/extra.js
-        - javascripts/termynal.js
+  # - minify:
+  #     minify_html: true
+  #     minify_js: true
+  #     minify_css: true
+  #     cache_safe: true
+  #     htmlmin_opts:
+  #       remove_comments: true
+  #     css_files:
+  #       - stylesheets/extra.css
+  #       - stylesheets/termynal.css
+  #     js_files:
+  #       - javascripts/extra.js
+  #       - javascripts/termynal.js
 
   # check spelling in all files, including code documentation
   - spellcheck:
@@ -129,12 +130,11 @@ plugins:
 
 watch:
   - docs
+# extra_css:
+#   - stylesheets/termynal.css
+#   - stylesheets/extra.css
+#   - stylesheets/landing_page.css
 
-extra_css:
-  - stylesheets/termynal.css
-  - stylesheets/extra.css
-  - stylesheets/landing_page.css
-
-extra_javascript:
-  - javascripts/termynal.js
-  - javascripts/extra.js
+# extra_javascript:
+#   - javascripts/termynal.js
+#   - javascripts/extra.js
