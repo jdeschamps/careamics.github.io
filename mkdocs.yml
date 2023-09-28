@@ -15,7 +15,6 @@ theme:
   name: material
   logo: assets/banner_careamics_large.png
   favicon: assets/icon_careamics.png
-  custom_dir: docs/.overrides
   icon:
     repo: fontawesome/brands/github
   palette:
