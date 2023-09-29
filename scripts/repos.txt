@@ -1,1 +1,2 @@
-https://github.com/juglab-torch/microscopy-portfolio.git
+https://github.com/CAREamics/careamics
+https://github.com/CAREamics/careamics-portfolio

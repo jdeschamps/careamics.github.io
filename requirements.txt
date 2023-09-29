@@ -6,5 +6,6 @@ mkdocs-git-committers-plugin
 mkdocs-minify-plugin
 mkdocs-gen-files
 mkdocs-literate-nav
+mkdocs-section-index
 mkdocstrings[python]
 mkdocs-jupyter
