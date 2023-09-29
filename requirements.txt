@@ -7,3 +7,4 @@ mkdocs-minify-plugin
 mkdocs-gen-files
 mkdocs-literate-nav
 mkdocstrings[python]
+mkdocs-jupyter

@@ -82,6 +82,10 @@ plugins:
   # potentially we could use this: https://github.com/jdoiro3/mkdocs-multirepo-plugin
   - search
 
+  # jupyter notebooks: https://pypi.org/project/mkdocs-jupyter/
+  - mkdocs-jupyter:
+      no_input: True
+
   # Generate code documentation
   # generate .md for a python modules
   # - gen-files:
