@@ -1,3 +1,8 @@
+---
+icon: octicons/desktop-download-24
+description: Installation instructions
+---
+
 # Installation
 
 CAREamics is a deep-learning library and we therefore recommend having GPU support as

@@ -12,7 +12,10 @@ def sub_index_text(module_name):
               f"Use the navigation index on the left to explore the documentation" \
 
 
-index_text = "# Code Reference \n" \
+index_text = "---\n" \
+             "icon: octicons/code-24 \n" \
+             "description: Code documentation \n" \
+             "--- \n" \
              "In this page, you will find all the code documentation for " \
              "the various repositories in this suite: \n\n"
 

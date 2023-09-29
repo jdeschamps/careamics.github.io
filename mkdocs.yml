@@ -9,6 +9,7 @@ nav:
   - Current State: current_state.md
   - Installation: installation.md
   - Algorithms:
+      - Algorithms: algorithms/index.md
       - N2V: algorithms/n2v.md
   - Code Reference: reference/
   - demo.md
@@ -45,7 +46,6 @@ theme:
     - content.code.copy
     - content.code.annotate
     - content.action.edit
-    - navigation.icons
     # - navigation.footer  # next/previous links in footer
     - navigation.content_next # next/previous links bottom of content
     # - navigation.instant # hard to use with javascript on page load
@@ -54,6 +54,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - navigation.icons
 
 markdown_extensions:
   - admonition
@@ -75,6 +76,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.tabbed:
       alternate_style: true
   - toc:

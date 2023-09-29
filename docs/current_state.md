@@ -1,11 +1,13 @@
 ---
-icon: octicons/milestone
+icon: octicons/milestone-24
 description: Current state.
 ---
 
-# :construction: Current state :construction:
+# Current state
+[![PyPI](https://img.shields.io/pypi/v/careamics.svg?color=green)](https://pypi.org/project/careamics)
 
-CAREamics is currently reaching **Milestone 1**.
+CAREamics is an on-going project and is currently reaching **Milestone 1**.
+
 
 ## Milestones
 

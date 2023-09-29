@@ -330,8 +330,7 @@ body[dir="rtl"] .metadata.page-metadata .contributors-text {
     color: var(--md-default-fg-color--light);
 }
 
-
-.md-content .md-typeset a[href*="//"]:not([href*="mywebsite.co.uk"])::after {
+/* .md-content .md-typeset a[href*="//"]:not([href*="mywebsite.co.uk"])::after {
     content: "";
     display: inline-block;
     margin-left: 0.15em;
@@ -344,7 +343,7 @@ body[dir="rtl"] .metadata.page-metadata .contributors-text {
     -webkit-mask-size: 0.7em 1em;
     mask-size: 0.7em 1em;
     background-color: var(--md-typeset-a-color);
-}
+} */
 
 .md-content .md-typeset a[href*="//"]:not([href*="mywebsite.co.uk"]):hover::after {
     background-color: var(--md-accent-fg-color);
