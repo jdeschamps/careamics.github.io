@@ -24,8 +24,3 @@ in one package, while providing a simple and consistent API. In addition, we wil
 provide extensive documentation and tutorials on how to best apply these methods in a
 scientific context.
 
-## Current state
-
-Currently, CAREamics implements the following methods:
-
-- N2V in 2D and 3D

@@ -6,6 +6,7 @@ edit_uri: "" # disable the edit button
 
 nav:
   - Home: index.md
+  - Current State: current_state.md
   - Installation: installation.md
   - Algorithms:
       - N2V: algorithms/n2v.md
@@ -114,19 +115,15 @@ plugins:
   #    token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
 
   # minify files
-  # - minify:
-  #     minify_html: true
-  #     minify_js: true
-  #     minify_css: true
-  #     cache_safe: true
-  #     htmlmin_opts:
-  #       remove_comments: true
-  #     css_files:
-  #       - stylesheets/extra.css
-  #       - stylesheets/termynal.css
-  #     js_files:
-  #       - javascripts/extra.js
-  #       - javascripts/termynal.js
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      cache_safe: true
+      htmlmin_opts:
+        remove_comments: true
+      css_files:
+        - stylesheets/extra.css
 
   # check spelling in all files, including code documentation
   - spellcheck:

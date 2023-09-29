@@ -96,7 +96,7 @@ nav.md-header__inner {
 
 /* ---------------- Typography ------------ */
 
-.md-typeset {
+/* .md-typeset {
     font-size: 0.84rem;
 }
 
@@ -137,7 +137,7 @@ nav.md-header__inner {
 
 .md-typeset p {
     line-height: 1.65em;
-}
+} */
 
 .md-typeset p code {
     --border-radius: 3px;
@@ -148,10 +148,10 @@ nav.md-header__inner {
     margin: calc(var(--padding-block) * -1) -0.125em;
 }
 
-dt {
+/* dt {
     font-weight: 800;
     font-size: 1.1em;
-}
+} */
 
 /* Code Block Rounded Corners */
 
@@ -201,7 +201,7 @@ kbd.key-control {
 
 @media screen and (min-width: 76.25em) {
 
-    /* hide the `pydev-guide` title at the top of the nav */
+    /* hide the title at the top of the nav */
     .md-nav--primary .md-nav__title {
         display: none;
     }
