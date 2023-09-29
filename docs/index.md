@@ -29,3 +29,15 @@ in one package, while providing a simple and consistent API. In addition, we wil
 provide extensive documentation and tutorials on how to best apply these methods in a
 scientific context.
 
+## Getting started
+
+Check out the following pages to get started:
+
+- [Installation](installation.md): how to install CAREamics.
+- [Guides](guides/index.md): in-depth guides on how to use CAREamics.
+- [Applications](applications/index.md): full examples of CAREamics in action.
+- [Algorithms](algorithms/index.md): a description of all the algorithms available in CAREamics.
+- [Code reference](reference/index.md): a reference of all the functions and classes in CAREamics.
+
+<!-- 
+## Cite us -->

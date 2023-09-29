@@ -8,6 +8,12 @@ nav:
   - Home: index.md
   - Current State: current_state.md
   - Installation: installation.md
+  - Guides:
+      - Guides: guides/index.md
+      - Configuration:
+          - guides/configuration/configuration.md
+  - Applications:
+      - Applications: applications/index.md
   - Algorithms:
       - Algorithms: algorithms/index.md
       - N2V: algorithms/n2v.md

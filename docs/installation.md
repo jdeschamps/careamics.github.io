@@ -9,6 +9,8 @@ CAREamics is a deep-learning library and we therefore recommend having GPU suppo
 training the algorithms on the CPU can be very slow. MacOS users can also benefit from
 GPU-acceleration if they have an M1 or M2 chip.
 
+## Step-by-step
+
 1. We recommend using a virtual environment to install CAREamics.
 
     ```bash
@@ -26,6 +28,23 @@ GPU-acceleration if they have an M1 or M2 chip.
 
 4. Install CAREamics using pip:
 
-    ```bash
-    pip install careamics
-    ```
+    === "Fully featured"
+        The fully featured CAREamics include all the dependencies needed to run the
+        notebooks, but that are not necessary to run CAREamics itself.
+
+        ```bash
+        pip install "careamics[all]"
+        ```
+
+    === "Simple"
+        If you only want to use CAREamics, you can install it without the extra
+        dependencies.
+
+        ```bash
+        pip install careamics
+        ```
+## Quickstart
+
+Once you have [installed CAREamics](installation.md), the easiest way to get started
+is to look at the [applications](applications/index.md) for full examples and the 
+[guides](guides/index.md) for in-depth tweaking.
