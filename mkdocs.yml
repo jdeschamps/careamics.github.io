@@ -18,6 +18,7 @@ theme:
   logo: assets/banner_careamics_large.png
   favicon: assets/icon_careamics.png
   custom_dir: docs/overrides
+  font: false
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -44,15 +45,15 @@ theme:
     - content.code.copy
     - content.code.annotate
     - content.action.edit
+    - navigation.icons
     # - navigation.footer  # next/previous links in footer
     - navigation.content_next # next/previous links bottom of content
-    # - navigation.instant  # hard to use with javascript on page load
+    # - navigation.instant # hard to use with javascript on page load
     # - navigation.tracking
     - navigation.indexes
     - search.highlight
     - search.share
     - search.suggest
-    - navigation.icons
 
 markdown_extensions:
   - admonition
@@ -134,8 +135,10 @@ plugins:
 watch:
   - docs
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CAREamics/careamics
+
 extra_css:
   - stylesheets/extra.css
-# extra_javascript:
-#   - javascripts/termynal.js
-#   - javascripts/extra.js
