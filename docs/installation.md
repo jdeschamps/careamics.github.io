@@ -1,5 +1,9 @@
 # Installation
 
+CAREamics is a deep-learning library and we therefore recommend having GPU support as
+training the algorithms on the CPU can be very slow. MacOS users can also benefit from
+GPU-acceleration if they have an M1 or M2 chip.
+
 1. We recommend using a virtual environment to install CAREamics.
 
     ```bash

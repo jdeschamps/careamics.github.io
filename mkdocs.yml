@@ -16,6 +16,7 @@ theme:
   name: material
   logo: assets/banner_careamics_large.png
   favicon: assets/icon_careamics.png
+  custom_dir: docs/overrides
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -82,10 +83,10 @@ plugins:
   - search
 
   # jupyter notebooks: https://pypi.org/project/mkdocs-jupyter/
-  - mkdocs-jupyter:
-      no_input: True
+  # - mkdocs-jupyter:
+  #     no_input: True
 
-  # Generate code documentation
+  # Generate code documentation from other modules
   # generate .md for a python modules
   - gen-files:
       scripts:
@@ -135,11 +136,9 @@ plugins:
 
 watch:
   - docs
-# extra_css:
-#   - stylesheets/termynal.css
-#   - stylesheets/extra.css
-#   - stylesheets/landing_page.css
 
+extra_css:
+  - stylesheets/extra.css
 # extra_javascript:
 #   - javascripts/termynal.js
 #   - javascripts/extra.js
