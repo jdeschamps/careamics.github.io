@@ -64,7 +64,6 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
-  - md_in_html # used for grid lists
   - def_list
   - pymdownx.details
   - pymdownx.inlinehilite
@@ -96,7 +95,7 @@ plugins:
 
   # jupyter notebooks: https://pypi.org/project/mkdocs-jupyter/
   # - mkdocs-jupyter:
-  #     no_input: True
+  #     no_input: False
 
   # Generate code documentation from other modules
   # generate .md for a python modules
