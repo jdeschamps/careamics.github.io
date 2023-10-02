@@ -21,4 +21,7 @@ signal and thereby removing the noise.
 
 Alexander Krull, Tim-Oliver Buchholz, and Florian Jug. "Noise2void-learning denoising
 from single noisy images." Proceedings of the IEEE/CVF conference on Computer Vision
-and Pattern Recognition. 2019.
+and Pattern Recognition, 2019.
+
+Joshua Batson, and Loic Royer. "Noise2self: Blind denoising by self-supervision." 
+International Conference on Machine Learning. PMLR, 2019.

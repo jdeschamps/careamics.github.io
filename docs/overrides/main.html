@@ -2,6 +2,15 @@
 {% block content %}
 {% include "partials/breadcrumbs.html" %}
 {{ super() }}
+
+<!-- Was this page helpful? -->
+{% include "partials/content_next.html" %}
+<!-- Was this page helpful? -->
+{% include "partials/feedback.html" %}
+<!-- Comment system -->
+{% include "partials/comments.html" %}
+
+
 {% endblock %}
 {% block footer %}
 <!-- <ul class="metadata page-metadata"

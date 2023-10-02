@@ -43,6 +43,7 @@ GPU-acceleration if they have an M1 or M2 chip.
         ```bash
         pip install careamics
         ```
+        
 ## Quickstart
 
 Once you have [installed CAREamics](installation.md), the easiest way to get started
