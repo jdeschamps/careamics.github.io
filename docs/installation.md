@@ -28,21 +28,29 @@ GPU-acceleration if they have an M1 or M2 chip.
 
 4. Install CAREamics using pip:
 
-    === "Fully featured"
-        The fully featured CAREamics include all the dependencies needed to run the
-        notebooks, but that are not necessary to run CAREamics itself.
+    :construction: CAREamics first candidate release will be pushed to PyPi end of 
+    October 2023 :construction:
+    ``` bash
+    pip install "careamics[all]@git+https://github.com/CAREamics/careamics.git"
+    ```
 
-        ```bash
-        pip install "careamics[all]"
-        ```
+<!-- 
+=== "Fully featured"
+    The fully featured CAREamics include all the dependencies needed to run the
+    notebooks, but that are not necessary to run CAREamics itself.
 
-    === "Simple"
-        If you only want to use CAREamics, you can install it without the extra
-        dependencies.
+    ```bash
+    pip install "careamics[all]"
+    ```
 
-        ```bash
-        pip install careamics
-        ```
+=== "Simple"
+    If you only want to use CAREamics, you can install it without the extra
+    dependencies.
+
+    ```bash
+    pip install careamics
+    ``` 
+-->
         
 ## Quickstart
 

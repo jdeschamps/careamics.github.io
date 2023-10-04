@@ -16,6 +16,7 @@ index_text = "---\n" \
              "icon: octicons/code-24 \n" \
              "description: Code documentation \n" \
              "--- \n" \
+             "# Code Reference\n" \
              "In this page, you will find all the code documentation for " \
              "the various repositories in this suite: \n\n"
 
