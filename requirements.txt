@@ -1,4 +1,4 @@
-mkdocs
+mkdocs==1.4.2
 mkdocs-material
 mkdocs-spellcheck[all]
 mkdocs-git-revision-date-localized-plugin
