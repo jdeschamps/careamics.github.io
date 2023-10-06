@@ -148,5 +148,5 @@ scientific context.
 We are always welcoming feedback on what to improve of what features could be useful,
 therefore do not hesitate to open an issue on the
 [Github repository](https://github.com/CAREamics/careamics)!
-<!-- 
-## Cite us -->
+
+<!-- ## Cite us -->
