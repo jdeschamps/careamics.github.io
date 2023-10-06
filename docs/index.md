@@ -1,7 +1,6 @@
 ---
 icon: octicons/home-24
 description: Guide and documentation.
-template: layouts/landing_menu.html
 ---
 
 <img src="assets/banner_careamics_large.png" width="400">
@@ -30,5 +29,124 @@ in one package, while providing a simple and consistent API. In addition, we wil
 provide extensive documentation and tutorials on how to best apply these methods in a
 scientific context.
 
+## Getting Started
+<div class="md-container secondary-section">
+    <div class="g">
+        <!-- Architecture as building blocks -->
+        <div class="section">
+            <div class="component-wrapper" style="display: block;">
+                <div class="responsive-grid">
+                    <!-- Installation -->
+                    <a class="card-wrapper" href="installation">
+                        <div class="card"> 
+                            <div class="logo">
+                                <span class="twemoji">
+                                    --8<--  "desktop-download.svg"
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h5>Installation</h5>
+                                <p>
+                                    Get started with CAREamics installation.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Current state -->
+                    <a class="card-wrapper" href="current_state">
+                        <div class="card">
+                            <div class="logo">
+                                <span class="twemoji">
+                                    --8<-- "milestone.svg"
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h5>Current State</h5>
+                                <p>
+                                    Check out where we stand and where we want to go.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="responsive-grid">
+                    <!-- Guides -->
+                    <a class="card-wrapper" href="guides">
+                        <div class="card">
+                            <div class="logo">
+                                <span class="twemoji">
+                                    --8<-- "repo.svg"
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h5>Guides</h5>
+                                <p>
+                                    In-depth guides on CAREamics usage and features.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Application -->
+                    <a class="card-wrapper" href="applications">
+                        <div class="card">
+                            <div class="logo">
+                                <span class="twemoji">
+                                    --8<-- "file-media.svg"
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h5>Applications</h5>
+                                <p>
+                                    Examples of CAREamics in action on various datasets.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="responsive-grid">
+                    <!-- Algorithms -->
+                    <a class="card-wrapper" href="algorithms">
+                        <div class="card">
+                            <div class="logo">
+                                <span class="twemoji">
+                                    --8<-- "cpu.svg"
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h5>Algorithms</h5>
+                                <p>
+                                    Dive into the various CAREamics algorithms.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Code reference -->
+                    <a class="card-wrapper" href="applications">
+                        <div class="card">
+                            <div class="logo">
+                                <span class="twemoji">
+                                    --8<-- "code.svg"
+                                </span>
+                            </div>
+                            <div class="card-content">
+                                <h5>Code Reference</h5>
+                                <p>
+                                    Code documentation for all CAREamics libraries.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+## Feedback
+
+We are always welcoming feedback on what to improve of what features could be useful,
+therefore do not hesitate to open an issue on the
+[Github repository](https://github.com/CAREamics/careamics)!
 <!-- 
 ## Cite us -->

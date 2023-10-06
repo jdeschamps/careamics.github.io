@@ -62,16 +62,19 @@ theme:
     - navigation.icons
 
 markdown_extensions:
-  - admonition
+  #- pymdownx.extra # markdown in html (includes commented extensions below)
   - attr_list
   - def_list
+  - pymdownx.superfences
+  - admonition
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.tilde
-  - pymdownx.snippets
-  - pymdownx.superfences
-  #- pymdownx.progressbar:
+  - pymdownx.snippets:
+      base_path:
+        - docs/overrides/.icons/octicons
+  # - pymdownx.progressbar:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.highlight:
@@ -151,3 +154,4 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/grid_menu.css
