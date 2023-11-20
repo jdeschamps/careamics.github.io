@@ -13,7 +13,7 @@ GPU-acceleration if they have an M1 or M2 chip.
 
 1. We recommend using a virtual environment to install CAREamics.
 
-    ```bash
+    ```txt
     conda create -y -n careamics python=3.9
     conda activate careamics
     ```

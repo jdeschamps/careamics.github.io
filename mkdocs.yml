@@ -11,7 +11,7 @@ nav:
   - Guides:
       - Guides: guides/index.md
       - Configuration:
-          - guides/configuration/configuration.md
+          - guides/configuration/index.md
   - Applications:
       - Applications: applications/index.md
   - Algorithms:
