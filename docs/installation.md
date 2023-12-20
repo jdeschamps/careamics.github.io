@@ -7,50 +7,67 @@ description: Installation instructions
 
 CAREamics is a deep-learning library and we therefore recommend having GPU support as
 training the algorithms on the CPU can be very slow. MacOS users can also benefit from
-GPU-acceleration if they have an M1 or M2 chip.
+GPU-acceleration if they have the new chip generations (M1, M2, etc.).
 
 ## Step-by-step
 
-1. We recommend using a virtual environment to install CAREamics.
+We recommend using [conda 
+(miniconda)](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html) or 
+[mamba (miniforge)](https://github.com/conda-forge/miniforge#download) to install 
+all packages in a virtual environment. 
 
-    ```txt
-    conda create -y -n careamics python=3.9
-    conda activate careamics
-    ```
 
-2. Install PyTorch following the [official instructions](https://pytorch.org/get-started/locally/).
+=== "mamba"
 
-3. You can verify that PyTorch has access to a GPU:
+    === "Linux"
+        1. Open the terminal and type `mamba` to verify that mamba is available.
+        2. Create a new environment:
+            
+            ``` bash
+            mamba create -n careamics python=3.10
+            mamba activate careamics
+            ```
 
-    ```bash
-    python -m "import torch; print(torch.cuda.is_available())"
-    ```
+        3. Install PyTorch (you can find the official instructions 
+        [here](https://pytorch.org/get-started/locally/)):
 
-4. Install CAREamics using pip:
+            ``` bash
+            mamba install pytorch torchvision pytorch-cuda=11.8 -c pytorch -c nvidia
+            ```
+        
+        4. Verify that the GPU is available:
+            
+            ``` bash
+            python -c "import torch; print([torch.cuda.get_device_properties(i) for i in range(torch.cuda.device_count())])"
+            ```
 
-    :construction: CAREamics first candidate release will be pushed to PyPi end of 
-    October 2023 :construction:
-    ``` bash
-    pip install "careamics[all]@git+https://github.com/CAREamics/careamics.git"
-    ```
+            This should show a list of available GPUs.
+        
+        5. Install CAREamics:
 
-<!-- 
-=== "Fully featured"
-    The fully featured CAREamics include all the dependencies needed to run the
-    notebooks, but that are not necessary to run CAREamics itself.
+            ``` bash
+            pip install --pre "careamics[all]"
+            ```
 
-    ```bash
-    pip install "careamics[all]"
-    ```
+        These instructions were tested on a virtual machine (RedHat 8.6) with a 
+        NVIDIA A40-8Q GPU.
 
-=== "Simple"
-    If you only want to use CAREamics, you can install it without the extra
-    dependencies.
+    === "macOS"
+        
+        (Instructions to come)
 
-    ```bash
-    pip install careamics
-    ``` 
--->
+    === "Windows"
+        In Windows systems, we will use unix-style commands. To do so, we recommend
+        installing [Git for Windows](https://gitforwindows.org/) and using it as your
+        terminal.
+
+        (Instructions to come)
+
+=== "conda"
+
+    (Instructions to come)
+
+
         
 ## Quickstart
 
