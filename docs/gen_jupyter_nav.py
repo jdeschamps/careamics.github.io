@@ -11,7 +11,6 @@ def index_text():
             "# Applications\n\n" \
             "Use the navigation index on the left to explore the applications."
 
-
 # source folder
 SRC = Path("applications")
 INDEX = SRC / "index.md"
@@ -36,3 +35,8 @@ for path in SRC.rglob("*.ipynb"):
 
     # add to navigation
     nav[parts] = file_path.as_posix()
+
+
+# Write the navigation as a Markdown list in the literate navigation file
+with mkdocs_gen_files.open("applications/SUMMARY.md", "w") as nav_file:
+    nav_file.writelines(nav.build_literate_nav())

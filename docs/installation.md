@@ -41,7 +41,9 @@ all packages in a virtual environment.
             python -c "import torch; print([torch.cuda.get_device_properties(i) for i in range(torch.cuda.device_count())])"
             ```
 
-            This should show a list of available GPUs.
+            This should show a list of available GPUs. If the list is empty, then you
+            will need to change the `pytorch` and `pytorch-cuda` versions to match your
+            hardware.
         
         5. Install CAREamics:
 
@@ -71,15 +73,15 @@ all packages in a virtual environment.
         2. Create a new environment:
             
             ``` bash
-            mamba create -n careamics python=3.10
-            mamba activate careamics
+            conda create -n careamics python=3.10
+            conda activate careamics
             ```
 
         3. Install PyTorch (you can find the official instructions 
         [here](https://pytorch.org/get-started/locally/)):
 
             ``` bash
-            mamba install pytorch torchvision pytorch-cuda=11.8 -c pytorch -c nvidia
+            conda install pytorch torchvision pytorch-cuda=11.8 -c pytorch -c nvidia
             ```
         
         4. Verify that the GPU is available:
