@@ -7,7 +7,7 @@
 
 TEMP=".temp"
 SRC="src"
-REPOS="scripts/repos.txt"
+REPOS="scripts/git_repositories.txt"
 
 # create source folder
 mkdir $SRC
