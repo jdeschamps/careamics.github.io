@@ -23,7 +23,8 @@ nav:
       - Applications: applications/index.md
   - Algorithms:
       - algorithms/index.md
-      - algorithms/n2v.md
+      - Noise2Void:
+          - algorithms/n2v/index.md
   - Code Reference: reference/
 
 theme:

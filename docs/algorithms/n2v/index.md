@@ -1,7 +1,3 @@
----
-title: Noise2Void
----
-
 # Noise2Void
 
 Noise2Void (N2V) is a self-supervised denoising method. It trains by randomly masking
@@ -23,9 +19,10 @@ signal and thereby removing the noise.
 
 ## Reference
 
-Alexander Krull, Tim-Oliver Buchholz, and Florian Jug. "Noise2void-learning denoising
+Alexander Krull, Tim-Oliver Buchholz, and Florian Jug. "Noise2Void - learning denoising
 from single noisy images." Proceedings of the IEEE/CVF conference on Computer Vision
 and Pattern Recognition, 2019.
 
-Joshua Batson, and Loic Royer. "Noise2self: Blind denoising by self-supervision." 
-International Conference on Machine Learning. PMLR, 2019.
+Joshua Batson, and Loic Royer. "Noise2Self: Blind denoising by self-supervision." 
+International Conference on Machine Learning. Proceedings of Machine Learning Research,
+2019.
