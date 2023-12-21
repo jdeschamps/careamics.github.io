@@ -1,3 +1,7 @@
+---
+title: Noise2Void
+---
+
 # Noise2Void
 
 Noise2Void (N2V) is a self-supervised denoising method. It trains by randomly masking

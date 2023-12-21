@@ -22,8 +22,8 @@ nav:
   - Applications:
       - Applications: applications/index.md
   - Algorithms:
-      - Algorithms: algorithms/index.md
-      - N2V: algorithms/n2v.md
+      - algorithms/index.md
+      - algorithms/n2v.md
   - Code Reference: reference/
 
 theme:

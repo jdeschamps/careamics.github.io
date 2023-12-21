@@ -32,9 +32,9 @@ scientific context.
 ## Getting Started
 <div class="md-container secondary-section">
     <div class="g">
-        <!-- Architecture as building blocks -->
         <div class="section">
             <div class="component-wrapper" style="display: block;">
+                <!-- New row -->
                 <div class="responsive-grid">
                     <!-- Installation -->
                     <a class="card-wrapper" href="installation">
@@ -69,6 +69,7 @@ scientific context.
                         </div>
                     </a>
                 </div>
+                <!-- New row -->
                 <div class="responsive-grid">
                     <!-- Guides -->
                     <a class="card-wrapper" href="guides">
@@ -103,6 +104,7 @@ scientific context.
                         </div>
                     </a>
                 </div>
+                <!-- New row -->
                 <div class="responsive-grid">
                     <!-- Algorithms -->
                     <a class="card-wrapper" href="algorithms">
