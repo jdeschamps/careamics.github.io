@@ -65,8 +65,8 @@ def new_card(module_name):
 nav = mkdocs_gen_files.Nav()
 
 # add index page to the navigation
-modules_index = Path("index.md")
-nav[tuple(modules_index.parts)] = modules_index.as_posix()
+#modules_index = Path("index.md")
+#nav[tuple(modules_index.parts)] = modules_index.as_posix()
 
 # iterate over modules
 module_list = []
@@ -88,7 +88,7 @@ for path in sorted(Path("src").iterdir()):
             md_file.write(project_index_text(path.name))
 
 # add modules to main index
-with mkdocs_gen_files.open(Path("reference", modules_index), "w") as index_md:
+with mkdocs_gen_files.open(Path("reference", "index.md"), "w") as index_md:
     index_md.write(main_index_text())
 
     index_md.write(open_card_block())
