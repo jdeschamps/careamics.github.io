@@ -32,6 +32,9 @@ jobs:
 
       - name: Set-up repositories
         run: sh scripts/check_out_repos.sh
+      
+      - name: Set-up notebooks
+        run: sh scripts/check_out_notebooks.sh
 
       - name: 📚 Build Docs
         # removed mkdocs build --strict for now

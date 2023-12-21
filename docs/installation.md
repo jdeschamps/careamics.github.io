@@ -88,7 +88,9 @@ all packages in a virtual environment.
             python -c "import torch; print([torch.cuda.get_device_properties(i) for i in range(torch.cuda.device_count())])"
             ```
 
-            This should show a list of available GPUs.
+            This should show a list of available GPUs. If the list is empty, then you
+            will need to change the `pytorch` and `pytorch-cuda` versions to match your
+            hardware.
         
         5. Install CAREamics:
 
