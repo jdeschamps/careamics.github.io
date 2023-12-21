@@ -35,14 +35,14 @@ tail -n +2 "$LIST" | while IFS=, read -r repository_url path_in_repo destination
 
     # replace spaces in the title with underscores, and add ".ipynb" extension
     title=$(echo $title | sed 's/ /_/g')
-    title="$title"".ipynb"
+    title_ext="$title"".ipynb"
 
     # copy the notebook to DEST
-    cp "$REPOS""$repository_name"/"$path_in_repo" "$DEST""$destination_in_docs"/"$title"
+    cp "$REPOS""$repository_name"/"$path_in_repo" "$DEST""$destination_in_docs"/"$title"/"$title_ext"
 
     # if the copy was successful, print new path
-    if [ -f "$DEST""$destination_in_docs"/"$title" ]; then
-        echo "Copied $repository_name/$path_in_repo to $DEST$destination_in_docs"/"$title"
+    if [ -f "$DEST""$destination_in_docs"/"$title"/"$title_ext" ]; then
+        echo "Copied $repository_name/$path_in_repo to $DEST$destination_in_docs"/"$title"/"$title_ext"
     else
         echo "Copying $repository_name/$path_in_repo/$notebook_name failed"
     fi
