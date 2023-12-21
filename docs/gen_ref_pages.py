@@ -43,7 +43,6 @@ for path in sorted(Path("src").iterdir()):
         # add to navigation
         nav[tuple(module_path.parts)] = module_path.as_posix()
 
-
         # create module index
         with mkdocs_gen_files.open(Path("reference", module_path), "w") as fd:
             fd.write(sub_index_text(path.name))
