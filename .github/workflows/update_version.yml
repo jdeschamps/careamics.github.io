@@ -34,7 +34,18 @@ jobs:
         run: |
           pip install -U pip
           pip install -r requirements.txt 
-  
+
+      - name: 🔗 Check Links
+        run: |
+          npm install markdown-link-check@"<3.11.1"
+          npx markdown-link-check docs/**/*.md --progress -q
+
+      - name: 📁 Set up repositories
+        run: sh scripts/check_out_repos.sh
+      
+      - name: 📓 Set up notebooks
+        run: sh scripts/check_out_notebooks.sh
+
       # store `latest` version number into a variable
       - name: 🔬 Get latest version number
         id: extract-version
