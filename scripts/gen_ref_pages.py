@@ -64,9 +64,9 @@ def new_card(module_name):
 # create mkdocs navigation
 nav = mkdocs_gen_files.Nav()
 
-# # add index page to the navigation
-# modules_index = Path("index.md")
-# nav[tuple(modules_index.parts)] = modules_index.as_posix()
+# add index page to the navigation 
+modules_index = Path("index.md")
+nav[tuple(modules_index.parts)] = modules_index.as_posix()
 
 # create source folder relative to this script
 src = Path(__file__).parent.parent / "src" 
