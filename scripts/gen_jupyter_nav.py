@@ -18,9 +18,9 @@ INDEX = SRC / "index.md"
 # create mkdocs navigation
 nav = mkdocs_gen_files.Nav()
 
-# create index file
-with mkdocs_gen_files.open(INDEX, "w") as index_md:
-    index_md.write(index_text())
+# # create index file
+# with mkdocs_gen_files.open(INDEX, "w") as index_md:
+#     index_md.write(index_text())
 
 # loop over all notebooks recursively 
 for path in SRC.rglob("*.ipynb"):

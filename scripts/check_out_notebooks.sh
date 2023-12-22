@@ -31,18 +31,18 @@ tail -n +2 "$LIST" | while IFS=, read -r repository_url path_in_repo destination
     title_ext="$title"".ipynb"
 
     # crete the destination folder if it doesn't exist
-    directory="$DEST""$destination_in_docs"/"$title"
+    directory="$DEST""$destination_in_docs"
     if [ ! -d "$directory" ]; then
         # If it doesn't exist, create it and its parent directories if needed
         mkdir -p "$directory"
     fi
 
     # copy the notebook to DEST
-    cp "$REPOS""$repository_name"/"$path_in_repo" "$DEST""$destination_in_docs"/"$title"/"$title_ext"
+    cp "$REPOS""$repository_name"/"$path_in_repo" "$DEST""$destination_in_docs"/"$title_ext"
 
     # if the copy was successful, print new path
-    if [ -f "$DEST""$destination_in_docs"/"$title"/"$title_ext" ]; then
-        echo "Copied $repository_name/$path_in_repo to $DEST$destination_in_docs"/"$title"/"$title_ext"
+    if [ -f "$DEST""$destination_in_docs"/"$title_ext" ]; then
+        echo "Copied $repository_name/$path_in_repo to $DEST$destination_in_docs"/"$title_ext"
     else
         echo "Copying $repository_name/$path_in_repo/$notebook_name failed"
     fi
