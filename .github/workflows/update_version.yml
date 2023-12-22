@@ -5,6 +5,12 @@ on:
   push:
     tags:
       - '*.*.*'
+  workflow_run:
+    workflows: ["Run Tests"]
+    branches: [main]
+    types: 
+      - completed
+    
 
 jobs:
   update:

@@ -13,7 +13,7 @@ description: Guide and documentation.
 
 # Documentation
 
-now we release 1.5.3, and start developing 1.5.4
+working on 1.5.4
 
 ## Getting Started
 <div class="md-container secondary-section">
