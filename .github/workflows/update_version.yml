@@ -3,9 +3,8 @@ name: Update version
 
 on:
   push:
-    branches: [main]
     tags:
-      - v*.*.*
+      - 'v*.*.*'
 
 jobs:
   update:
@@ -24,16 +23,7 @@ jobs:
       # check that tag matches `/v[0-9]+(\.[0-9]+)*/`
       - name: 🏷️ Check tag
         id: check-tag
-        run: |
-          tag="${{ github.ref }}"
-          tag_version="${tag#"v"}"
-          if [[ "$tag_version" =~ ^([0-9]+(\.[0-9]+)*)$ ]]; then
-            echo "Tag format is correct"
-            echo "tag_version=$tag_version" >> "$GITHUB_ENV"
-          else
-            echo "Error: Invalid tag format"
-            exit 1
-          fi
+        run: echo "tag_version=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
       - name: 🐍 Install Python
         uses: actions/setup-python@v4
