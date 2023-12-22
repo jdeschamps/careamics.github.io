@@ -51,7 +51,11 @@ jobs:
         run: |
           version=$(mike list | grep '\[latest\]' | awk '{print $1}')
           echo "Latest version is $version"
-          echo "{latest_version}={$version}" >> "$GITHUB_ENV"
+          echo "latest_version=$version" >> "$GITHUB_ENV"
+          
+      - name: 📚 Blah
+        run: |
+          printf '%s\n' "$version" 
           
       - name: 📚 Build Docs
         # removed mkdocs build --strict for now
