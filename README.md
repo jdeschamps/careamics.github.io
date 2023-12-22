@@ -11,7 +11,8 @@
 This repository contains the source code for the CAREamics documentation website. The 
 website is built using [MkDocs](https://www.mkdocs.org/) and the 
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme, with a few
-modifications.
+modifications to the theme inherited from 
+the [PyDev Guide project](https://github.com/pydev-guide/pydev-guide.github.io).
 
 Beside the static pages, the website automatically checks out repositories listed in
 [git_repositories.txt](scripts/git_repositories.txt) and generates documentation for
@@ -67,9 +68,11 @@ https://github.com/CAREamics/careamics.git,examples/2D/example_SEM.ipynb,N2V,2D_
 <new line>
 ```
 
+Add the new notebook data in place of the chevrons.
+
 The script clones the repository, copy the notebook to the relative destination (with
 respect to `docs/applications`) and change the name of the notebook. The name of the 
-notebook will be used as title in the documentation navigation side-bar (with 
+notebook will be used as title in the documentation navigation sidebar (with 
 underscores replaced by spaces).
 
 In is important to end the `.csv` file with a new line.
