@@ -12,6 +12,11 @@ We want to produce a SUMMARY.md file that looks like the following:
 * CARE
     * [2D SEM](CARE/2D_SEM.ipynb)
 etc.
+
+References:
+https://oprypin.github.io/mkdocs-gen-files/
+https://oprypin.github.io/mkdocs-literate-nav/reference.html#nav-list-syntax
+https://mkdocstrings.github.io/recipes/
 """
 from pathlib import Path
 
