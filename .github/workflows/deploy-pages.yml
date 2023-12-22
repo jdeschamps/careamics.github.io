@@ -11,6 +11,10 @@ on:
       - '*.*.*'
   workflow_dispatch:
 
+concurrency:
+  group: staging_environment
+  cancel-in-progress: true
+
 jobs:
   build_and_deploy:
     name: Build and Deploy
