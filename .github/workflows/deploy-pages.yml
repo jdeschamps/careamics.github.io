@@ -15,16 +15,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Git committer set-up
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
       - name: ✅ Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # needed for git committers
-
+          
+      - name: Git committer set-up
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
       - name: 🐍 Install Python
         uses: actions/setup-python@v4
         with:
