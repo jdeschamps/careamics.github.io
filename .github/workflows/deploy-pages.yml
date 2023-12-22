@@ -11,9 +11,10 @@ on:
       - '*.*.*'
   workflow_dispatch:
 
+# use concurrency to avoid jobs modifying the gh-pages branch concurrently
 concurrency:
   group: staging_environment
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build_and_deploy:
