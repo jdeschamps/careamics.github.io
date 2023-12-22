@@ -51,14 +51,14 @@ jobs:
         run: |
           version=$(mike list | grep '\[latest\]' | awk '{print $1}')
           echo "Latest version is $version"
-          echo "{latest_version}={version}" >> $GITHUB_OUTPUT
-
+          echo "{latest_version}={$version}" >> "$GITHUB_ENV"
+          
       - name: 📚 Build Docs
         # removed mkdocs build --strict for now
         run: |
           pip install -U pip
           pip install -r requirements.txt
-          mike deploy --push --update-aliases "${{ steps.extract-version.outputs.latest_version }}" latest
+          mike deploy --push --update-aliases "$latest_version" latest
 
         # env:
         #   MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
