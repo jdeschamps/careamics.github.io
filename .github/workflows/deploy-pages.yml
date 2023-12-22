@@ -19,8 +19,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # needed for git committers
-          
-      - name: Git committer set-up
+
+      - name: 💁 Git committer set-up
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Set up Python environment
+      - name: 📝 Set up Python environment
         run: |
           pip install -U pip
           pip install -r requirements.txt 
@@ -40,24 +40,25 @@ jobs:
           npm install markdown-link-check@"<3.11.1"
           npx markdown-link-check docs/**/*.md --progress -q
 
-      - name: Set up repositories
+      - name: 📁 Set up repositories
         run: sh scripts/check_out_repos.sh
       
-      - name: Set up notebooks
+      - name: 📓 Set up notebooks
         run: sh scripts/check_out_notebooks.sh
 
-      - name: Get latest version number
+      - name: 🔬 Get latest version number
         id: extract-version
         run: |
           version=$(mike list | grep '\[latest\]' | awk '{print $1}')
           echo "Latest version is $version"
+          echo "::set-output name=latest_version::$version"
 
       - name: 📚 Build Docs
         # removed mkdocs build --strict for now
         run: |
           pip install -U pip
           pip install -r requirements.txt
-          mike deploy --push --update-aliases "${{ steps.extract-version.outputs.version }}" latest
+          mike deploy --push --update-aliases "${{ steps.extract-version.outputs.latest_version }}" latest
 
         # env:
         #   MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
