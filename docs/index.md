@@ -13,7 +13,7 @@ description: Guide and documentation.
 
 # Documentation
 
-released on 1.5.8, start 1.5.9
+released on 1.5.9
 
 ## Getting Started
 <div class="md-container secondary-section">
