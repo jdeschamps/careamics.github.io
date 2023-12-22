@@ -31,6 +31,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://jdeschamps.github.io/careamics.github.io/0.2/applications/SUMMARY/</loc>
+         <lastmod>2023-12-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://jdeschamps.github.io/careamics.github.io/0.2/applications/N2V/2D_SEM/</loc>
          <lastmod>2023-12-22</lastmod>
          <changefreq>daily</changefreq>
@@ -72,6 +77,11 @@
     </url>
     <url>
          <loc>https://jdeschamps.github.io/careamics.github.io/0.2/reference/</loc>
+         <lastmod>2023-12-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jdeschamps.github.io/careamics.github.io/0.2/reference/SUMMARY/</loc>
          <lastmod>2023-12-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
