@@ -23,19 +23,19 @@ tail -n +2 "$LIST" | while IFS=, read -r repository_url path_in_repo destination
     # clone the repository in REPOS
     git clone $repository_url "$REPOS""$repository_name"
 
-    # crete the destination folder if it doesn't exist
-    directory="$DEST""$destination_in_docs"
-    if [ ! -d "$directory" ]; then
-        # If it doesn't exist, create it and its parent directories if needed
-        mkdir -p "$directory"
-    fi
-
     # extract notebook file name (including extension)
     notebook_name=$(echo $path_in_repo | sed 's/.*\///')
 
     # replace spaces in the title with underscores, and add ".ipynb" extension
     title=$(echo $title | sed 's/ /_/g')
     title_ext="$title"".ipynb"
+
+    # crete the destination folder if it doesn't exist
+    directory="$DEST""$destination_in_docs"/"$title"
+    if [ ! -d "$directory" ]; then
+        # If it doesn't exist, create it and its parent directories if needed
+        mkdir -p "$directory"
+    fi
 
     # copy the notebook to DEST
     cp "$REPOS""$repository_name"/"$path_in_repo" "$DEST""$destination_in_docs"/"$title"/"$title_ext"
