@@ -112,6 +112,7 @@ plugins:
   - gen-files:
       scripts:
         - docs/gen_ref_pages.py
+        - docs/gen_jupyter_nav.py
 
   # allow navigation from a file, used together with gen-files
   - literate-nav:
