@@ -73,3 +73,10 @@ notebook will be used as title in the documentation navigation side-bar (with
 underscores replaced by spaces).
 
 In is important to end the `.csv` file with a new line.
+
+## How to update the pages without any commit
+
+This can be useful when one of the project has changed and we need to update the API
+doc. In such a case, click on the `Deploy to GitHub Pages` in the `Actions` tab, and
+run the workflow.
+
