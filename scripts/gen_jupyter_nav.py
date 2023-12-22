@@ -12,7 +12,7 @@ def index_text():
             "Use the navigation index on the left to explore the applications."
 
 # source folder
-SRC = Path("docs/applications")
+SRC = Path("applications")
 INDEX = SRC / "index.md"
 
 # create mkdocs navigation

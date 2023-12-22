@@ -1,6 +1,6 @@
 """Generate the code reference pages and navigation.
 
-see: https://mkdocstrings.github.io/recipes/
+adapted from: https://mkdocstrings.github.io/recipes/
 """
 from pathlib import Path
 
@@ -64,30 +64,36 @@ def new_card(module_name):
 # create mkdocs navigation
 nav = mkdocs_gen_files.Nav()
 
-# add index page to the navigation
-modules_index = Path("index.md")
-nav[tuple(modules_index.parts)] = modules_index.as_posix()
+# # add index page to the navigation
+# modules_index = Path("index.md")
+# nav[tuple(modules_index.parts)] = modules_index.as_posix()
 
-# iterate over modules
+# create source folder relative to this script
+src = Path(__file__).parent.parent / "src" 
+
+# iterate over packages (directories in src/)
 module_list = []
-for path in sorted(Path("src").iterdir()):
+for path in sorted(src.iterdir()):
 
     # if it is a python module
     if Path(path, "__init__.py").exists():
         # add to list
         module_list.append(path.name)
 
-        # set up path to its own module index
+        # set up relative path to its own module index
+        # e.g. careamics/index.md
         module_path = Path(path.name, "index.md")
 
         # add to navigation
+        # e.g. ["careamic"]= careamics/index.md
         nav[tuple(module_path.parts)] = module_path.as_posix()
 
         # create module index
+        # e.g. careamics/index.md
         with mkdocs_gen_files.open(Path("reference", module_path), "w") as md_file:
             md_file.write(project_index_text(path.name))
 
-# add modules to main index
+# write a card for each package in the main reference index
 with mkdocs_gen_files.open(Path("reference", "index.md"), "w") as index_md:
     index_md.write(main_index_text())
 
@@ -116,6 +122,10 @@ for path in sorted(Path("src").rglob("*.py")):
         # remove __init__.py
         if parts[-1] == "__init__":
             parts = parts[:-1]
+            doc_path = doc_path.with_name("index.md")
+            full_doc_path = full_doc_path.with_name("index.md")
+        elif parts[-1] == "__main__":
+            continue
 
         # progressively build the navigation index
         nav[parts] = doc_path.as_posix()
