@@ -1,49 +1,50 @@
-# This workflow will deploy a new version of the docs to the `latest` version
-# of the docs in the gh-pages branch. The repository settings must set the 
-# gh-pages branch as the source for the GitHub Pages site, sot hat it automatically
-# update them.
-name: Deploy to latest
+# This workflow updates the version of the gh-pages using a tag in the main branch.
+name: Update version
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:
+    tags:
+      - v*.*.*
 
 jobs:
-  build_and_deploy:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: ✅ Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # needed for git committers
-
+      
       - name: 💁 Git committer set-up
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
+      
+      # check that tag matches `/v[0-9]+(\.[0-9]+)*/`
+      - name: 🏷️ Check tag
+        id: check-tag
+        run: |
+          tag="${{ github.ref }}"
+          tag_version="${tag#"v"}"
+          if [[ "$tag_version" =~ ^([0-9]+(\.[0-9]+)*)$ ]]; then
+            echo "Tag format is correct"
+            echo "tag_version=$tag_version" >> "$GITHUB_ENV"
+          else
+            echo "Error: Invalid tag format"
+            exit 1
+          fi
+
       - name: 🐍 Install Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
-
+  
       - name: 📝 Set up Python environment
         run: |
           pip install -U pip
           pip install -r requirements.txt 
-
-      - name: 🔗 Check Links
-        run: |
-          npm install markdown-link-check@"<3.11.1"
-          npx markdown-link-check docs/**/*.md --progress -q
-
-      - name: 📁 Set up repositories
-        run: sh scripts/check_out_repos.sh
-      
-      - name: 📓 Set up notebooks
-        run: sh scripts/check_out_notebooks.sh
-
+  
       # store `latest` version number into a variable
       - name: 🔬 Get latest version number
         id: extract-version
@@ -52,9 +53,19 @@ jobs:
           echo "Latest version is $version"
           echo "latest_version=$version" >> "$GITHUB_ENV"
 
-      # deploy to `latest` using mike
+      # check that tag version is different from `latest` version
+      - name: 🧮 Compare version
+        run: |
+          if [[ "$tag_version" == "$env.latest_version" ]]; then
+            echo "Error: Tag version is the same as latest version"
+            exit 1
+          else
+            echo "Tag version is different from latest version"
+          fi
+
+      # update latest version to the tag with mike
       - name: 📚 Build Docs
         run: |
           pip install -U pip
           pip install -r requirements.txt
-          mike deploy --push --update-aliases "$latest_version" latest
+          mike deploy --push --update-aliases "$tag_version" latest
