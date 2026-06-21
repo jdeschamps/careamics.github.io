@@ -2,1194 +2,1246 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://careamics.github.io/1.5.11/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/features/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/algorithms/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/algorithms/N2V2/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/algorithms/Noise2Void/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/algorithms/NoiseModels/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/algorithms/structN2V/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/SUMMARY/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/CARE/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/CARE/denoising_U2OS/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/Lightning_API/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/Lightning_API/BSD68_N2V/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/Noise2Noise/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/Noise2Noise/SEM/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/Noise2Void/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/Noise2Void/BSD68/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/Noise2Void/Flywing/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/Noise2Void/Mouse_Nuclei/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/applications/Noise2Void/SEM/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/faq/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/configuration/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/configuration/algorithm_requirements/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/configuration/build_configuration/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/configuration/configuration_errors/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/configuration/convenience_functions/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/configuration/custom_types/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/configuration/save_load/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/usage/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/usage/careamist/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/usage/datasets/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/usage/model_export/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/usage/prediction/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/careamist_api/usage/training/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/cli/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/dev_resources/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/dev_resources/conda/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/dev_resources/contribute/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/dev_resources/docstring/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/dev_resources/website/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/lightning_api/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/lightning_api/lightning_module/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/lightning_api/prediction/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/lightning_api/train_data_module/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/napari_plugin/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/tutorials/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/guides/tutorials/logging_tutorial/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/installation/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/installation/conda_mamba/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/installation/uv/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/SUMMARY/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/careamist/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/careamist_v2/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/conftest/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/nm_training_placeholder/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/cli/conf/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/cli/main/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/cli/utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/configuration/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/configuration_factories/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/n2v_configuration/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/algorithms/care_algorithm_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/algorithms/hdn_algorithm_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/algorithms/microsplit_algorithm_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/algorithms/n2n_algorithm_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/algorithms/n2v_algorithm_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/algorithms/pn2v_algorithm_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/algorithms/unet_algorithm_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/algorithms/vae_algorithm_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/algorithms/n2v_manipulation/n2v_manipulate_config/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/architectures/architecture_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/architectures/lvae_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/architectures/unet_config/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/augmentations/n2v_manipulate_config/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/augmentations/normalize_config/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/augmentations/transform_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/augmentations/transform_unions/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/augmentations/xy_flip_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/augmentations/xy_random_rotate90_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/data_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/inference_config/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/ng_data_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/microsplit_data_config/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/normalization_config/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/tile_information/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patch_filter/filter_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patch_filter/mask_filter_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patch_filter/max_filter_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patch_filter/meanstd_filter_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patch_filter/patch_filter_config/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patch_filter/shannon_filter_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patching_strategies/_overlapping_patched_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patching_strategies/_patched_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patching_strategies/random_patching_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patching_strategies/sequential_patching_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patching_strategies/stratified_patching_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patching_strategies/tiled_patching_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/data/patching_strategies/whole_patching_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/factories/algorithm_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/factories/care_n2n_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/factories/config_discriminators/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/factories/data_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/factories/n2v_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/factories/training_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/lightning/optimizer_configs/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/lightning/training_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/lightning/parameters_filter/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/lightning/callbacks/callback_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/lightning/training_configuration/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/losses/loss_config/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/ng_configs/n2v_configuration/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/ng_configs/ng_configuration/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/ng_configs/ng_training_configuration/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/ng_factories/algorithm_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/ng_factories/care_n2n_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/ng_factories/data_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/ng_factories/n2v_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/ng_factories/ng_config_discriminator/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/ng_factories/training_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/noise_model/likelihood_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/noise_model/noise_model_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/noise_model/serializers/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_activations/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_algorithms/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_architectures/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_data/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_filters/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_loggers/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_losses/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_normalization/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_optimizers/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_patching_strategies/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_patching/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_pixel_manipulations/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_struct_axis/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/support/supported_transforms/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/utils/configuration_io/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/utils/random/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/validators/axes_validators/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/validators/model_validators/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/config/validators/patch_validators/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/in_memory_dataset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/dataset/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/in_memory_pred_dataset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_region_data/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/in_memory_tiled_pred_dataset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/augmentation/compose/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/iterable_dataset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/augmentation/transform/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/iterable_pred_dataset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/augmentation/xy_flip/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/iterable_tiled_pred_dataset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/augmentation/xy_random_rotate90/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/dataset_utils/file_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/factory/factory/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/dataset_utils/iterate_over_files/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/factory/filter_bg/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/dataset_utils/running_stats/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/factory/microsplit_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/factory/val_split/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_stack/czi_image_stack/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_stack/file_image_stack/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_stack/image_stack_protocol/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_stack/in_memory_image_stack/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_stack/zarr_image_stack/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_stack/image_utils/image_stack_utils/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_stack_loader/image_stack_loader_protocol/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_stack_loader/image_stack_loaders/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/image_stack_loader/zarr_utils/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/normalization/mean_std_normalization/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/normalization/no_normalization/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/normalization/normalization/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/normalization/normalization_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/normalization/range_normalization/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/normalization/running_mean_std/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/normalization/running_quantile/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/normalization/statistics/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/normalization/utils/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_constructor/basic_patch_constructor/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_constructor/metadata_utils/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_constructor/microsplit_patch_constructors/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_constructor/patch_constructor/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_extractor/limit_file_extractor/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_extractor/patch_extractor/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_filter/filtermap_utils/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_filter/mask_patch_filter/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_filter/max_patch_filter/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_filter/mean_std_patch_filter/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_filter/patch_filter/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_filter/patch_filter_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patch_filter/shannon_patch_filter/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/fixed_patching/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/patch_specs/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/patching/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/patching_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/random_patching/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/sequential_patching/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/validate_patch_dimension/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/stratified_patching/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/tiling/collate_tiles/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/tiled_patching/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/tiling/lvae_tiled_patching/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/patching/whole_sample_patching/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/dataset/tiling/tiled_patching/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/image_io/read/get_func/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/file_io/read/get_func/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/image_io/read/tiff/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/file_io/read/tiff/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/image_io/write/get_func/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/file_io/write/get_func/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/image_io/write/tiff/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/file_io/write/tiff/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/grouped_index_sampler/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/lightning_module/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/microsplit_data_module/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/predict_data_module/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/train_data_module/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/careamics_checkpoint_info_callback/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/config_saver_callback/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/data_stats_callback/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/hyperparameters_callback/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/progress_bar_callback/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/stop_prediction_callback/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction_writer_callback/file_path_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction/file_path_utils/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction_writer_callback/prediction_writer_callback/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction/image_write_strategy/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction_writer_callback/write_strategy/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction/prediction_writer_callback/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction_writer_callback/write_strategy_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction/tile_write_strategy/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/data_module/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction/write_strategy/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/data_module_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction/write_strategy_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/load_checkpoint/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/callbacks/prediction/zarr_tile_write_strategy/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/callbacks/prediction_writer/cached_tiles_strategy/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/data/data_module/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/callbacks/prediction_writer/file_path_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/data/data_module_utils/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/callbacks/prediction_writer/prediction_writer_callback/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/data/grouped_index_sampler/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/callbacks/prediction_writer/write_image_strategy/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/data/microsplit_data_module/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/callbacks/prediction_writer/write_strategy/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/modules/care_module/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/callbacks/prediction_writer/write_strategy_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/modules/get_module/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/callbacks/prediction_writer/write_tiles_zarr_strategy/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/modules/module_utils/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/lightning_modules/care_module/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/modules/n2v_module/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/lightning_modules/get_module/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/modules/n2v_utils/n2v_manipulate/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/lightning_modules/module_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/modules/n2v_utils/pixel_manipulation/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/lightning_modules/n2v_module/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/prediction/convert_prediction/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/lightning_modules/constraints/model_constraints_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/prediction/stitch_prediction/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/lightning_modules/constraints/model_constraints_protocol/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/prediction/lvae/lvae_convert_outputs/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/lightning_modules/constraints/unet_constraints/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/prediction/lvae/lvae_prediction/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/metrics/psnr/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/prediction/lvae/lvae_stitch_prediction/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/prediction/convert_prediction/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/prediction/lvae/lvae_tiling_manager/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/dataset_ng/prediction/stitch_prediction/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/utils/csv_logger/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/losses/loss_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/lightning/utils/load_checkpoint/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/losses/fcn/losses/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/losses/n2v_losses/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/losses/lvae/loss_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/losses/lvae/losses/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/losses/lvae/lvae_loss_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/losses/lvae/lvae_losses/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/calibration/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/eval_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/get_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/lightning_module/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/metrics/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/train_lvae/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/train_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/lc_dataset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/ms_dataset_ref/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/multich_dataset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/multicrop_dset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/multifile_dataset/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/types/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/utils/data_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/utils/empty_patch_fetcher/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/utils/index_manager/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/lvae_training/dataset/utils/index_switcher/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/metrics/metrics/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/metrics/psnr/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/model_io/bmz_io/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/model_io/model_io_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/model_io/bioimage/_readme_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/model_io/bioimage/bioimage_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/model_io/bioimage/cover_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/model_io/bioimage/model_description/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/models/activation/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/models/layers/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/models/model_factory/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/models/unet/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/models/constraints/model_constraints/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/models/constraints/model_constraints_factory/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/models/constraints/unet_constraints/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/models/lvae/layers/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/models/lvae/likelihoods/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/models/lvae/lvae/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/models/lvae/noise_models/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/models/lvae/stochastic/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/models/lvae/utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/prediction_utils/lvae_prediction/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/models/model_utils/activation/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/prediction_utils/lvae_tiling_manager/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/models/unet/layers/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/prediction_utils/prediction_outputs/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/models/unet/unet/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/prediction_utils/stitch_prediction/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/references/care/citations/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/compose/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/references/care/descriptions/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/n2v_manipulate/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/references/n2n/citations/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/n2v_manipulate_torch/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/references/n2n/descriptions/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/normalize/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/references/n2v/citations/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/pixel_manipulation/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/references/n2v/descriptions/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/pixel_manipulation_torch/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/references/pn2v/citations/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/struct_mask_parameters/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/transform/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/tta/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/xy_flip/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/transforms/xy_random_rotate90/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/references/pn2v/descriptions/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/autocorrelation/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/base_enum/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/context/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/deprecation/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/lightning_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/folder_versioning/</loc>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/get_device/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/logging/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/metrics/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/path_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/plotting/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/ram/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/receptive_field/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/reshape_array/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/serializers/</loc>
-         <lastmod>2026-05-10</lastmod>
-    </url>
-    <url>
-         <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/torch_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics/utils/version/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/_version/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/base_plugin/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/care_plugin/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/n2n_plugin/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/n2v_plugin/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/sample_data/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/bmz/author_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/bmz/bmz_export_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/careamics_utils/algorithms/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/careamics_utils/callbacks/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/careamics_utils/care_configs/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/careamics_utils/configs/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/careamics_utils/free_memory/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/careamics_utils/n2n_configs/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/careamics_utils/n2v_configs/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/resources/resources/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/signals/prediction_status/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/signals/saving_signal/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/signals/saving_status/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/signals/training_status/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
+    </url>
+    <url>
+         <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/utils/array/</loc>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/utils/axes_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/utils/gpu_utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/utils/workers/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/advanced_config/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/axes_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/banner_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/care_config_window/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/folder_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/gpu_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/magicgui_widgets/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/n2n_config_window/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/n2v_config_window/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/predict_data_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/prediction_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/qt_widgets/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/saving_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/scroll_wrapper/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/tbplot_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/train_data_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/train_progress_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/training_configuration_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/training_widget/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/widgets/utils/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/workers/prediction_worker/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
     <url>
          <loc>https://careamics.github.io/1.5.11/reference/careamics_napari/workers/training_worker/</loc>
-         <lastmod>2026-05-10</lastmod>
+         <lastmod>2026-06-21</lastmod>
     </url>
 </urlset>
