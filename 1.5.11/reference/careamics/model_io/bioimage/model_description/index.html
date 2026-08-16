@@ -222,7 +222,7 @@
 </span><span id=__span-0-292><a id=__codelineno-0-292 name=__codelineno-0-292></a>        <span class=n>name</span><span class=o>=</span><span class=n>name</span><span class=p>,</span>
 </span><span id=__span-0-293><a id=__codelineno-0-293 name=__codelineno-0-293></a>        <span class=n>authors</span><span class=o>=</span><span class=n>author_list</span><span class=p>,</span>
 </span><span id=__span-0-294><a id=__codelineno-0-294 name=__codelineno-0-294></a>        <span class=n>description</span><span class=o>=</span><span class=n>general_description</span><span class=p>,</span>
-</span><span id=__span-0-295><a id=__codelineno-0-295 name=__codelineno-0-295></a>        <span class=n>documentation</span><span class=o>=</span><span class=n>doc</span><span class=p>,</span>
+</span><span id=__span-0-295><a id=__codelineno-0-295 name=__codelineno-0-295></a>        <span class=n>documentation</span><span class=o>=</span><span class=n>FileDescr</span><span class=p>(</span><span class=n>source</span><span class=o>=</span><span class=n>doc</span><span class=p>),</span>
 </span><span id=__span-0-296><a id=__codelineno-0-296 name=__codelineno-0-296></a>        <span class=n>inputs</span><span class=o>=</span><span class=p>[</span><span class=n>input_descr</span><span class=p>],</span>
 </span><span id=__span-0-297><a id=__codelineno-0-297 name=__codelineno-0-297></a>        <span class=n>outputs</span><span class=o>=</span><span class=p>[</span><span class=n>output_descr</span><span class=p>],</span>
 </span><span id=__span-0-298><a id=__codelineno-0-298 name=__codelineno-0-298></a>        <span class=n>tags</span><span class=o>=</span><span class=n>config</span><span class=o>.</span><span class=n>get_algorithm_keywords</span><span class=p>(),</span>
@@ -245,7 +245,7 @@
 </span><span id=__span-0-315><a id=__codelineno-0-315 name=__codelineno-0-315></a>        <span class=n>weights</span><span class=o>=</span><span class=n>weights_descr</span><span class=p>,</span>
 </span><span id=__span-0-316><a id=__codelineno-0-316 name=__codelineno-0-316></a>        <span class=n>attachments</span><span class=o>=</span><span class=p>[</span><span class=n>FileDescr</span><span class=p>(</span><span class=n>source</span><span class=o>=</span><span class=n>config_path</span><span class=p>)],</span>
 </span><span id=__span-0-317><a id=__codelineno-0-317 name=__codelineno-0-317></a>        <span class=n>cite</span><span class=o>=</span><span class=n>config</span><span class=o>.</span><span class=n>get_algorithm_citations</span><span class=p>(),</span>
-</span><span id=__span-0-318><a id=__codelineno-0-318 name=__codelineno-0-318></a>        <span class=n>covers</span><span class=o>=</span><span class=n>covers</span><span class=p>,</span>
+</span><span id=__span-0-318><a id=__codelineno-0-318 name=__codelineno-0-318></a>        <span class=n>covers</span><span class=o>=</span><span class=p>[</span><span class=n>FileDescr</span><span class=p>(</span><span class=n>source</span><span class=o>=</span><span class=n>Path</span><span class=p>(</span><span class=n>c</span><span class=p>))</span> <span class=k>for</span> <span class=n>c</span> <span class=ow>in</span> <span class=n>covers</span><span class=p>],</span>
 </span><span id=__span-0-319><a id=__codelineno-0-319 name=__codelineno-0-319></a>    <span class=p>)</span>
 </span><span id=__span-0-320><a id=__codelineno-0-320 name=__codelineno-0-320></a>
 </span><span id=__span-0-321><a id=__codelineno-0-321 name=__codelineno-0-321></a>    <span class=k>return</span> <span class=n>model</span>
