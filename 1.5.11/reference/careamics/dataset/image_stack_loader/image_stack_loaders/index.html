@@ -15,7 +15,7 @@
 <span class=normal><a href=#__codelineno-0-40>40</a></span>
 <span class=normal><a href=#__codelineno-0-41>41</a></span>
 <span class=normal><a href=#__codelineno-0-42>42</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-26><a id=__codelineno-0-26 name=__codelineno-0-26></a><span class=k>def</span><span class=w> </span><span class=nf>load_arrays</span><span class=p>(</span><span class=n>source</span><span class=p>:</span> <span class=n>Sequence</span><span class=p>[</span><span class=n>NDArray</span><span class=p>[</span><span class=n>Any</span><span class=p>]],</span> <span class=n>axes</span><span class=p>:</span> <span class=nb>str</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>list</span><span class=p>[</span><span class=n>InMemoryImageStack</span><span class=p>]:</span>
-</span><span id=__span-0-27><a id=__codelineno-0-27 name=__codelineno-0-27></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;</span>
+</span><span id=__span-0-27><a id=__codelineno-0-27 name=__codelineno-0-27></a><span class=w>    </span><span class=sd>"""</span>
 </span><span id=__span-0-28><a id=__codelineno-0-28 name=__codelineno-0-28></a><span class=sd>    Load ImageStacks from a sequence of numpy arrays.</span>
 </span><span id=__span-0-29><a id=__codelineno-0-29 name=__codelineno-0-29></a>
 </span><span id=__span-0-30><a id=__codelineno-0-30 name=__codelineno-0-30></a><span class=sd>    Parameters</span>
@@ -23,13 +23,13 @@
 </span><span id=__span-0-32><a id=__codelineno-0-32 name=__codelineno-0-32></a><span class=sd>    source : sequence of numpy.ndarray</span>
 </span><span id=__span-0-33><a id=__codelineno-0-33 name=__codelineno-0-33></a><span class=sd>        Source arrays of the data.</span>
 </span><span id=__span-0-34><a id=__codelineno-0-34 name=__codelineno-0-34></a><span class=sd>    axes : str</span>
-</span><span id=__span-0-35><a id=__codelineno-0-35 name=__codelineno-0-35></a><span class=sd>        Original axes of the data, must be a subset of &quot;STCZYX&quot;.</span>
+</span><span id=__span-0-35><a id=__codelineno-0-35 name=__codelineno-0-35></a><span class=sd>        Original axes of the data, must be a subset of "STCZYX".</span>
 </span><span id=__span-0-36><a id=__codelineno-0-36 name=__codelineno-0-36></a>
 </span><span id=__span-0-37><a id=__codelineno-0-37 name=__codelineno-0-37></a><span class=sd>    Returns</span>
 </span><span id=__span-0-38><a id=__codelineno-0-38 name=__codelineno-0-38></a><span class=sd>    -------</span>
 </span><span id=__span-0-39><a id=__codelineno-0-39 name=__codelineno-0-39></a><span class=sd>    list[InMemoryImageStack]</span>
 </span><span id=__span-0-40><a id=__codelineno-0-40 name=__codelineno-0-40></a><span class=sd>        ImageStacks created from the input arrays.</span>
-</span><span id=__span-0-41><a id=__codelineno-0-41 name=__codelineno-0-41></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-41><a id=__codelineno-0-41 name=__codelineno-0-41></a><span class=sd>    """</span>
 </span><span id=__span-0-42><a id=__codelineno-0-42 name=__codelineno-0-42></a>    <span class=k>return</span> <span class=p>[</span><span class=n>InMemoryImageStack</span><span class=o>.</span><span class=n>from_array</span><span class=p>(</span><span class=n>data</span><span class=o>=</span><span class=n>array</span><span class=p>,</span> <span class=n>axes</span><span class=o>=</span><span class=n>axes</span><span class=p>)</span> <span class=k>for</span> <span class=n>array</span> <span class=ow>in</span> <span class=n>source</span><span class=p>]</span>
 </span></code></pre></div></td></tr></table></div> </details> </div> </div> <div class="doc doc-object doc-function"> <h2 id=careamics.dataset.image_stack_loader.image_stack_loaders.load_custom_file class="doc doc-heading"> <code class="highlight language-python"><span class=n>load_custom_file</span><span class=p>(</span><span class=n>source</span><span class=p>,</span> <span class=n>axes</span><span class=p>,</span> <span class=o>*</span><span class=p>,</span> <span class=n>read_func</span><span class=p>,</span> <span class=n>read_kwargs</span><span class=p>)</span></code> <a href=#careamics.dataset.image_stack_loader.image_stack_loaders.load_custom_file class=headerlink title="Permanent link">#</a></h2> <div class="doc doc-contents "> <p>Load ImageStacks from a sequence of files of a custom type.</p> <p><span class=doc-section-title>Parameters:</span></p> <table> <thead> <tr> <th>Name</th> <th>Type</th> <th>Description</th> <th>Default</th> </tr> </thead> <tbody> <tr class=doc-section-item> <td> <code>source</code> </td> <td> <code>sequence of Path</code> </td> <td> <div class=doc-md-description> <p>Source files for the data.</p> </div> </td> <td> <em>required</em> </td> </tr> <tr class=doc-section-item> <td> <code>axes</code> </td> <td> <code><span title=str>str</span></code> </td> <td> <div class=doc-md-description> <p>Original axes of the data, must be a subset of "STCZYX".</p> </div> </td> <td> <em>required</em> </td> </tr> <tr class=doc-section-item> <td> <code>read_func</code> </td> <td> <code><a class="autorefs autorefs-internal" title="ReadFunc (careamics.image_io.read.ReadFunc)" href=../../../image_io/read/get_func/#careamics.image_io.read.get_func.ReadFunc>ReadFunc</a></code> </td> <td> <div class=doc-md-description> <p>A function to read the custom file type, see the <code>ReadFunc</code> protocol.</p> </div> </td> <td> <em>required</em> </td> </tr> <tr class=doc-section-item> <td> <code>read_kwargs</code> </td> <td> <code>dict of {str: Any}</code> </td> <td> <div class=doc-md-description> <p>Additional arguments passed to the custom <code>read_func</code>.</p> </div> </td> <td> <em>required</em> </td> </tr> </tbody> </table> <p><span class=doc-section-title>Returns:</span></p> <table> <thead> <tr> <th>Type</th> <th>Description</th> </tr> </thead> <tbody> <tr class=doc-section-item> <td> <code><span title=list>list</span>[<a class="autorefs autorefs-internal" title="InMemoryImageStack (careamics.dataset.image_stack.InMemoryImageStack)" href=../../image_stack/in_memory_image_stack/#careamics.dataset.image_stack.in_memory_image_stack.InMemoryImageStack>InMemoryImageStack</a>]</code> </td> <td> <div class=doc-md-description> <p>ImageStacks created from the custom files.</p> </div> </td> </tr> </tbody> </table> <details class=mkdocstrings-source> <summary>Source code in <code>src/careamics/dataset/image_stack_loader/image_stack_loaders.py</code></summary> <div class="language-python highlight"><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal><a href=#__codelineno-0-88> 88</a></span>
 <span class=normal><a href=#__codelineno-0-89> 89</a></span>
@@ -73,7 +73,7 @@
 </span><span id=__span-0-92><a id=__codelineno-0-92 name=__codelineno-0-92></a>    <span class=n>read_func</span><span class=p>:</span> <span class=n>ReadFunc</span><span class=p>,</span>
 </span><span id=__span-0-93><a id=__codelineno-0-93 name=__codelineno-0-93></a>    <span class=n>read_kwargs</span><span class=p>:</span> <span class=nb>dict</span><span class=p>[</span><span class=nb>str</span><span class=p>,</span> <span class=n>Any</span><span class=p>],</span>
 </span><span id=__span-0-94><a id=__codelineno-0-94 name=__codelineno-0-94></a><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>list</span><span class=p>[</span><span class=n>InMemoryImageStack</span><span class=p>]:</span>
-</span><span id=__span-0-95><a id=__codelineno-0-95 name=__codelineno-0-95></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;</span>
+</span><span id=__span-0-95><a id=__codelineno-0-95 name=__codelineno-0-95></a><span class=w>    </span><span class=sd>"""</span>
 </span><span id=__span-0-96><a id=__codelineno-0-96 name=__codelineno-0-96></a><span class=sd>    Load ImageStacks from a sequence of files of a custom type.</span>
 </span><span id=__span-0-97><a id=__codelineno-0-97 name=__codelineno-0-97></a>
 </span><span id=__span-0-98><a id=__codelineno-0-98 name=__codelineno-0-98></a><span class=sd>    Parameters</span>
@@ -81,7 +81,7 @@
 </span><span id=__span-0-100><a id=__codelineno-0-100 name=__codelineno-0-100></a><span class=sd>    source : sequence of Path</span>
 </span><span id=__span-0-101><a id=__codelineno-0-101 name=__codelineno-0-101></a><span class=sd>        Source files for the data.</span>
 </span><span id=__span-0-102><a id=__codelineno-0-102 name=__codelineno-0-102></a><span class=sd>    axes : str</span>
-</span><span id=__span-0-103><a id=__codelineno-0-103 name=__codelineno-0-103></a><span class=sd>        Original axes of the data, must be a subset of &quot;STCZYX&quot;.</span>
+</span><span id=__span-0-103><a id=__codelineno-0-103 name=__codelineno-0-103></a><span class=sd>        Original axes of the data, must be a subset of "STCZYX".</span>
 </span><span id=__span-0-104><a id=__codelineno-0-104 name=__codelineno-0-104></a><span class=sd>    read_func : ReadFunc</span>
 </span><span id=__span-0-105><a id=__codelineno-0-105 name=__codelineno-0-105></a><span class=sd>        A function to read the custom file type, see the `ReadFunc` protocol.</span>
 </span><span id=__span-0-106><a id=__codelineno-0-106 name=__codelineno-0-106></a><span class=sd>    read_kwargs : dict of {str: Any}</span>
@@ -91,7 +91,7 @@
 </span><span id=__span-0-110><a id=__codelineno-0-110 name=__codelineno-0-110></a><span class=sd>    -------</span>
 </span><span id=__span-0-111><a id=__codelineno-0-111 name=__codelineno-0-111></a><span class=sd>    list[InMemoryImageStack]</span>
 </span><span id=__span-0-112><a id=__codelineno-0-112 name=__codelineno-0-112></a><span class=sd>        ImageStacks created from the custom files.</span>
-</span><span id=__span-0-113><a id=__codelineno-0-113 name=__codelineno-0-113></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-113><a id=__codelineno-0-113 name=__codelineno-0-113></a><span class=sd>    """</span>
 </span><span id=__span-0-114><a id=__codelineno-0-114 name=__codelineno-0-114></a>    <span class=c1># TODO: lazy loading custom files</span>
 </span><span id=__span-0-115><a id=__codelineno-0-115 name=__codelineno-0-115></a>    <span class=k>return</span> <span class=p>[</span>
 </span><span id=__span-0-116><a id=__codelineno-0-116 name=__codelineno-0-116></a>        <span class=n>InMemoryImageStack</span><span class=o>.</span><span class=n>from_custom_file_type</span><span class=p>(</span>
@@ -158,13 +158,13 @@
 </span><span id=__span-0-227><a id=__codelineno-0-227 name=__codelineno-0-227></a>    <span class=n>source</span><span class=p>:</span> <span class=n>Sequence</span><span class=p>[</span><span class=n>Path</span><span class=p>],</span>
 </span><span id=__span-0-228><a id=__codelineno-0-228 name=__codelineno-0-228></a>    <span class=n>axes</span><span class=p>:</span> <span class=nb>str</span><span class=p>,</span>
 </span><span id=__span-0-229><a id=__codelineno-0-229 name=__codelineno-0-229></a><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>list</span><span class=p>[</span><span class=n>CziImageStack</span><span class=p>]:</span>
-</span><span id=__span-0-230><a id=__codelineno-0-230 name=__codelineno-0-230></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;</span>
+</span><span id=__span-0-230><a id=__codelineno-0-230 name=__codelineno-0-230></a><span class=w>    </span><span class=sd>"""</span>
 </span><span id=__span-0-231><a id=__codelineno-0-231 name=__codelineno-0-231></a><span class=sd>    Load CZI image stacks from a sequence of CZI files paths.</span>
 </span><span id=__span-0-232><a id=__codelineno-0-232 name=__codelineno-0-232></a>
 </span><span id=__span-0-233><a id=__codelineno-0-233 name=__codelineno-0-233></a><span class=sd>    If the CZI files contain multiple scenes, one image stack will be created for</span>
 </span><span id=__span-0-234><a id=__codelineno-0-234 name=__codelineno-0-234></a><span class=sd>    each scene.</span>
 </span><span id=__span-0-235><a id=__codelineno-0-235 name=__codelineno-0-235></a>
-</span><span id=__span-0-236><a id=__codelineno-0-236 name=__codelineno-0-236></a><span class=sd>    Axes should be in the format &quot;SC(Z/T)YX&quot;, where Z or T are optional, and S and C</span>
+</span><span id=__span-0-236><a id=__codelineno-0-236 name=__codelineno-0-236></a><span class=sd>    Axes should be in the format "SC(Z/T)YX", where Z or T are optional, and S and C</span>
 </span><span id=__span-0-237><a id=__codelineno-0-237 name=__codelineno-0-237></a><span class=sd>    can be singleton dimensions, but must be provided.</span>
 </span><span id=__span-0-238><a id=__codelineno-0-238 name=__codelineno-0-238></a>
 </span><span id=__span-0-239><a id=__codelineno-0-239 name=__codelineno-0-239></a><span class=sd>    Parameters</span>
@@ -172,8 +172,8 @@
 </span><span id=__span-0-241><a id=__codelineno-0-241 name=__codelineno-0-241></a><span class=sd>    source : sequence of Path</span>
 </span><span id=__span-0-242><a id=__codelineno-0-242 name=__codelineno-0-242></a><span class=sd>        Source files for the data.</span>
 </span><span id=__span-0-243><a id=__codelineno-0-243 name=__codelineno-0-243></a><span class=sd>    axes : str</span>
-</span><span id=__span-0-244><a id=__codelineno-0-244 name=__codelineno-0-244></a><span class=sd>        Axes of the data, must be either &quot;SCYX&quot;, &quot;SCZYX&quot; or &quot;SCTYX&quot;. Depth axis is</span>
-</span><span id=__span-0-245><a id=__codelineno-0-245 name=__codelineno-0-245></a><span class=sd>        inferred from the axes string. If this string ends with `&quot;ZYX&quot;` or `&quot;TYX&quot;`, the</span>
+</span><span id=__span-0-244><a id=__codelineno-0-244 name=__codelineno-0-244></a><span class=sd>        Axes of the data, must be either "SCYX", "SCZYX" or "SCTYX". Depth axis is</span>
+</span><span id=__span-0-245><a id=__codelineno-0-245 name=__codelineno-0-245></a><span class=sd>        inferred from the axes string. If this string ends with `"ZYX"` or `"TYX"`, the</span>
 </span><span id=__span-0-246><a id=__codelineno-0-246 name=__codelineno-0-246></a><span class=sd>        data will consist of 3-D.</span>
 </span><span id=__span-0-247><a id=__codelineno-0-247 name=__codelineno-0-247></a>
 </span><span id=__span-0-248><a id=__codelineno-0-248 name=__codelineno-0-248></a><span class=sd>    Returns</span>
@@ -185,19 +185,19 @@
 </span><span id=__span-0-254><a id=__codelineno-0-254 name=__codelineno-0-254></a><span class=sd>    ------</span>
 </span><span id=__span-0-255><a id=__codelineno-0-255 name=__codelineno-0-255></a><span class=sd>    ValueError</span>
 </span><span id=__span-0-256><a id=__codelineno-0-256 name=__codelineno-0-256></a><span class=sd>        If the provided axes are not valid.</span>
-</span><span id=__span-0-257><a id=__codelineno-0-257 name=__codelineno-0-257></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-257><a id=__codelineno-0-257 name=__codelineno-0-257></a><span class=sd>    """</span>
 </span><span id=__span-0-258><a id=__codelineno-0-258 name=__codelineno-0-258></a>    <span class=k>if</span> <span class=n>check_czi_axes_validity</span><span class=p>(</span><span class=n>axes</span><span class=p>)</span> <span class=ow>is</span> <span class=kc>False</span><span class=p>:</span>
 </span><span id=__span-0-259><a id=__codelineno-0-259 name=__codelineno-0-259></a>        <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span>
-</span><span id=__span-0-260><a id=__codelineno-0-260 name=__codelineno-0-260></a>            <span class=sa>f</span><span class=s2>&quot;Provided axes &#39;</span><span class=si>{</span><span class=n>axes</span><span class=si>}</span><span class=s2>&#39; are not valid. Axes must be in the `SC(Z/T)YX` &quot;</span>
-</span><span id=__span-0-261><a id=__codelineno-0-261 name=__codelineno-0-261></a>            <span class=sa>f</span><span class=s2>&quot;format, where Z or T are optional, and S and C can be singleton &quot;</span>
-</span><span id=__span-0-262><a id=__codelineno-0-262 name=__codelineno-0-262></a>            <span class=sa>f</span><span class=s2>&quot;dimensions, but must be provided.&quot;</span>
+</span><span id=__span-0-260><a id=__codelineno-0-260 name=__codelineno-0-260></a>            <span class=sa>f</span><span class=s2>"Provided axes '</span><span class=si>{</span><span class=n>axes</span><span class=si>}</span><span class=s2>' are not valid. Axes must be in the `SC(Z/T)YX` "</span>
+</span><span id=__span-0-261><a id=__codelineno-0-261 name=__codelineno-0-261></a>            <span class=sa>f</span><span class=s2>"format, where Z or T are optional, and S and C can be singleton "</span>
+</span><span id=__span-0-262><a id=__codelineno-0-262 name=__codelineno-0-262></a>            <span class=sa>f</span><span class=s2>"dimensions, but must be provided."</span>
 </span><span id=__span-0-263><a id=__codelineno-0-263 name=__codelineno-0-263></a>        <span class=p>)</span>
 </span><span id=__span-0-264><a id=__codelineno-0-264 name=__codelineno-0-264></a>
-</span><span id=__span-0-265><a id=__codelineno-0-265 name=__codelineno-0-265></a>    <span class=n>depth_axis</span><span class=p>:</span> <span class=n>Literal</span><span class=p>[</span><span class=s2>&quot;none&quot;</span><span class=p>,</span> <span class=s2>&quot;Z&quot;</span><span class=p>,</span> <span class=s2>&quot;T&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=s2>&quot;none&quot;</span>
-</span><span id=__span-0-266><a id=__codelineno-0-266 name=__codelineno-0-266></a>    <span class=k>if</span> <span class=n>axes</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>&quot;TYX&quot;</span><span class=p>):</span>
-</span><span id=__span-0-267><a id=__codelineno-0-267 name=__codelineno-0-267></a>        <span class=n>depth_axis</span> <span class=o>=</span> <span class=s2>&quot;T&quot;</span>
-</span><span id=__span-0-268><a id=__codelineno-0-268 name=__codelineno-0-268></a>    <span class=k>elif</span> <span class=n>axes</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>&quot;ZYX&quot;</span><span class=p>):</span>
-</span><span id=__span-0-269><a id=__codelineno-0-269 name=__codelineno-0-269></a>        <span class=n>depth_axis</span> <span class=o>=</span> <span class=s2>&quot;Z&quot;</span>
+</span><span id=__span-0-265><a id=__codelineno-0-265 name=__codelineno-0-265></a>    <span class=n>depth_axis</span><span class=p>:</span> <span class=n>Literal</span><span class=p>[</span><span class=s2>"none"</span><span class=p>,</span> <span class=s2>"Z"</span><span class=p>,</span> <span class=s2>"T"</span><span class=p>]</span> <span class=o>=</span> <span class=s2>"none"</span>
+</span><span id=__span-0-266><a id=__codelineno-0-266 name=__codelineno-0-266></a>    <span class=k>if</span> <span class=n>axes</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>"TYX"</span><span class=p>):</span>
+</span><span id=__span-0-267><a id=__codelineno-0-267 name=__codelineno-0-267></a>        <span class=n>depth_axis</span> <span class=o>=</span> <span class=s2>"T"</span>
+</span><span id=__span-0-268><a id=__codelineno-0-268 name=__codelineno-0-268></a>    <span class=k>elif</span> <span class=n>axes</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>"ZYX"</span><span class=p>):</span>
+</span><span id=__span-0-269><a id=__codelineno-0-269 name=__codelineno-0-269></a>        <span class=n>depth_axis</span> <span class=o>=</span> <span class=s2>"Z"</span>
 </span><span id=__span-0-270><a id=__codelineno-0-270 name=__codelineno-0-270></a>
 </span><span id=__span-0-271><a id=__codelineno-0-271 name=__codelineno-0-271></a>    <span class=n>image_stacks</span><span class=p>:</span> <span class=nb>list</span><span class=p>[</span><span class=n>CziImageStack</span><span class=p>]</span> <span class=o>=</span> <span class=p>[]</span>
 </span><span id=__span-0-272><a id=__codelineno-0-272 name=__codelineno-0-272></a>    <span class=k>for</span> <span class=n>path</span> <span class=ow>in</span> <span class=n>source</span><span class=p>:</span>
@@ -226,7 +226,7 @@
 <span class=normal><a href=#__codelineno-0-83>83</a></span>
 <span class=normal><a href=#__codelineno-0-84>84</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-67><a id=__codelineno-0-67 name=__codelineno-0-67></a><span class=k>def</span><span class=w> </span><span class=nf>load_iter_tiff</span><span class=p>(</span><span class=n>source</span><span class=p>:</span> <span class=n>Sequence</span><span class=p>[</span><span class=n>Path</span><span class=p>],</span> <span class=n>axes</span><span class=p>:</span> <span class=nb>str</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>list</span><span class=p>[</span><span class=n>FileImageStack</span><span class=p>]:</span>
 </span><span id=__span-0-68><a id=__codelineno-0-68 name=__codelineno-0-68></a>    <span class=c1># TODO: better docs</span>
-</span><span id=__span-0-69><a id=__codelineno-0-69 name=__codelineno-0-69></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;</span>
+</span><span id=__span-0-69><a id=__codelineno-0-69 name=__codelineno-0-69></a><span class=w>    </span><span class=sd>"""</span>
 </span><span id=__span-0-70><a id=__codelineno-0-70 name=__codelineno-0-70></a><span class=sd>    Load image stacks from a sequence of TIFF files.</span>
 </span><span id=__span-0-71><a id=__codelineno-0-71 name=__codelineno-0-71></a>
 </span><span id=__span-0-72><a id=__codelineno-0-72 name=__codelineno-0-72></a><span class=sd>    Parameters</span>
@@ -234,13 +234,13 @@
 </span><span id=__span-0-74><a id=__codelineno-0-74 name=__codelineno-0-74></a><span class=sd>    source : sequence of Path</span>
 </span><span id=__span-0-75><a id=__codelineno-0-75 name=__codelineno-0-75></a><span class=sd>        Source files for the data.</span>
 </span><span id=__span-0-76><a id=__codelineno-0-76 name=__codelineno-0-76></a><span class=sd>    axes : str</span>
-</span><span id=__span-0-77><a id=__codelineno-0-77 name=__codelineno-0-77></a><span class=sd>        Original axes of the data, must be a subset of &quot;STCZYX&quot;.</span>
+</span><span id=__span-0-77><a id=__codelineno-0-77 name=__codelineno-0-77></a><span class=sd>        Original axes of the data, must be a subset of "STCZYX".</span>
 </span><span id=__span-0-78><a id=__codelineno-0-78 name=__codelineno-0-78></a>
 </span><span id=__span-0-79><a id=__codelineno-0-79 name=__codelineno-0-79></a><span class=sd>    Returns</span>
 </span><span id=__span-0-80><a id=__codelineno-0-80 name=__codelineno-0-80></a><span class=sd>    -------</span>
 </span><span id=__span-0-81><a id=__codelineno-0-81 name=__codelineno-0-81></a><span class=sd>    list[FileImageStack]</span>
 </span><span id=__span-0-82><a id=__codelineno-0-82 name=__codelineno-0-82></a><span class=sd>        Lazily loaded ImageStacks backed by the source files.</span>
-</span><span id=__span-0-83><a id=__codelineno-0-83 name=__codelineno-0-83></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-83><a id=__codelineno-0-83 name=__codelineno-0-83></a><span class=sd>    """</span>
 </span><span id=__span-0-84><a id=__codelineno-0-84 name=__codelineno-0-84></a>    <span class=k>return</span> <span class=p>[</span><span class=n>FileImageStack</span><span class=o>.</span><span class=n>from_tiff</span><span class=p>(</span><span class=n>path</span><span class=o>=</span><span class=n>path</span><span class=p>,</span> <span class=n>axes</span><span class=o>=</span><span class=n>axes</span><span class=p>)</span> <span class=k>for</span> <span class=n>path</span> <span class=ow>in</span> <span class=n>source</span><span class=p>]</span>
 </span></code></pre></div></td></tr></table></div> </details> </div> </div> <div class="doc doc-object doc-function"> <h2 id=careamics.dataset.image_stack_loader.image_stack_loaders.load_tiffs class="doc doc-heading"> <code class="highlight language-python"><span class=n>load_tiffs</span><span class=p>(</span><span class=n>source</span><span class=p>,</span> <span class=n>axes</span><span class=p>)</span></code> <a href=#careamics.dataset.image_stack_loader.image_stack_loaders.load_tiffs class=headerlink title="Permanent link">#</a></h2> <div class="doc doc-contents "> <p>Load ImageStacks from a sequence of TIFF files.</p> <p><span class=doc-section-title>Parameters:</span></p> <table> <thead> <tr> <th>Name</th> <th>Type</th> <th>Description</th> <th>Default</th> </tr> </thead> <tbody> <tr class=doc-section-item> <td> <code>source</code> </td> <td> <code>sequence of Path</code> </td> <td> <div class=doc-md-description> <p>Source files for the data.</p> </div> </td> <td> <em>required</em> </td> </tr> <tr class=doc-section-item> <td> <code>axes</code> </td> <td> <code><span title=str>str</span></code> </td> <td> <div class=doc-md-description> <p>Original axes of the data, must be a subset of "STCZYX".</p> </div> </td> <td> <em>required</em> </td> </tr> </tbody> </table> <p><span class=doc-section-title>Returns:</span></p> <table> <thead> <tr> <th>Type</th> <th>Description</th> </tr> </thead> <tbody> <tr class=doc-section-item> <td> <code><span title=list>list</span>[<a class="autorefs autorefs-internal" title="InMemoryImageStack (careamics.dataset.image_stack.InMemoryImageStack)" href=../../image_stack/in_memory_image_stack/#careamics.dataset.image_stack.in_memory_image_stack.InMemoryImageStack>InMemoryImageStack</a>]</code> </td> <td> <div class=doc-md-description> <p>ImageStacks created from the source files.</p> </div> </td> </tr> </tbody> </table> <details class=mkdocstrings-source> <summary>Source code in <code>src/careamics/dataset/image_stack_loader/image_stack_loaders.py</code></summary> <div class="language-python highlight"><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal><a href=#__codelineno-0-46>46</a></span>
 <span class=normal><a href=#__codelineno-0-47>47</a></span>
@@ -259,7 +259,7 @@
 <span class=normal><a href=#__codelineno-0-60>60</a></span>
 <span class=normal><a href=#__codelineno-0-61>61</a></span>
 <span class=normal><a href=#__codelineno-0-62>62</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-46><a id=__codelineno-0-46 name=__codelineno-0-46></a><span class=k>def</span><span class=w> </span><span class=nf>load_tiffs</span><span class=p>(</span><span class=n>source</span><span class=p>:</span> <span class=n>Sequence</span><span class=p>[</span><span class=n>Path</span><span class=p>],</span> <span class=n>axes</span><span class=p>:</span> <span class=nb>str</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>list</span><span class=p>[</span><span class=n>InMemoryImageStack</span><span class=p>]:</span>
-</span><span id=__span-0-47><a id=__codelineno-0-47 name=__codelineno-0-47></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;</span>
+</span><span id=__span-0-47><a id=__codelineno-0-47 name=__codelineno-0-47></a><span class=w>    </span><span class=sd>"""</span>
 </span><span id=__span-0-48><a id=__codelineno-0-48 name=__codelineno-0-48></a><span class=sd>    Load ImageStacks from a sequence of TIFF files.</span>
 </span><span id=__span-0-49><a id=__codelineno-0-49 name=__codelineno-0-49></a>
 </span><span id=__span-0-50><a id=__codelineno-0-50 name=__codelineno-0-50></a><span class=sd>    Parameters</span>
@@ -267,13 +267,13 @@
 </span><span id=__span-0-52><a id=__codelineno-0-52 name=__codelineno-0-52></a><span class=sd>    source : sequence of Path</span>
 </span><span id=__span-0-53><a id=__codelineno-0-53 name=__codelineno-0-53></a><span class=sd>        Source files for the data.</span>
 </span><span id=__span-0-54><a id=__codelineno-0-54 name=__codelineno-0-54></a><span class=sd>    axes : str</span>
-</span><span id=__span-0-55><a id=__codelineno-0-55 name=__codelineno-0-55></a><span class=sd>        Original axes of the data, must be a subset of &quot;STCZYX&quot;.</span>
+</span><span id=__span-0-55><a id=__codelineno-0-55 name=__codelineno-0-55></a><span class=sd>        Original axes of the data, must be a subset of "STCZYX".</span>
 </span><span id=__span-0-56><a id=__codelineno-0-56 name=__codelineno-0-56></a>
 </span><span id=__span-0-57><a id=__codelineno-0-57 name=__codelineno-0-57></a><span class=sd>    Returns</span>
 </span><span id=__span-0-58><a id=__codelineno-0-58 name=__codelineno-0-58></a><span class=sd>    -------</span>
 </span><span id=__span-0-59><a id=__codelineno-0-59 name=__codelineno-0-59></a><span class=sd>    list[InMemoryImageStack]</span>
 </span><span id=__span-0-60><a id=__codelineno-0-60 name=__codelineno-0-60></a><span class=sd>        ImageStacks created from the source files.</span>
-</span><span id=__span-0-61><a id=__codelineno-0-61 name=__codelineno-0-61></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-61><a id=__codelineno-0-61 name=__codelineno-0-61></a><span class=sd>    """</span>
 </span><span id=__span-0-62><a id=__codelineno-0-62 name=__codelineno-0-62></a>    <span class=k>return</span> <span class=p>[</span><span class=n>InMemoryImageStack</span><span class=o>.</span><span class=n>from_tiff</span><span class=p>(</span><span class=n>path</span><span class=o>=</span><span class=n>path</span><span class=p>,</span> <span class=n>axes</span><span class=o>=</span><span class=n>axes</span><span class=p>)</span> <span class=k>for</span> <span class=n>path</span> <span class=ow>in</span> <span class=n>source</span><span class=p>]</span>
 </span></code></pre></div></td></tr></table></div> </details> </div> </div> <div class="doc doc-object doc-function"> <h2 id=careamics.dataset.image_stack_loader.image_stack_loaders.load_zarrs class="doc doc-heading"> <code class="highlight language-python"><span class=n>load_zarrs</span><span class=p>(</span><span class=n>source</span><span class=p>,</span> <span class=n>axes</span><span class=p>)</span></code> <a href=#careamics.dataset.image_stack_loader.image_stack_loaders.load_zarrs class=headerlink title="Permanent link">#</a></h2> <div class="doc doc-contents "> <p>Create a list of ZarrImageStack from a sequence of zarr file paths or URIs.</p> <p>File paths must point to a zarr store (ending with .zarr) and URIs must be in the format "file://path/to/zarr_store.zarr/group/path/array_name".</p> <p>If the zarr file is an OME-Zarr, the specified multiscale level will be used. Note that OME-Zarrs are only supported when providing a path to the zarr store, not when using a file URI. One can, however, provide a file URI to the specific resolution array within the OME-Zarr.</p> <p><span class=doc-section-title>Parameters:</span></p> <table> <thead> <tr> <th>Name</th> <th>Type</th> <th>Description</th> <th>Default</th> </tr> </thead> <tbody> <tr class=doc-section-item> <td> <code>source</code> </td> <td> <code>sequence of str or Path</code> </td> <td> <div class=doc-md-description> <p>Source zarr file paths or URIs.</p> </div> </td> <td> <em>required</em> </td> </tr> <tr class=doc-section-item> <td> <code>axes</code> </td> <td> <code><span title=str>str</span></code> </td> <td> <div class=doc-md-description> <p>Original axes of the data, must be a subset of "STCZYX".</p> </div> </td> <td> <em>required</em> </td> </tr> </tbody> </table> <p><span class=doc-section-title>Returns:</span></p> <table> <thead> <tr> <th>Type</th> <th>Description</th> </tr> </thead> <tbody> <tr class=doc-section-item> <td> <code>list of ZarrImageStack</code> </td> <td> <div class=doc-md-description> <p>A list of ZarrImageStack created from the sources.</p> </div> </td> </tr> </tbody> </table> <details class=mkdocstrings-source> <summary>Source code in <code>src/careamics/dataset/image_stack_loader/image_stack_loaders.py</code></summary> <div class="language-python highlight"><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal><a href=#__codelineno-0-126>126</a></span>
 <span class=normal><a href=#__codelineno-0-127>127</a></span>
@@ -376,10 +376,10 @@
 </span><span id=__span-0-127><a id=__codelineno-0-127 name=__codelineno-0-127></a>    <span class=n>source</span><span class=p>:</span> <span class=n>Sequence</span><span class=p>[</span><span class=nb>str</span> <span class=o>|</span> <span class=n>Path</span> <span class=o>|</span> <span class=n>StorePath</span><span class=p>],</span>
 </span><span id=__span-0-128><a id=__codelineno-0-128 name=__codelineno-0-128></a>    <span class=n>axes</span><span class=p>:</span> <span class=nb>str</span><span class=p>,</span>
 </span><span id=__span-0-129><a id=__codelineno-0-129 name=__codelineno-0-129></a><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>list</span><span class=p>[</span><span class=n>ZarrImageStack</span><span class=p>]:</span>
-</span><span id=__span-0-130><a id=__codelineno-0-130 name=__codelineno-0-130></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Create a list of ZarrImageStack from a sequence of zarr file paths or URIs.</span>
+</span><span id=__span-0-130><a id=__codelineno-0-130 name=__codelineno-0-130></a><span class=w>    </span><span class=sd>"""Create a list of ZarrImageStack from a sequence of zarr file paths or URIs.</span>
 </span><span id=__span-0-131><a id=__codelineno-0-131 name=__codelineno-0-131></a>
 </span><span id=__span-0-132><a id=__codelineno-0-132 name=__codelineno-0-132></a><span class=sd>    File paths must point to a zarr store (ending with .zarr) and URIs must be in the</span>
-</span><span id=__span-0-133><a id=__codelineno-0-133 name=__codelineno-0-133></a><span class=sd>    format &quot;file://path/to/zarr_store.zarr/group/path/array_name&quot;.</span>
+</span><span id=__span-0-133><a id=__codelineno-0-133 name=__codelineno-0-133></a><span class=sd>    format "file://path/to/zarr_store.zarr/group/path/array_name".</span>
 </span><span id=__span-0-134><a id=__codelineno-0-134 name=__codelineno-0-134></a>
 </span><span id=__span-0-135><a id=__codelineno-0-135 name=__codelineno-0-135></a><span class=sd>    If the zarr file is an OME-Zarr, the specified multiscale level will be used. Note</span>
 </span><span id=__span-0-136><a id=__codelineno-0-136 name=__codelineno-0-136></a><span class=sd>    that OME-Zarrs are only supported when providing a path to the zarr store, not when</span>
@@ -391,21 +391,21 @@
 </span><span id=__span-0-142><a id=__codelineno-0-142 name=__codelineno-0-142></a><span class=sd>    source : sequence of str or Path</span>
 </span><span id=__span-0-143><a id=__codelineno-0-143 name=__codelineno-0-143></a><span class=sd>        Source zarr file paths or URIs.</span>
 </span><span id=__span-0-144><a id=__codelineno-0-144 name=__codelineno-0-144></a><span class=sd>    axes : str</span>
-</span><span id=__span-0-145><a id=__codelineno-0-145 name=__codelineno-0-145></a><span class=sd>        Original axes of the data, must be a subset of &quot;STCZYX&quot;.</span>
+</span><span id=__span-0-145><a id=__codelineno-0-145 name=__codelineno-0-145></a><span class=sd>        Original axes of the data, must be a subset of "STCZYX".</span>
 </span><span id=__span-0-146><a id=__codelineno-0-146 name=__codelineno-0-146></a>
 </span><span id=__span-0-147><a id=__codelineno-0-147 name=__codelineno-0-147></a><span class=sd>    Returns</span>
 </span><span id=__span-0-148><a id=__codelineno-0-148 name=__codelineno-0-148></a><span class=sd>    -------</span>
 </span><span id=__span-0-149><a id=__codelineno-0-149 name=__codelineno-0-149></a><span class=sd>    list of ZarrImageStack</span>
 </span><span id=__span-0-150><a id=__codelineno-0-150 name=__codelineno-0-150></a><span class=sd>        A list of ZarrImageStack created from the sources.</span>
-</span><span id=__span-0-151><a id=__codelineno-0-151 name=__codelineno-0-151></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-151><a id=__codelineno-0-151 name=__codelineno-0-151></a><span class=sd>    """</span>
 </span><span id=__span-0-152><a id=__codelineno-0-152 name=__codelineno-0-152></a>    <span class=n>image_stacks</span><span class=p>:</span> <span class=nb>list</span><span class=p>[</span><span class=n>ZarrImageStack</span><span class=p>]</span> <span class=o>=</span> <span class=p>[]</span>
 </span><span id=__span-0-153><a id=__codelineno-0-153 name=__codelineno-0-153></a>
 </span><span id=__span-0-154><a id=__codelineno-0-154 name=__codelineno-0-154></a>    <span class=k>for</span> <span class=n>data_source</span> <span class=ow>in</span> <span class=n>source</span><span class=p>:</span>
 </span><span id=__span-0-155><a id=__codelineno-0-155 name=__codelineno-0-155></a>        <span class=n>data_str</span> <span class=o>=</span> <span class=nb>str</span><span class=p>(</span><span class=n>data_source</span><span class=p>)</span>
 </span><span id=__span-0-156><a id=__codelineno-0-156 name=__codelineno-0-156></a>
-</span><span id=__span-0-157><a id=__codelineno-0-157 name=__codelineno-0-157></a>        <span class=c1># either a path to a zarr file or a uri &quot;file://path/to/zarr/array_path&quot;</span>
-</span><span id=__span-0-158><a id=__codelineno-0-158 name=__codelineno-0-158></a>        <span class=k>if</span> <span class=n>data_str</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>&quot;.zarr&quot;</span><span class=p>):</span>
-</span><span id=__span-0-159><a id=__codelineno-0-159 name=__codelineno-0-159></a>            <span class=n>zarr_group</span> <span class=o>=</span> <span class=n>zarr</span><span class=o>.</span><span class=n>open_group</span><span class=p>(</span><span class=n>data_str</span><span class=p>,</span> <span class=n>mode</span><span class=o>=</span><span class=s2>&quot;r&quot;</span><span class=p>)</span>
+</span><span id=__span-0-157><a id=__codelineno-0-157 name=__codelineno-0-157></a>        <span class=c1># either a path to a zarr file or a uri "file://path/to/zarr/array_path"</span>
+</span><span id=__span-0-158><a id=__codelineno-0-158 name=__codelineno-0-158></a>        <span class=k>if</span> <span class=n>data_str</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>".zarr"</span><span class=p>):</span>
+</span><span id=__span-0-159><a id=__codelineno-0-159 name=__codelineno-0-159></a>            <span class=n>zarr_group</span> <span class=o>=</span> <span class=n>zarr</span><span class=o>.</span><span class=n>open_group</span><span class=p>(</span><span class=n>data_str</span><span class=p>,</span> <span class=n>mode</span><span class=o>=</span><span class=s2>"r"</span><span class=p>)</span>
 </span><span id=__span-0-160><a id=__codelineno-0-160 name=__codelineno-0-160></a>
 </span><span id=__span-0-161><a id=__codelineno-0-161 name=__codelineno-0-161></a>            <span class=c1># test if ome-zarr (minimum assumption of multiscales)</span>
 </span><span id=__span-0-162><a id=__codelineno-0-162 name=__codelineno-0-162></a>            <span class=k>if</span> <span class=n>is_ome_zarr</span><span class=p>(</span><span class=n>zarr_group</span><span class=p>):</span>
@@ -413,9 +413,9 @@
 </span><span id=__span-0-164><a id=__codelineno-0-164 name=__codelineno-0-164></a>                <span class=c1># - Need to potentially select multiscale level</span>
 </span><span id=__span-0-165><a id=__codelineno-0-165 name=__codelineno-0-165></a>                <span class=c1># - Extract axes and compare with provided ones</span>
 </span><span id=__span-0-166><a id=__codelineno-0-166 name=__codelineno-0-166></a>                <span class=k>raise</span> <span class=ne>NotImplementedError</span><span class=p>(</span>
-</span><span id=__span-0-167><a id=__codelineno-0-167 name=__codelineno-0-167></a>                    <span class=s2>&quot;OME-Zarr support is not yet implemented when providing a &quot;</span>
-</span><span id=__span-0-168><a id=__codelineno-0-168 name=__codelineno-0-168></a>                    <span class=s2>&quot;path to the zarr store. Please provide a file URI to the &quot;</span>
-</span><span id=__span-0-169><a id=__codelineno-0-169 name=__codelineno-0-169></a>                    <span class=s2>&quot;specific array within the OME-Zarr.&quot;</span>
+</span><span id=__span-0-167><a id=__codelineno-0-167 name=__codelineno-0-167></a>                    <span class=s2>"OME-Zarr support is not yet implemented when providing a "</span>
+</span><span id=__span-0-168><a id=__codelineno-0-168 name=__codelineno-0-168></a>                    <span class=s2>"path to the zarr store. Please provide a file URI to the "</span>
+</span><span id=__span-0-169><a id=__codelineno-0-169 name=__codelineno-0-169></a>                    <span class=s2>"specific array within the OME-Zarr."</span>
 </span><span id=__span-0-170><a id=__codelineno-0-170 name=__codelineno-0-170></a>                <span class=p>)</span>
 </span><span id=__span-0-171><a id=__codelineno-0-171 name=__codelineno-0-171></a>            <span class=k>else</span><span class=p>:</span>
 </span><span id=__span-0-172><a id=__codelineno-0-172 name=__codelineno-0-172></a>                <span class=c1># collect all arrays</span>
@@ -434,7 +434,7 @@
 </span><span id=__span-0-185><a id=__codelineno-0-185 name=__codelineno-0-185></a>            <span class=c1># decipher the uri and open the group</span>
 </span><span id=__span-0-186><a id=__codelineno-0-186 name=__codelineno-0-186></a>            <span class=n>store_path</span><span class=p>,</span> <span class=n>parent_path</span><span class=p>,</span> <span class=n>name</span> <span class=o>=</span> <span class=n>decipher_zarr_uri</span><span class=p>(</span><span class=n>data_str</span><span class=p>)</span>
 </span><span id=__span-0-187><a id=__codelineno-0-187 name=__codelineno-0-187></a>
-</span><span id=__span-0-188><a id=__codelineno-0-188 name=__codelineno-0-188></a>            <span class=n>zarr_group</span> <span class=o>=</span> <span class=n>zarr</span><span class=o>.</span><span class=n>open_group</span><span class=p>(</span><span class=n>store_path</span><span class=p>,</span> <span class=n>path</span><span class=o>=</span><span class=n>parent_path</span><span class=p>,</span> <span class=n>mode</span><span class=o>=</span><span class=s2>&quot;r&quot;</span><span class=p>)</span>
+</span><span id=__span-0-188><a id=__codelineno-0-188 name=__codelineno-0-188></a>            <span class=n>zarr_group</span> <span class=o>=</span> <span class=n>zarr</span><span class=o>.</span><span class=n>open_group</span><span class=p>(</span><span class=n>store_path</span><span class=p>,</span> <span class=n>path</span><span class=o>=</span><span class=n>parent_path</span><span class=p>,</span> <span class=n>mode</span><span class=o>=</span><span class=s2>"r"</span><span class=p>)</span>
 </span><span id=__span-0-189><a id=__codelineno-0-189 name=__codelineno-0-189></a>            <span class=n>content</span> <span class=o>=</span> <span class=n>zarr_group</span><span class=p>[</span><span class=n>name</span><span class=p>]</span>
 </span><span id=__span-0-190><a id=__codelineno-0-190 name=__codelineno-0-190></a>
 </span><span id=__span-0-191><a id=__codelineno-0-191 name=__codelineno-0-191></a>            <span class=c1># assert if group or array</span>
@@ -451,8 +451,8 @@
 </span><span id=__span-0-202><a id=__codelineno-0-202 name=__codelineno-0-202></a>            <span class=k>else</span><span class=p>:</span>
 </span><span id=__span-0-203><a id=__codelineno-0-203 name=__codelineno-0-203></a>                <span class=k>if</span> <span class=ow>not</span> <span class=nb>isinstance</span><span class=p>(</span><span class=n>content</span><span class=p>,</span> <span class=n>zarr</span><span class=o>.</span><span class=n>Array</span><span class=p>):</span>
 </span><span id=__span-0-204><a id=__codelineno-0-204 name=__codelineno-0-204></a>                    <span class=k>raise</span> <span class=ne>TypeError</span><span class=p>(</span>
-</span><span id=__span-0-205><a id=__codelineno-0-205 name=__codelineno-0-205></a>                        <span class=sa>f</span><span class=s2>&quot;Content at &#39;</span><span class=si>{</span><span class=n>data_str</span><span class=si>}</span><span class=s2>&#39; is neither a zarr.Group nor &quot;</span>
-</span><span id=__span-0-206><a id=__codelineno-0-206 name=__codelineno-0-206></a>                        <span class=sa>f</span><span class=s2>&quot;a zarr.Array.&quot;</span>
+</span><span id=__span-0-205><a id=__codelineno-0-205 name=__codelineno-0-205></a>                        <span class=sa>f</span><span class=s2>"Content at '</span><span class=si>{</span><span class=n>data_str</span><span class=si>}</span><span class=s2>' is neither a zarr.Group nor "</span>
+</span><span id=__span-0-206><a id=__codelineno-0-206 name=__codelineno-0-206></a>                        <span class=sa>f</span><span class=s2>"a zarr.Array."</span>
 </span><span id=__span-0-207><a id=__codelineno-0-207 name=__codelineno-0-207></a>                    <span class=p>)</span>
 </span><span id=__span-0-208><a id=__codelineno-0-208 name=__codelineno-0-208></a>
 </span><span id=__span-0-209><a id=__codelineno-0-209 name=__codelineno-0-209></a>                <span class=c1># create image stack from a single array</span>
@@ -466,7 +466,7 @@
 </span><span id=__span-0-217><a id=__codelineno-0-217 name=__codelineno-0-217></a>
 </span><span id=__span-0-218><a id=__codelineno-0-218 name=__codelineno-0-218></a>        <span class=k>else</span><span class=p>:</span>
 </span><span id=__span-0-219><a id=__codelineno-0-219 name=__codelineno-0-219></a>            <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span>
-</span><span id=__span-0-220><a id=__codelineno-0-220 name=__codelineno-0-220></a>                <span class=sa>f</span><span class=s2>&quot;Source &#39;</span><span class=si>{</span><span class=n>data_source</span><span class=si>}</span><span class=s2>&#39; is neither a zarr file nor a file URI.&quot;</span>
+</span><span id=__span-0-220><a id=__codelineno-0-220 name=__codelineno-0-220></a>                <span class=sa>f</span><span class=s2>"Source '</span><span class=si>{</span><span class=n>data_source</span><span class=si>}</span><span class=s2>' is neither a zarr file nor a file URI."</span>
 </span><span id=__span-0-221><a id=__codelineno-0-221 name=__codelineno-0-221></a>            <span class=p>)</span>
 </span><span id=__span-0-222><a id=__codelineno-0-222 name=__codelineno-0-222></a>
 </span><span id=__span-0-223><a id=__codelineno-0-223 name=__codelineno-0-223></a>    <span class=k>return</span> <span class=n>image_stacks</span>

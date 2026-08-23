@@ -241,7 +241,7 @@
 <span class=normal><a href=#__codelineno-0-247>247</a></span>
 <span class=normal><a href=#__codelineno-0-248>248</a></span>
 <span class=normal><a href=#__codelineno-0-249>249</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-7><a id=__codelineno-0-7 name=__codelineno-0-7></a><span class=k>class</span><span class=w> </span><span class=nc>QuantileEstimator</span><span class=p>:</span>
-</span><span id=__span-0-8><a id=__codelineno-0-8 name=__codelineno-0-8></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Streaming quantile estimator using adaptive histogram binning.</span>
+</span><span id=__span-0-8><a id=__codelineno-0-8 name=__codelineno-0-8></a><span class=w>    </span><span class=sd>"""Streaming quantile estimator using adaptive histogram binning.</span>
 </span><span id=__span-0-9><a id=__codelineno-0-9 name=__codelineno-0-9></a>
 </span><span id=__span-0-10><a id=__codelineno-0-10 name=__codelineno-0-10></a><span class=sd>    Parameters</span>
 </span><span id=__span-0-11><a id=__codelineno-0-11 name=__codelineno-0-11></a><span class=sd>    ----------</span>
@@ -253,7 +253,7 @@
 </span><span id=__span-0-17><a id=__codelineno-0-17 name=__codelineno-0-17></a><span class=sd>        Number of histogram bins. Default is 65536 (suitable for 16-bit data).</span>
 </span><span id=__span-0-18><a id=__codelineno-0-18 name=__codelineno-0-18></a><span class=sd>    margin : float, optional</span>
 </span><span id=__span-0-19><a id=__codelineno-0-19 name=__codelineno-0-19></a><span class=sd>        Fractional margin to add to histogram range. Default is 0.1 (10%).</span>
-</span><span id=__span-0-20><a id=__codelineno-0-20 name=__codelineno-0-20></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-20><a id=__codelineno-0-20 name=__codelineno-0-20></a><span class=sd>    """</span>
 </span><span id=__span-0-21><a id=__codelineno-0-21 name=__codelineno-0-21></a>
 </span><span id=__span-0-22><a id=__codelineno-0-22 name=__codelineno-0-22></a>    <span class=k>def</span><span class=w> </span><span class=fm>__init__</span><span class=p>(</span>
 </span><span id=__span-0-23><a id=__codelineno-0-23 name=__codelineno-0-23></a>        <span class=bp>self</span><span class=p>,</span>
@@ -262,7 +262,7 @@
 </span><span id=__span-0-26><a id=__codelineno-0-26 name=__codelineno-0-26></a>        <span class=n>n_bins</span><span class=p>:</span> <span class=nb>int</span> <span class=o>=</span> <span class=mi>65536</span><span class=p>,</span>
 </span><span id=__span-0-27><a id=__codelineno-0-27 name=__codelineno-0-27></a>        <span class=n>margin</span><span class=p>:</span> <span class=nb>float</span> <span class=o>=</span> <span class=mf>0.1</span><span class=p>,</span>
 </span><span id=__span-0-28><a id=__codelineno-0-28 name=__codelineno-0-28></a>    <span class=p>):</span>
-</span><span id=__span-0-29><a id=__codelineno-0-29 name=__codelineno-0-29></a><span class=w>        </span><span class=sd>&quot;&quot;&quot;Initialize histograms and bounds for streaming quantile estimation.</span>
+</span><span id=__span-0-29><a id=__codelineno-0-29 name=__codelineno-0-29></a><span class=w>        </span><span class=sd>"""Initialize histograms and bounds for streaming quantile estimation.</span>
 </span><span id=__span-0-30><a id=__codelineno-0-30 name=__codelineno-0-30></a>
 </span><span id=__span-0-31><a id=__codelineno-0-31 name=__codelineno-0-31></a><span class=sd>        Parameters</span>
 </span><span id=__span-0-32><a id=__codelineno-0-32 name=__codelineno-0-32></a><span class=sd>        ----------</span>
@@ -274,7 +274,7 @@
 </span><span id=__span-0-38><a id=__codelineno-0-38 name=__codelineno-0-38></a><span class=sd>            Number of histogram bins.</span>
 </span><span id=__span-0-39><a id=__codelineno-0-39 name=__codelineno-0-39></a><span class=sd>        margin : float, optional</span>
 </span><span id=__span-0-40><a id=__codelineno-0-40 name=__codelineno-0-40></a><span class=sd>            Fractional margin for histogram range.</span>
-</span><span id=__span-0-41><a id=__codelineno-0-41 name=__codelineno-0-41></a><span class=sd>        &quot;&quot;&quot;</span>
+</span><span id=__span-0-41><a id=__codelineno-0-41 name=__codelineno-0-41></a><span class=sd>        """</span>
 </span><span id=__span-0-42><a id=__codelineno-0-42 name=__codelineno-0-42></a>        <span class=bp>self</span><span class=o>.</span><span class=n>n_bins</span> <span class=o>=</span> <span class=n>n_bins</span>
 </span><span id=__span-0-43><a id=__codelineno-0-43 name=__codelineno-0-43></a>        <span class=bp>self</span><span class=o>.</span><span class=n>n_channels</span> <span class=o>=</span> <span class=nb>len</span><span class=p>(</span><span class=n>lower_quantiles</span><span class=p>)</span>
 </span><span id=__span-0-44><a id=__codelineno-0-44 name=__codelineno-0-44></a>        <span class=bp>self</span><span class=o>.</span><span class=n>margin</span> <span class=o>=</span> <span class=n>margin</span>
@@ -292,7 +292,7 @@
 </span><span id=__span-0-56><a id=__codelineno-0-56 name=__codelineno-0-56></a>    <span class=k>def</span><span class=w> </span><span class=nf>_rebin_histogram</span><span class=p>(</span>
 </span><span id=__span-0-57><a id=__codelineno-0-57 name=__codelineno-0-57></a>        <span class=bp>self</span><span class=p>,</span> <span class=n>old_hist</span><span class=p>:</span> <span class=n>NDArray</span><span class=p>,</span> <span class=n>old_edges</span><span class=p>:</span> <span class=n>NDArray</span><span class=p>,</span> <span class=n>new_edges</span><span class=p>:</span> <span class=n>NDArray</span>
 </span><span id=__span-0-58><a id=__codelineno-0-58 name=__codelineno-0-58></a>    <span class=p>)</span> <span class=o>-&gt;</span> <span class=n>NDArray</span><span class=p>:</span>
-</span><span id=__span-0-59><a id=__codelineno-0-59 name=__codelineno-0-59></a><span class=w>        </span><span class=sd>&quot;&quot;&quot;Rebin histogram from `old_edges` to `new_edges`, preserving total count.</span>
+</span><span id=__span-0-59><a id=__codelineno-0-59 name=__codelineno-0-59></a><span class=w>        </span><span class=sd>"""Rebin histogram from `old_edges` to `new_edges`, preserving total count.</span>
 </span><span id=__span-0-60><a id=__codelineno-0-60 name=__codelineno-0-60></a>
 </span><span id=__span-0-61><a id=__codelineno-0-61 name=__codelineno-0-61></a><span class=sd>        Parameters</span>
 </span><span id=__span-0-62><a id=__codelineno-0-62 name=__codelineno-0-62></a><span class=sd>        ----------</span>
@@ -307,7 +307,7 @@
 </span><span id=__span-0-71><a id=__codelineno-0-71 name=__codelineno-0-71></a><span class=sd>        -------</span>
 </span><span id=__span-0-72><a id=__codelineno-0-72 name=__codelineno-0-72></a><span class=sd>        numpy.ndarray</span>
 </span><span id=__span-0-73><a id=__codelineno-0-73 name=__codelineno-0-73></a><span class=sd>            Rebinned histogram.</span>
-</span><span id=__span-0-74><a id=__codelineno-0-74 name=__codelineno-0-74></a><span class=sd>        &quot;&quot;&quot;</span>
+</span><span id=__span-0-74><a id=__codelineno-0-74 name=__codelineno-0-74></a><span class=sd>        """</span>
 </span><span id=__span-0-75><a id=__codelineno-0-75 name=__codelineno-0-75></a>        <span class=n>new_hist</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>zeros</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>new_edges</span><span class=p>)</span> <span class=o>-</span> <span class=mi>1</span><span class=p>,</span> <span class=n>dtype</span><span class=o>=</span><span class=n>np</span><span class=o>.</span><span class=n>int64</span><span class=p>)</span>
 </span><span id=__span-0-76><a id=__codelineno-0-76 name=__codelineno-0-76></a>        <span class=n>old_total</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>sum</span><span class=p>(</span><span class=n>old_hist</span><span class=p>)</span>
 </span><span id=__span-0-77><a id=__codelineno-0-77 name=__codelineno-0-77></a>
@@ -326,10 +326,10 @@
 </span><span id=__span-0-90><a id=__codelineno-0-90 name=__codelineno-0-90></a>                <span class=k>continue</span>
 </span><span id=__span-0-91><a id=__codelineno-0-91 name=__codelineno-0-91></a>
 </span><span id=__span-0-92><a id=__codelineno-0-92 name=__codelineno-0-92></a>            <span class=n>start_idx</span> <span class=o>=</span> <span class=nb>max</span><span class=p>(</span>
-</span><span id=__span-0-93><a id=__codelineno-0-93 name=__codelineno-0-93></a>                <span class=mi>0</span><span class=p>,</span> <span class=n>np</span><span class=o>.</span><span class=n>searchsorted</span><span class=p>(</span><span class=n>new_edges</span><span class=p>,</span> <span class=n>old_bin_start</span><span class=p>,</span> <span class=n>side</span><span class=o>=</span><span class=s2>&quot;right&quot;</span><span class=p>)</span> <span class=o>-</span> <span class=mi>1</span>
+</span><span id=__span-0-93><a id=__codelineno-0-93 name=__codelineno-0-93></a>                <span class=mi>0</span><span class=p>,</span> <span class=n>np</span><span class=o>.</span><span class=n>searchsorted</span><span class=p>(</span><span class=n>new_edges</span><span class=p>,</span> <span class=n>old_bin_start</span><span class=p>,</span> <span class=n>side</span><span class=o>=</span><span class=s2>"right"</span><span class=p>)</span> <span class=o>-</span> <span class=mi>1</span>
 </span><span id=__span-0-94><a id=__codelineno-0-94 name=__codelineno-0-94></a>            <span class=p>)</span>
 </span><span id=__span-0-95><a id=__codelineno-0-95 name=__codelineno-0-95></a>            <span class=n>end_idx</span> <span class=o>=</span> <span class=nb>min</span><span class=p>(</span>
-</span><span id=__span-0-96><a id=__codelineno-0-96 name=__codelineno-0-96></a>                <span class=n>np</span><span class=o>.</span><span class=n>searchsorted</span><span class=p>(</span><span class=n>new_edges</span><span class=p>,</span> <span class=n>old_bin_end</span><span class=p>,</span> <span class=n>side</span><span class=o>=</span><span class=s2>&quot;left&quot;</span><span class=p>),</span> <span class=nb>len</span><span class=p>(</span><span class=n>new_hist</span><span class=p>)</span>
+</span><span id=__span-0-96><a id=__codelineno-0-96 name=__codelineno-0-96></a>                <span class=n>np</span><span class=o>.</span><span class=n>searchsorted</span><span class=p>(</span><span class=n>new_edges</span><span class=p>,</span> <span class=n>old_bin_end</span><span class=p>,</span> <span class=n>side</span><span class=o>=</span><span class=s2>"left"</span><span class=p>),</span> <span class=nb>len</span><span class=p>(</span><span class=n>new_hist</span><span class=p>)</span>
 </span><span id=__span-0-97><a id=__codelineno-0-97 name=__codelineno-0-97></a>            <span class=p>)</span>
 </span><span id=__span-0-98><a id=__codelineno-0-98 name=__codelineno-0-98></a>
 </span><span id=__span-0-99><a id=__codelineno-0-99 name=__codelineno-0-99></a>            <span class=n>fractional_counts</span> <span class=o>=</span> <span class=p>[]</span>
@@ -369,13 +369,13 @@
 </span><span id=__span-0-133><a id=__codelineno-0-133 name=__codelineno-0-133></a>        <span class=k>return</span> <span class=n>new_hist</span>
 </span><span id=__span-0-134><a id=__codelineno-0-134 name=__codelineno-0-134></a>
 </span><span id=__span-0-135><a id=__codelineno-0-135 name=__codelineno-0-135></a>    <span class=k>def</span><span class=w> </span><span class=nf>update</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>patch</span><span class=p>:</span> <span class=n>NDArray</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=kc>None</span><span class=p>:</span>
-</span><span id=__span-0-136><a id=__codelineno-0-136 name=__codelineno-0-136></a><span class=w>        </span><span class=sd>&quot;&quot;&quot;Update histograms and bounds with a single patch.</span>
+</span><span id=__span-0-136><a id=__codelineno-0-136 name=__codelineno-0-136></a><span class=w>        </span><span class=sd>"""Update histograms and bounds with a single patch.</span>
 </span><span id=__span-0-137><a id=__codelineno-0-137 name=__codelineno-0-137></a>
 </span><span id=__span-0-138><a id=__codelineno-0-138 name=__codelineno-0-138></a><span class=sd>        Parameters</span>
 </span><span id=__span-0-139><a id=__codelineno-0-139 name=__codelineno-0-139></a><span class=sd>        ----------</span>
 </span><span id=__span-0-140><a id=__codelineno-0-140 name=__codelineno-0-140></a><span class=sd>        patch : numpy.ndarray</span>
 </span><span id=__span-0-141><a id=__codelineno-0-141 name=__codelineno-0-141></a><span class=sd>            Patch with shape C(Z)YX.</span>
-</span><span id=__span-0-142><a id=__codelineno-0-142 name=__codelineno-0-142></a><span class=sd>        &quot;&quot;&quot;</span>
+</span><span id=__span-0-142><a id=__codelineno-0-142 name=__codelineno-0-142></a><span class=sd>        """</span>
 </span><span id=__span-0-143><a id=__codelineno-0-143 name=__codelineno-0-143></a>        <span class=n>flattened_patch</span> <span class=o>=</span> <span class=n>patch</span><span class=o>.</span><span class=n>reshape</span><span class=p>(</span><span class=bp>self</span><span class=o>.</span><span class=n>n_channels</span><span class=p>,</span> <span class=o>-</span><span class=mi>1</span><span class=p>)</span>
 </span><span id=__span-0-144><a id=__codelineno-0-144 name=__codelineno-0-144></a>
 </span><span id=__span-0-145><a id=__codelineno-0-145 name=__codelineno-0-145></a>        <span class=k>for</span> <span class=n>ch</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=bp>self</span><span class=o>.</span><span class=n>n_channels</span><span class=p>):</span>
@@ -422,7 +422,7 @@
 </span><span id=__span-0-186><a id=__codelineno-0-186 name=__codelineno-0-186></a>            <span class=bp>self</span><span class=o>.</span><span class=n>histograms</span><span class=p>[</span><span class=n>ch</span><span class=p>]</span> <span class=o>+=</span> <span class=n>hist</span>
 </span><span id=__span-0-187><a id=__codelineno-0-187 name=__codelineno-0-187></a>
 </span><span id=__span-0-188><a id=__codelineno-0-188 name=__codelineno-0-188></a>    <span class=k>def</span><span class=w> </span><span class=nf>_calculate_quantile</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>ch</span><span class=p>:</span> <span class=nb>int</span><span class=p>,</span> <span class=n>quantile</span><span class=p>:</span> <span class=nb>float</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>float</span><span class=p>:</span>
-</span><span id=__span-0-189><a id=__codelineno-0-189 name=__codelineno-0-189></a><span class=w>        </span><span class=sd>&quot;&quot;&quot;Compute a single quantile for channel `ch` from its histogram.</span>
+</span><span id=__span-0-189><a id=__codelineno-0-189 name=__codelineno-0-189></a><span class=w>        </span><span class=sd>"""Compute a single quantile for channel `ch` from its histogram.</span>
 </span><span id=__span-0-190><a id=__codelineno-0-190 name=__codelineno-0-190></a>
 </span><span id=__span-0-191><a id=__codelineno-0-191 name=__codelineno-0-191></a><span class=sd>        Parameters</span>
 </span><span id=__span-0-192><a id=__codelineno-0-192 name=__codelineno-0-192></a><span class=sd>        ----------</span>
@@ -435,7 +435,7 @@
 </span><span id=__span-0-199><a id=__codelineno-0-199 name=__codelineno-0-199></a><span class=sd>        -------</span>
 </span><span id=__span-0-200><a id=__codelineno-0-200 name=__codelineno-0-200></a><span class=sd>        float</span>
 </span><span id=__span-0-201><a id=__codelineno-0-201 name=__codelineno-0-201></a><span class=sd>            Quantile value.</span>
-</span><span id=__span-0-202><a id=__codelineno-0-202 name=__codelineno-0-202></a><span class=sd>        &quot;&quot;&quot;</span>
+</span><span id=__span-0-202><a id=__codelineno-0-202 name=__codelineno-0-202></a><span class=sd>        """</span>
 </span><span id=__span-0-203><a id=__codelineno-0-203 name=__codelineno-0-203></a>        <span class=k>if</span> <span class=bp>self</span><span class=o>.</span><span class=n>total_counts</span><span class=p>[</span><span class=n>ch</span><span class=p>]</span> <span class=o>==</span> <span class=mi>0</span><span class=p>:</span>
 </span><span id=__span-0-204><a id=__codelineno-0-204 name=__codelineno-0-204></a>            <span class=k>return</span> <span class=mf>0.0</span>
 </span><span id=__span-0-205><a id=__codelineno-0-205 name=__codelineno-0-205></a>
@@ -463,13 +463,13 @@
 </span><span id=__span-0-227><a id=__codelineno-0-227 name=__codelineno-0-227></a>        <span class=k>return</span> <span class=nb>float</span><span class=p>(</span><span class=n>bin_start</span> <span class=o>+</span> <span class=n>fraction</span> <span class=o>*</span> <span class=p>(</span><span class=n>bin_end</span> <span class=o>-</span> <span class=n>bin_start</span><span class=p>))</span>
 </span><span id=__span-0-228><a id=__codelineno-0-228 name=__codelineno-0-228></a>
 </span><span id=__span-0-229><a id=__codelineno-0-229 name=__codelineno-0-229></a>    <span class=k>def</span><span class=w> </span><span class=nf>finalize</span><span class=p>(</span><span class=bp>self</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>tuple</span><span class=p>[</span><span class=n>NDArray</span><span class=p>,</span> <span class=n>NDArray</span><span class=p>]:</span>
-</span><span id=__span-0-230><a id=__codelineno-0-230 name=__codelineno-0-230></a><span class=w>        </span><span class=sd>&quot;&quot;&quot;Return (lower_quantiles, upper_quantiles) arrays per channel.</span>
+</span><span id=__span-0-230><a id=__codelineno-0-230 name=__codelineno-0-230></a><span class=w>        </span><span class=sd>"""Return (lower_quantiles, upper_quantiles) arrays per channel.</span>
 </span><span id=__span-0-231><a id=__codelineno-0-231 name=__codelineno-0-231></a>
 </span><span id=__span-0-232><a id=__codelineno-0-232 name=__codelineno-0-232></a><span class=sd>        Returns</span>
 </span><span id=__span-0-233><a id=__codelineno-0-233 name=__codelineno-0-233></a><span class=sd>        -------</span>
 </span><span id=__span-0-234><a id=__codelineno-0-234 name=__codelineno-0-234></a><span class=sd>        tuple of numpy.ndarray</span>
 </span><span id=__span-0-235><a id=__codelineno-0-235 name=__codelineno-0-235></a><span class=sd>            (lower_quantiles, upper_quantiles) per channel.</span>
-</span><span id=__span-0-236><a id=__codelineno-0-236 name=__codelineno-0-236></a><span class=sd>        &quot;&quot;&quot;</span>
+</span><span id=__span-0-236><a id=__codelineno-0-236 name=__codelineno-0-236></a><span class=sd>        """</span>
 </span><span id=__span-0-237><a id=__codelineno-0-237 name=__codelineno-0-237></a>        <span class=n>lower</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>array</span><span class=p>(</span>
 </span><span id=__span-0-238><a id=__codelineno-0-238 name=__codelineno-0-238></a>            <span class=p>[</span>
 </span><span id=__span-0-239><a id=__codelineno-0-239 name=__codelineno-0-239></a>                <span class=bp>self</span><span class=o>.</span><span class=n>_calculate_quantile</span><span class=p>(</span><span class=n>ch</span><span class=p>,</span> <span class=bp>self</span><span class=o>.</span><span class=n>lower_quantiles</span><span class=p>[</span><span class=n>ch</span><span class=p>])</span>
@@ -522,7 +522,7 @@
 </span><span id=__span-0-26><a id=__codelineno-0-26 name=__codelineno-0-26></a>    <span class=n>n_bins</span><span class=p>:</span> <span class=nb>int</span> <span class=o>=</span> <span class=mi>65536</span><span class=p>,</span>
 </span><span id=__span-0-27><a id=__codelineno-0-27 name=__codelineno-0-27></a>    <span class=n>margin</span><span class=p>:</span> <span class=nb>float</span> <span class=o>=</span> <span class=mf>0.1</span><span class=p>,</span>
 </span><span id=__span-0-28><a id=__codelineno-0-28 name=__codelineno-0-28></a><span class=p>):</span>
-</span><span id=__span-0-29><a id=__codelineno-0-29 name=__codelineno-0-29></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Initialize histograms and bounds for streaming quantile estimation.</span>
+</span><span id=__span-0-29><a id=__codelineno-0-29 name=__codelineno-0-29></a><span class=w>    </span><span class=sd>"""Initialize histograms and bounds for streaming quantile estimation.</span>
 </span><span id=__span-0-30><a id=__codelineno-0-30 name=__codelineno-0-30></a>
 </span><span id=__span-0-31><a id=__codelineno-0-31 name=__codelineno-0-31></a><span class=sd>    Parameters</span>
 </span><span id=__span-0-32><a id=__codelineno-0-32 name=__codelineno-0-32></a><span class=sd>    ----------</span>
@@ -534,7 +534,7 @@
 </span><span id=__span-0-38><a id=__codelineno-0-38 name=__codelineno-0-38></a><span class=sd>        Number of histogram bins.</span>
 </span><span id=__span-0-39><a id=__codelineno-0-39 name=__codelineno-0-39></a><span class=sd>    margin : float, optional</span>
 </span><span id=__span-0-40><a id=__codelineno-0-40 name=__codelineno-0-40></a><span class=sd>        Fractional margin for histogram range.</span>
-</span><span id=__span-0-41><a id=__codelineno-0-41 name=__codelineno-0-41></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-41><a id=__codelineno-0-41 name=__codelineno-0-41></a><span class=sd>    """</span>
 </span><span id=__span-0-42><a id=__codelineno-0-42 name=__codelineno-0-42></a>    <span class=bp>self</span><span class=o>.</span><span class=n>n_bins</span> <span class=o>=</span> <span class=n>n_bins</span>
 </span><span id=__span-0-43><a id=__codelineno-0-43 name=__codelineno-0-43></a>    <span class=bp>self</span><span class=o>.</span><span class=n>n_channels</span> <span class=o>=</span> <span class=nb>len</span><span class=p>(</span><span class=n>lower_quantiles</span><span class=p>)</span>
 </span><span id=__span-0-44><a id=__codelineno-0-44 name=__codelineno-0-44></a>    <span class=bp>self</span><span class=o>.</span><span class=n>margin</span> <span class=o>=</span> <span class=n>margin</span>
@@ -569,13 +569,13 @@
 <span class=normal><a href=#__codelineno-0-247>247</a></span>
 <span class=normal><a href=#__codelineno-0-248>248</a></span>
 <span class=normal><a href=#__codelineno-0-249>249</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-229><a id=__codelineno-0-229 name=__codelineno-0-229></a><span class=k>def</span><span class=w> </span><span class=nf>finalize</span><span class=p>(</span><span class=bp>self</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>tuple</span><span class=p>[</span><span class=n>NDArray</span><span class=p>,</span> <span class=n>NDArray</span><span class=p>]:</span>
-</span><span id=__span-0-230><a id=__codelineno-0-230 name=__codelineno-0-230></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Return (lower_quantiles, upper_quantiles) arrays per channel.</span>
+</span><span id=__span-0-230><a id=__codelineno-0-230 name=__codelineno-0-230></a><span class=w>    </span><span class=sd>"""Return (lower_quantiles, upper_quantiles) arrays per channel.</span>
 </span><span id=__span-0-231><a id=__codelineno-0-231 name=__codelineno-0-231></a>
 </span><span id=__span-0-232><a id=__codelineno-0-232 name=__codelineno-0-232></a><span class=sd>    Returns</span>
 </span><span id=__span-0-233><a id=__codelineno-0-233 name=__codelineno-0-233></a><span class=sd>    -------</span>
 </span><span id=__span-0-234><a id=__codelineno-0-234 name=__codelineno-0-234></a><span class=sd>    tuple of numpy.ndarray</span>
 </span><span id=__span-0-235><a id=__codelineno-0-235 name=__codelineno-0-235></a><span class=sd>        (lower_quantiles, upper_quantiles) per channel.</span>
-</span><span id=__span-0-236><a id=__codelineno-0-236 name=__codelineno-0-236></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-236><a id=__codelineno-0-236 name=__codelineno-0-236></a><span class=sd>    """</span>
 </span><span id=__span-0-237><a id=__codelineno-0-237 name=__codelineno-0-237></a>    <span class=n>lower</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>array</span><span class=p>(</span>
 </span><span id=__span-0-238><a id=__codelineno-0-238 name=__codelineno-0-238></a>        <span class=p>[</span>
 </span><span id=__span-0-239><a id=__codelineno-0-239 name=__codelineno-0-239></a>            <span class=bp>self</span><span class=o>.</span><span class=n>_calculate_quantile</span><span class=p>(</span><span class=n>ch</span><span class=p>,</span> <span class=bp>self</span><span class=o>.</span><span class=n>lower_quantiles</span><span class=p>[</span><span class=n>ch</span><span class=p>])</span>
@@ -641,13 +641,13 @@
 <span class=normal><a href=#__codelineno-0-184>184</a></span>
 <span class=normal><a href=#__codelineno-0-185>185</a></span>
 <span class=normal><a href=#__codelineno-0-186>186</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-135><a id=__codelineno-0-135 name=__codelineno-0-135></a><span class=k>def</span><span class=w> </span><span class=nf>update</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>patch</span><span class=p>:</span> <span class=n>NDArray</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=kc>None</span><span class=p>:</span>
-</span><span id=__span-0-136><a id=__codelineno-0-136 name=__codelineno-0-136></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Update histograms and bounds with a single patch.</span>
+</span><span id=__span-0-136><a id=__codelineno-0-136 name=__codelineno-0-136></a><span class=w>    </span><span class=sd>"""Update histograms and bounds with a single patch.</span>
 </span><span id=__span-0-137><a id=__codelineno-0-137 name=__codelineno-0-137></a>
 </span><span id=__span-0-138><a id=__codelineno-0-138 name=__codelineno-0-138></a><span class=sd>    Parameters</span>
 </span><span id=__span-0-139><a id=__codelineno-0-139 name=__codelineno-0-139></a><span class=sd>    ----------</span>
 </span><span id=__span-0-140><a id=__codelineno-0-140 name=__codelineno-0-140></a><span class=sd>    patch : numpy.ndarray</span>
 </span><span id=__span-0-141><a id=__codelineno-0-141 name=__codelineno-0-141></a><span class=sd>        Patch with shape C(Z)YX.</span>
-</span><span id=__span-0-142><a id=__codelineno-0-142 name=__codelineno-0-142></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-142><a id=__codelineno-0-142 name=__codelineno-0-142></a><span class=sd>    """</span>
 </span><span id=__span-0-143><a id=__codelineno-0-143 name=__codelineno-0-143></a>    <span class=n>flattened_patch</span> <span class=o>=</span> <span class=n>patch</span><span class=o>.</span><span class=n>reshape</span><span class=p>(</span><span class=bp>self</span><span class=o>.</span><span class=n>n_channels</span><span class=p>,</span> <span class=o>-</span><span class=mi>1</span><span class=p>)</span>
 </span><span id=__span-0-144><a id=__codelineno-0-144 name=__codelineno-0-144></a>
 </span><span id=__span-0-145><a id=__codelineno-0-145 name=__codelineno-0-145></a>    <span class=k>for</span> <span class=n>ch</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=bp>self</span><span class=o>.</span><span class=n>n_channels</span><span class=p>):</span>

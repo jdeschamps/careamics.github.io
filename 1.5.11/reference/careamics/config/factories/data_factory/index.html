@@ -126,7 +126,7 @@
 <span class=normal><a href=#__codelineno-0-199>199</a></span>
 <span class=normal><a href=#__codelineno-0-200>200</a></span>
 <span class=normal><a href=#__codelineno-0-201>201</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-78><a id=__codelineno-0-78 name=__codelineno-0-78></a><span class=k>def</span><span class=w> </span><span class=nf>create_data_configuration</span><span class=p>(</span>
-</span><span id=__span-0-79><a id=__codelineno-0-79 name=__codelineno-0-79></a>    <span class=n>data_type</span><span class=p>:</span> <span class=n>Literal</span><span class=p>[</span><span class=s2>&quot;array&quot;</span><span class=p>,</span> <span class=s2>&quot;tiff&quot;</span><span class=p>,</span> <span class=s2>&quot;zarr&quot;</span><span class=p>,</span> <span class=s2>&quot;czi&quot;</span><span class=p>,</span> <span class=s2>&quot;custom&quot;</span><span class=p>],</span>
+</span><span id=__span-0-79><a id=__codelineno-0-79 name=__codelineno-0-79></a>    <span class=n>data_type</span><span class=p>:</span> <span class=n>Literal</span><span class=p>[</span><span class=s2>"array"</span><span class=p>,</span> <span class=s2>"tiff"</span><span class=p>,</span> <span class=s2>"zarr"</span><span class=p>,</span> <span class=s2>"czi"</span><span class=p>,</span> <span class=s2>"custom"</span><span class=p>],</span>
 </span><span id=__span-0-80><a id=__codelineno-0-80 name=__codelineno-0-80></a>    <span class=n>axes</span><span class=p>:</span> <span class=nb>str</span><span class=p>,</span>
 </span><span id=__span-0-81><a id=__codelineno-0-81 name=__codelineno-0-81></a>    <span class=n>patch_size</span><span class=p>:</span> <span class=n>Sequence</span><span class=p>[</span><span class=nb>int</span><span class=p>],</span>
 </span><span id=__span-0-82><a id=__codelineno-0-82 name=__codelineno-0-82></a>    <span class=n>batch_size</span><span class=p>:</span> <span class=nb>int</span><span class=p>,</span>
@@ -143,7 +143,7 @@
 </span><span id=__span-0-93><a id=__codelineno-0-93 name=__codelineno-0-93></a>    <span class=n>pred_dataloader_params</span><span class=p>:</span> <span class=nb>dict</span><span class=p>[</span><span class=nb>str</span><span class=p>,</span> <span class=n>Any</span><span class=p>]</span> <span class=o>|</span> <span class=kc>None</span> <span class=o>=</span> <span class=kc>None</span><span class=p>,</span>
 </span><span id=__span-0-94><a id=__codelineno-0-94 name=__codelineno-0-94></a>    <span class=n>seed</span><span class=p>:</span> <span class=nb>int</span> <span class=o>|</span> <span class=kc>None</span> <span class=o>=</span> <span class=kc>None</span><span class=p>,</span>
 </span><span id=__span-0-95><a id=__codelineno-0-95 name=__codelineno-0-95></a><span class=p>)</span> <span class=o>-&gt;</span> <span class=n>DataConfig</span><span class=p>:</span>
-</span><span id=__span-0-96><a id=__codelineno-0-96 name=__codelineno-0-96></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;</span>
+</span><span id=__span-0-96><a id=__codelineno-0-96 name=__codelineno-0-96></a><span class=w>    </span><span class=sd>"""</span>
 </span><span id=__span-0-97><a id=__codelineno-0-97 name=__codelineno-0-97></a><span class=sd>    Create a training DataConfig.</span>
 </span><span id=__span-0-98><a id=__codelineno-0-98 name=__codelineno-0-98></a>
 </span><span id=__span-0-99><a id=__codelineno-0-99 name=__codelineno-0-99></a><span class=sd>    Note that `num_workers` is applied to all dataloaders unless explicitly overridden</span>
@@ -151,7 +151,7 @@
 </span><span id=__span-0-101><a id=__codelineno-0-101 name=__codelineno-0-101></a>
 </span><span id=__span-0-102><a id=__codelineno-0-102 name=__codelineno-0-102></a><span class=sd>    Parameters</span>
 </span><span id=__span-0-103><a id=__codelineno-0-103 name=__codelineno-0-103></a><span class=sd>    ----------</span>
-</span><span id=__span-0-104><a id=__codelineno-0-104 name=__codelineno-0-104></a><span class=sd>    data_type : {&quot;array&quot;, &quot;tiff&quot;, &quot;zarr&quot;, &quot;czi&quot;, &quot;custom&quot;}</span>
+</span><span id=__span-0-104><a id=__codelineno-0-104 name=__codelineno-0-104></a><span class=sd>    data_type : {"array", "tiff", "zarr", "czi", "custom"}</span>
 </span><span id=__span-0-105><a id=__codelineno-0-105 name=__codelineno-0-105></a><span class=sd>        Type of the data.</span>
 </span><span id=__span-0-106><a id=__codelineno-0-106 name=__codelineno-0-106></a><span class=sd>    axes : str</span>
 </span><span id=__span-0-107><a id=__codelineno-0-107 name=__codelineno-0-107></a><span class=sd>        Axes of the data.</span>
@@ -174,9 +174,9 @@
 </span><span id=__span-0-124><a id=__codelineno-0-124 name=__codelineno-0-124></a><span class=sd>    channels : Sequence of int, default=None</span>
 </span><span id=__span-0-125><a id=__codelineno-0-125 name=__codelineno-0-125></a><span class=sd>        List of channels to use. If `None`, all channels are used.</span>
 </span><span id=__span-0-126><a id=__codelineno-0-126 name=__codelineno-0-126></a><span class=sd>    in_memory : bool, default=None</span>
-</span><span id=__span-0-127><a id=__codelineno-0-127 name=__codelineno-0-127></a><span class=sd>        Whether to load all data into memory. This is only supported for &#39;array&#39;,</span>
-</span><span id=__span-0-128><a id=__codelineno-0-128 name=__codelineno-0-128></a><span class=sd>        &#39;tiff&#39; and &#39;custom&#39; data types. If `None`, defaults to `True` for &#39;array&#39;,</span>
-</span><span id=__span-0-129><a id=__codelineno-0-129 name=__codelineno-0-129></a><span class=sd>        &#39;tiff&#39; and `custom`, and `False` for &#39;zarr&#39; and &#39;czi&#39; data types. Must be `True`</span>
+</span><span id=__span-0-127><a id=__codelineno-0-127 name=__codelineno-0-127></a><span class=sd>        Whether to load all data into memory. This is only supported for 'array',</span>
+</span><span id=__span-0-128><a id=__codelineno-0-128 name=__codelineno-0-128></a><span class=sd>        'tiff' and 'custom' data types. If `None`, defaults to `True` for 'array',</span>
+</span><span id=__span-0-129><a id=__codelineno-0-129 name=__codelineno-0-129></a><span class=sd>        'tiff' and `custom`, and `False` for 'zarr' and 'czi' data types. Must be `True`</span>
 </span><span id=__span-0-130><a id=__codelineno-0-130 name=__codelineno-0-130></a><span class=sd>        for `array`.</span>
 </span><span id=__span-0-131><a id=__codelineno-0-131 name=__codelineno-0-131></a><span class=sd>    n_val_patches : int, default=8,</span>
 </span><span id=__span-0-132><a id=__codelineno-0-132 name=__codelineno-0-132></a><span class=sd>        The number of patches to set aside for validation during training. This</span>
@@ -197,7 +197,7 @@
 </span><span id=__span-0-147><a id=__codelineno-0-147 name=__codelineno-0-147></a><span class=sd>    -------</span>
 </span><span id=__span-0-148><a id=__codelineno-0-148 name=__codelineno-0-148></a><span class=sd>    DataConfig</span>
 </span><span id=__span-0-149><a id=__codelineno-0-149 name=__codelineno-0-149></a><span class=sd>        Next-Generation Data model with the specified parameters.</span>
-</span><span id=__span-0-150><a id=__codelineno-0-150 name=__codelineno-0-150></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-150><a id=__codelineno-0-150 name=__codelineno-0-150></a><span class=sd>    """</span>
 </span><span id=__span-0-151><a id=__codelineno-0-151 name=__codelineno-0-151></a>    <span class=k>if</span> <span class=n>seed</span> <span class=ow>is</span> <span class=kc>None</span><span class=p>:</span>
 </span><span id=__span-0-152><a id=__codelineno-0-152 name=__codelineno-0-152></a>        <span class=n>seed</span> <span class=o>=</span> <span class=n>generate_random_seed</span><span class=p>()</span>
 </span><span id=__span-0-153><a id=__codelineno-0-153 name=__codelineno-0-153></a>
@@ -206,46 +206,46 @@
 </span><span id=__span-0-156><a id=__codelineno-0-156 name=__codelineno-0-156></a>
 </span><span id=__span-0-157><a id=__codelineno-0-157 name=__codelineno-0-157></a>    <span class=c1># data model</span>
 </span><span id=__span-0-158><a id=__codelineno-0-158 name=__codelineno-0-158></a>    <span class=n>data</span><span class=p>:</span> <span class=nb>dict</span><span class=p>[</span><span class=nb>str</span><span class=p>,</span> <span class=n>Any</span><span class=p>]</span> <span class=o>=</span> <span class=p>{</span>
-</span><span id=__span-0-159><a id=__codelineno-0-159 name=__codelineno-0-159></a>        <span class=s2>&quot;mode&quot;</span><span class=p>:</span> <span class=s2>&quot;training&quot;</span><span class=p>,</span>
-</span><span id=__span-0-160><a id=__codelineno-0-160 name=__codelineno-0-160></a>        <span class=s2>&quot;data_type&quot;</span><span class=p>:</span> <span class=n>data_type</span><span class=p>,</span>
-</span><span id=__span-0-161><a id=__codelineno-0-161 name=__codelineno-0-161></a>        <span class=s2>&quot;axes&quot;</span><span class=p>:</span> <span class=n>axes</span><span class=p>,</span>
-</span><span id=__span-0-162><a id=__codelineno-0-162 name=__codelineno-0-162></a>        <span class=s2>&quot;target_axes&quot;</span><span class=p>:</span> <span class=n>target_axes</span><span class=p>,</span>
-</span><span id=__span-0-163><a id=__codelineno-0-163 name=__codelineno-0-163></a>        <span class=s2>&quot;batch_size&quot;</span><span class=p>:</span> <span class=n>batch_size</span><span class=p>,</span>
-</span><span id=__span-0-164><a id=__codelineno-0-164 name=__codelineno-0-164></a>        <span class=s2>&quot;channels&quot;</span><span class=p>:</span> <span class=n>channels</span><span class=p>,</span>
-</span><span id=__span-0-165><a id=__codelineno-0-165 name=__codelineno-0-165></a>        <span class=s2>&quot;augmentations&quot;</span><span class=p>:</span> <span class=n>augmentations</span><span class=p>,</span>
-</span><span id=__span-0-166><a id=__codelineno-0-166 name=__codelineno-0-166></a>        <span class=s2>&quot;n_val_patches&quot;</span><span class=p>:</span> <span class=n>n_val_patches</span><span class=p>,</span>
-</span><span id=__span-0-167><a id=__codelineno-0-167 name=__codelineno-0-167></a>        <span class=s2>&quot;seed&quot;</span><span class=p>:</span> <span class=n>seed</span><span class=p>,</span>
-</span><span id=__span-0-168><a id=__codelineno-0-168 name=__codelineno-0-168></a>        <span class=s2>&quot;normalization&quot;</span><span class=p>:</span> <span class=p>(</span>
-</span><span id=__span-0-169><a id=__codelineno-0-169 name=__codelineno-0-169></a>            <span class=n>normalization</span> <span class=k>if</span> <span class=n>normalization</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span> <span class=k>else</span> <span class=p>{</span><span class=s2>&quot;name&quot;</span><span class=p>:</span> <span class=s2>&quot;mean_std&quot;</span><span class=p>}</span>
+</span><span id=__span-0-159><a id=__codelineno-0-159 name=__codelineno-0-159></a>        <span class=s2>"mode"</span><span class=p>:</span> <span class=s2>"training"</span><span class=p>,</span>
+</span><span id=__span-0-160><a id=__codelineno-0-160 name=__codelineno-0-160></a>        <span class=s2>"data_type"</span><span class=p>:</span> <span class=n>data_type</span><span class=p>,</span>
+</span><span id=__span-0-161><a id=__codelineno-0-161 name=__codelineno-0-161></a>        <span class=s2>"axes"</span><span class=p>:</span> <span class=n>axes</span><span class=p>,</span>
+</span><span id=__span-0-162><a id=__codelineno-0-162 name=__codelineno-0-162></a>        <span class=s2>"target_axes"</span><span class=p>:</span> <span class=n>target_axes</span><span class=p>,</span>
+</span><span id=__span-0-163><a id=__codelineno-0-163 name=__codelineno-0-163></a>        <span class=s2>"batch_size"</span><span class=p>:</span> <span class=n>batch_size</span><span class=p>,</span>
+</span><span id=__span-0-164><a id=__codelineno-0-164 name=__codelineno-0-164></a>        <span class=s2>"channels"</span><span class=p>:</span> <span class=n>channels</span><span class=p>,</span>
+</span><span id=__span-0-165><a id=__codelineno-0-165 name=__codelineno-0-165></a>        <span class=s2>"augmentations"</span><span class=p>:</span> <span class=n>augmentations</span><span class=p>,</span>
+</span><span id=__span-0-166><a id=__codelineno-0-166 name=__codelineno-0-166></a>        <span class=s2>"n_val_patches"</span><span class=p>:</span> <span class=n>n_val_patches</span><span class=p>,</span>
+</span><span id=__span-0-167><a id=__codelineno-0-167 name=__codelineno-0-167></a>        <span class=s2>"seed"</span><span class=p>:</span> <span class=n>seed</span><span class=p>,</span>
+</span><span id=__span-0-168><a id=__codelineno-0-168 name=__codelineno-0-168></a>        <span class=s2>"normalization"</span><span class=p>:</span> <span class=p>(</span>
+</span><span id=__span-0-169><a id=__codelineno-0-169 name=__codelineno-0-169></a>            <span class=n>normalization</span> <span class=k>if</span> <span class=n>normalization</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span> <span class=k>else</span> <span class=p>{</span><span class=s2>"name"</span><span class=p>:</span> <span class=s2>"mean_std"</span><span class=p>}</span>
 </span><span id=__span-0-170><a id=__codelineno-0-170 name=__codelineno-0-170></a>        <span class=p>),</span>
 </span><span id=__span-0-171><a id=__codelineno-0-171 name=__codelineno-0-171></a>    <span class=p>}</span>
 </span><span id=__span-0-172><a id=__codelineno-0-172 name=__codelineno-0-172></a>
 </span><span id=__span-0-173><a id=__codelineno-0-173 name=__codelineno-0-173></a>    <span class=k>if</span> <span class=n>patch_filter_config</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span><span class=p>:</span>
-</span><span id=__span-0-174><a id=__codelineno-0-174 name=__codelineno-0-174></a>        <span class=n>data</span><span class=p>[</span><span class=s2>&quot;patch_filter&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=n>patch_filter_config</span>
+</span><span id=__span-0-174><a id=__codelineno-0-174 name=__codelineno-0-174></a>        <span class=n>data</span><span class=p>[</span><span class=s2>"patch_filter"</span><span class=p>]</span> <span class=o>=</span> <span class=n>patch_filter_config</span>
 </span><span id=__span-0-175><a id=__codelineno-0-175 name=__codelineno-0-175></a>
 </span><span id=__span-0-176><a id=__codelineno-0-176 name=__codelineno-0-176></a>    <span class=k>if</span> <span class=n>in_memory</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span><span class=p>:</span>
-</span><span id=__span-0-177><a id=__codelineno-0-177 name=__codelineno-0-177></a>        <span class=n>data</span><span class=p>[</span><span class=s2>&quot;in_memory&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=n>in_memory</span>
+</span><span id=__span-0-177><a id=__codelineno-0-177 name=__codelineno-0-177></a>        <span class=n>data</span><span class=p>[</span><span class=s2>"in_memory"</span><span class=p>]</span> <span class=o>=</span> <span class=n>in_memory</span>
 </span><span id=__span-0-178><a id=__codelineno-0-178 name=__codelineno-0-178></a>
 </span><span id=__span-0-179><a id=__codelineno-0-179 name=__codelineno-0-179></a>    <span class=k>if</span> <span class=n>num_workers</span> <span class=o>!=</span> <span class=o>-</span><span class=mi>1</span><span class=p>:</span>
-</span><span id=__span-0-180><a id=__codelineno-0-180 name=__codelineno-0-180></a>        <span class=n>data</span><span class=p>[</span><span class=s2>&quot;num_workers&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=n>num_workers</span>
+</span><span id=__span-0-180><a id=__codelineno-0-180 name=__codelineno-0-180></a>        <span class=n>data</span><span class=p>[</span><span class=s2>"num_workers"</span><span class=p>]</span> <span class=o>=</span> <span class=n>num_workers</span>
 </span><span id=__span-0-181><a id=__codelineno-0-181 name=__codelineno-0-181></a>
 </span><span id=__span-0-182><a id=__codelineno-0-182 name=__codelineno-0-182></a>    <span class=k>if</span> <span class=n>train_dataloader_params</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span><span class=p>:</span>
-</span><span id=__span-0-183><a id=__codelineno-0-183 name=__codelineno-0-183></a>        <span class=k>if</span> <span class=s2>&quot;shuffle&quot;</span> <span class=ow>not</span> <span class=ow>in</span> <span class=n>train_dataloader_params</span><span class=p>:</span>
-</span><span id=__span-0-184><a id=__codelineno-0-184 name=__codelineno-0-184></a>            <span class=n>train_dataloader_params</span><span class=p>[</span><span class=s2>&quot;shuffle&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=kc>True</span>
-</span><span id=__span-0-185><a id=__codelineno-0-185 name=__codelineno-0-185></a>        <span class=n>data</span><span class=p>[</span><span class=s2>&quot;train_dataloader_params&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=n>train_dataloader_params</span>
+</span><span id=__span-0-183><a id=__codelineno-0-183 name=__codelineno-0-183></a>        <span class=k>if</span> <span class=s2>"shuffle"</span> <span class=ow>not</span> <span class=ow>in</span> <span class=n>train_dataloader_params</span><span class=p>:</span>
+</span><span id=__span-0-184><a id=__codelineno-0-184 name=__codelineno-0-184></a>            <span class=n>train_dataloader_params</span><span class=p>[</span><span class=s2>"shuffle"</span><span class=p>]</span> <span class=o>=</span> <span class=kc>True</span>
+</span><span id=__span-0-185><a id=__codelineno-0-185 name=__codelineno-0-185></a>        <span class=n>data</span><span class=p>[</span><span class=s2>"train_dataloader_params"</span><span class=p>]</span> <span class=o>=</span> <span class=n>train_dataloader_params</span>
 </span><span id=__span-0-186><a id=__codelineno-0-186 name=__codelineno-0-186></a>    <span class=k>else</span><span class=p>:</span>
-</span><span id=__span-0-187><a id=__codelineno-0-187 name=__codelineno-0-187></a>        <span class=n>data</span><span class=p>[</span><span class=s2>&quot;train_dataloader_params&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=p>{</span><span class=s2>&quot;shuffle&quot;</span><span class=p>:</span> <span class=kc>True</span><span class=p>}</span>
+</span><span id=__span-0-187><a id=__codelineno-0-187 name=__codelineno-0-187></a>        <span class=n>data</span><span class=p>[</span><span class=s2>"train_dataloader_params"</span><span class=p>]</span> <span class=o>=</span> <span class=p>{</span><span class=s2>"shuffle"</span><span class=p>:</span> <span class=kc>True</span><span class=p>}</span>
 </span><span id=__span-0-188><a id=__codelineno-0-188 name=__codelineno-0-188></a>
 </span><span id=__span-0-189><a id=__codelineno-0-189 name=__codelineno-0-189></a>    <span class=k>if</span> <span class=n>val_dataloader_params</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span><span class=p>:</span>
-</span><span id=__span-0-190><a id=__codelineno-0-190 name=__codelineno-0-190></a>        <span class=n>data</span><span class=p>[</span><span class=s2>&quot;val_dataloader_params&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=n>val_dataloader_params</span>
+</span><span id=__span-0-190><a id=__codelineno-0-190 name=__codelineno-0-190></a>        <span class=n>data</span><span class=p>[</span><span class=s2>"val_dataloader_params"</span><span class=p>]</span> <span class=o>=</span> <span class=n>val_dataloader_params</span>
 </span><span id=__span-0-191><a id=__codelineno-0-191 name=__codelineno-0-191></a>
 </span><span id=__span-0-192><a id=__codelineno-0-192 name=__codelineno-0-192></a>    <span class=k>if</span> <span class=n>pred_dataloader_params</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span><span class=p>:</span>
-</span><span id=__span-0-193><a id=__codelineno-0-193 name=__codelineno-0-193></a>        <span class=n>data</span><span class=p>[</span><span class=s2>&quot;pred_dataloader_params&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=n>pred_dataloader_params</span>
+</span><span id=__span-0-193><a id=__codelineno-0-193 name=__codelineno-0-193></a>        <span class=n>data</span><span class=p>[</span><span class=s2>"pred_dataloader_params"</span><span class=p>]</span> <span class=o>=</span> <span class=n>pred_dataloader_params</span>
 </span><span id=__span-0-194><a id=__codelineno-0-194 name=__codelineno-0-194></a>
 </span><span id=__span-0-195><a id=__codelineno-0-195 name=__codelineno-0-195></a>    <span class=c1># add training patching</span>
-</span><span id=__span-0-196><a id=__codelineno-0-196 name=__codelineno-0-196></a>    <span class=n>data</span><span class=p>[</span><span class=s2>&quot;patching&quot;</span><span class=p>]</span> <span class=o>=</span> <span class=p>{</span>
-</span><span id=__span-0-197><a id=__codelineno-0-197 name=__codelineno-0-197></a>        <span class=s2>&quot;name&quot;</span><span class=p>:</span> <span class=s2>&quot;stratified&quot;</span><span class=p>,</span>
-</span><span id=__span-0-198><a id=__codelineno-0-198 name=__codelineno-0-198></a>        <span class=s2>&quot;patch_size&quot;</span><span class=p>:</span> <span class=n>patch_size</span><span class=p>,</span>
+</span><span id=__span-0-196><a id=__codelineno-0-196 name=__codelineno-0-196></a>    <span class=n>data</span><span class=p>[</span><span class=s2>"patching"</span><span class=p>]</span> <span class=o>=</span> <span class=p>{</span>
+</span><span id=__span-0-197><a id=__codelineno-0-197 name=__codelineno-0-197></a>        <span class=s2>"name"</span><span class=p>:</span> <span class=s2>"stratified"</span><span class=p>,</span>
+</span><span id=__span-0-198><a id=__codelineno-0-198 name=__codelineno-0-198></a>        <span class=s2>"patch_size"</span><span class=p>:</span> <span class=n>patch_size</span><span class=p>,</span>
 </span><span id=__span-0-199><a id=__codelineno-0-199 name=__codelineno-0-199></a>    <span class=p>}</span>
 </span><span id=__span-0-200><a id=__codelineno-0-200 name=__codelineno-0-200></a>
 </span><span id=__span-0-201><a id=__codelineno-0-201 name=__codelineno-0-201></a>    <span class=k>return</span> <span class=n>DataConfig</span><span class=p>(</span><span class=o>**</span><span class=n>data</span><span class=p>)</span>
@@ -303,7 +303,7 @@
 </span><span id=__span-0-26><a id=__codelineno-0-26 name=__codelineno-0-26></a>    <span class=n>augmentations</span><span class=p>:</span> <span class=nb>list</span><span class=p>[</span><span class=n>SPATIAL_TRANSFORMS_UNION</span><span class=p>]</span> <span class=o>|</span> <span class=kc>None</span> <span class=o>=</span> <span class=kc>None</span><span class=p>,</span>
 </span><span id=__span-0-27><a id=__codelineno-0-27 name=__codelineno-0-27></a>    <span class=n>seed</span><span class=p>:</span> <span class=nb>int</span> <span class=o>|</span> <span class=kc>None</span> <span class=o>=</span> <span class=kc>None</span><span class=p>,</span>
 </span><span id=__span-0-28><a id=__codelineno-0-28 name=__codelineno-0-28></a><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>list</span><span class=p>[</span><span class=n>SPATIAL_TRANSFORMS_UNION</span><span class=p>]:</span>
-</span><span id=__span-0-29><a id=__codelineno-0-29 name=__codelineno-0-29></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;</span>
+</span><span id=__span-0-29><a id=__codelineno-0-29 name=__codelineno-0-29></a><span class=w>    </span><span class=sd>"""</span>
 </span><span id=__span-0-30><a id=__codelineno-0-30 name=__codelineno-0-30></a><span class=sd>    List the augmentations to apply.</span>
 </span><span id=__span-0-31><a id=__codelineno-0-31 name=__codelineno-0-31></a>
 </span><span id=__span-0-32><a id=__codelineno-0-32 name=__codelineno-0-32></a><span class=sd>    Parameters</span>
@@ -325,7 +325,7 @@
 </span><span id=__span-0-48><a id=__codelineno-0-48 name=__codelineno-0-48></a><span class=sd>        If the augmentations are not XYFlipConfig or XYRandomRotate90Config.</span>
 </span><span id=__span-0-49><a id=__codelineno-0-49 name=__codelineno-0-49></a><span class=sd>    ValueError</span>
 </span><span id=__span-0-50><a id=__codelineno-0-50 name=__codelineno-0-50></a><span class=sd>        If there are duplicate augmentations.</span>
-</span><span id=__span-0-51><a id=__codelineno-0-51 name=__codelineno-0-51></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-51><a id=__codelineno-0-51 name=__codelineno-0-51></a><span class=sd>    """</span>
 </span><span id=__span-0-52><a id=__codelineno-0-52 name=__codelineno-0-52></a>    <span class=k>if</span> <span class=n>augmentations</span> <span class=ow>is</span> <span class=kc>None</span><span class=p>:</span>
 </span><span id=__span-0-53><a id=__codelineno-0-53 name=__codelineno-0-53></a>        <span class=n>transform_list</span><span class=p>:</span> <span class=nb>list</span><span class=p>[</span><span class=n>SPATIAL_TRANSFORMS_UNION</span><span class=p>]</span> <span class=o>=</span> <span class=p>[</span>
 </span><span id=__span-0-54><a id=__codelineno-0-54 name=__codelineno-0-54></a>            <span class=n>XYFlipConfig</span><span class=p>(</span><span class=n>seed</span><span class=o>=</span><span class=n>seed</span><span class=p>),</span>
@@ -338,14 +338,14 @@
 </span><span id=__span-0-61><a id=__codelineno-0-61 name=__codelineno-0-61></a>            <span class=k>for</span> <span class=n>t</span> <span class=ow>in</span> <span class=n>augmentations</span>
 </span><span id=__span-0-62><a id=__codelineno-0-62 name=__codelineno-0-62></a>        <span class=p>):</span>
 </span><span id=__span-0-63><a id=__codelineno-0-63 name=__codelineno-0-63></a>            <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span>
-</span><span id=__span-0-64><a id=__codelineno-0-64 name=__codelineno-0-64></a>                <span class=s2>&quot;Accepted augmentations are either XYFlipConfig or &quot;</span>
-</span><span id=__span-0-65><a id=__codelineno-0-65 name=__codelineno-0-65></a>                <span class=s2>&quot;XYRandomRotate90Config.&quot;</span>
+</span><span id=__span-0-64><a id=__codelineno-0-64 name=__codelineno-0-64></a>                <span class=s2>"Accepted augmentations are either XYFlipConfig or "</span>
+</span><span id=__span-0-65><a id=__codelineno-0-65 name=__codelineno-0-65></a>                <span class=s2>"XYRandomRotate90Config."</span>
 </span><span id=__span-0-66><a id=__codelineno-0-66 name=__codelineno-0-66></a>            <span class=p>)</span>
 </span><span id=__span-0-67><a id=__codelineno-0-67 name=__codelineno-0-67></a>
 </span><span id=__span-0-68><a id=__codelineno-0-68 name=__codelineno-0-68></a>        <span class=c1># check that there is no duplication</span>
 </span><span id=__span-0-69><a id=__codelineno-0-69 name=__codelineno-0-69></a>        <span class=n>aug_types</span> <span class=o>=</span> <span class=p>[</span><span class=n>t</span><span class=o>.</span><span class=vm>__class__</span> <span class=k>for</span> <span class=n>t</span> <span class=ow>in</span> <span class=n>augmentations</span><span class=p>]</span>
 </span><span id=__span-0-70><a id=__codelineno-0-70 name=__codelineno-0-70></a>        <span class=k>if</span> <span class=nb>len</span><span class=p>(</span><span class=nb>set</span><span class=p>(</span><span class=n>aug_types</span><span class=p>))</span> <span class=o>!=</span> <span class=nb>len</span><span class=p>(</span><span class=n>aug_types</span><span class=p>):</span>
-</span><span id=__span-0-71><a id=__codelineno-0-71 name=__codelineno-0-71></a>            <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span><span class=s2>&quot;Duplicate augmentations are not allowed.&quot;</span><span class=p>)</span>
+</span><span id=__span-0-71><a id=__codelineno-0-71 name=__codelineno-0-71></a>            <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span><span class=s2>"Duplicate augmentations are not allowed."</span><span class=p>)</span>
 </span><span id=__span-0-72><a id=__codelineno-0-72 name=__codelineno-0-72></a>
 </span><span id=__span-0-73><a id=__codelineno-0-73 name=__codelineno-0-73></a>        <span class=n>transform_list</span> <span class=o>=</span> <span class=n>augmentations</span>
 </span><span id=__span-0-74><a id=__codelineno-0-74 name=__codelineno-0-74></a>

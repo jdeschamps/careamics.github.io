@@ -18,7 +18,7 @@
 <span class=normal><a href=#__codelineno-0-22>22</a></span>
 <span class=normal><a href=#__codelineno-0-23>23</a></span>
 <span class=normal><a href=#__codelineno-0-24>24</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-5><a id=__codelineno-0-5 name=__codelineno-0-5></a><span class=k>def</span><span class=w> </span><span class=nf>get_prediction_samples</span><span class=p>(</span><span class=n>predictions</span><span class=p>:</span> <span class=n>NDArray</span> <span class=o>|</span> <span class=nb>list</span><span class=p>[</span><span class=n>NDArray</span><span class=p>])</span> <span class=o>-&gt;</span> <span class=nb>list</span><span class=p>[</span><span class=n>NDArray</span><span class=p>]:</span>
-</span><span id=__span-0-6><a id=__codelineno-0-6 name=__codelineno-0-6></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Make sure predictions are a list of numpy arrays and merge them if possible.</span>
+</span><span id=__span-0-6><a id=__codelineno-0-6 name=__codelineno-0-6></a><span class=w>    </span><span class=sd>"""Make sure predictions are a list of numpy arrays and merge them if possible.</span>
 </span><span id=__span-0-7><a id=__codelineno-0-7 name=__codelineno-0-7></a>
 </span><span id=__span-0-8><a id=__codelineno-0-8 name=__codelineno-0-8></a><span class=sd>    Parameters</span>
 </span><span id=__span-0-9><a id=__codelineno-0-9 name=__codelineno-0-9></a><span class=sd>    ----------</span>
@@ -27,7 +27,7 @@
 </span><span id=__span-0-12><a id=__codelineno-0-12 name=__codelineno-0-12></a><span class=sd>    Returns</span>
 </span><span id=__span-0-13><a id=__codelineno-0-13 name=__codelineno-0-13></a><span class=sd>    -------</span>
 </span><span id=__span-0-14><a id=__codelineno-0-14 name=__codelineno-0-14></a><span class=sd>        list[NDArray]: a list of numpy arrays</span>
-</span><span id=__span-0-15><a id=__codelineno-0-15 name=__codelineno-0-15></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-15><a id=__codelineno-0-15 name=__codelineno-0-15></a><span class=sd>    """</span>
 </span><span id=__span-0-16><a id=__codelineno-0-16 name=__codelineno-0-16></a>    <span class=k>if</span> <span class=nb>isinstance</span><span class=p>(</span><span class=n>predictions</span><span class=p>,</span> <span class=nb>list</span><span class=p>):</span>
 </span><span id=__span-0-17><a id=__codelineno-0-17 name=__codelineno-0-17></a>        <span class=c1># try to merge them into one array</span>
 </span><span id=__span-0-18><a id=__codelineno-0-18 name=__codelineno-0-18></a>        <span class=n>dims</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>array</span><span class=p>([</span><span class=n>a</span><span class=o>.</span><span class=n>shape</span><span class=p>[</span><span class=mi>1</span><span class=p>:]</span> <span class=k>for</span> <span class=n>a</span> <span class=ow>in</span> <span class=n>predictions</span><span class=p>])</span>

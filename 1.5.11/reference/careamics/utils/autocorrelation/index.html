@@ -32,7 +32,7 @@
 <span class=normal><a href=#__codelineno-0-40>40</a></span>
 <span class=normal><a href=#__codelineno-0-41>41</a></span>
 <span class=normal><a href=#__codelineno-0-42>42</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-9><a id=__codelineno-0-9 name=__codelineno-0-9></a><span class=k>def</span><span class=w> </span><span class=nf>autocorrelation</span><span class=p>(</span><span class=n>image</span><span class=p>:</span> <span class=n>NDArray</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=n>NDArray</span><span class=p>:</span>
-</span><span id=__span-0-10><a id=__codelineno-0-10 name=__codelineno-0-10></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Compute the autocorrelation of an image.</span>
+</span><span id=__span-0-10><a id=__codelineno-0-10 name=__codelineno-0-10></a><span class=w>    </span><span class=sd>"""Compute the autocorrelation of an image.</span>
 </span><span id=__span-0-11><a id=__codelineno-0-11 name=__codelineno-0-11></a>
 </span><span id=__span-0-12><a id=__codelineno-0-12 name=__codelineno-0-12></a><span class=sd>    This method is used to explore spatial correlations in images,</span>
 </span><span id=__span-0-13><a id=__codelineno-0-13 name=__codelineno-0-13></a><span class=sd>    in particular in the noise.</span>
@@ -49,7 +49,7 @@
 </span><span id=__span-0-24><a id=__codelineno-0-24 name=__codelineno-0-24></a><span class=sd>    -------</span>
 </span><span id=__span-0-25><a id=__codelineno-0-25 name=__codelineno-0-25></a><span class=sd>    numpy.ndarray</span>
 </span><span id=__span-0-26><a id=__codelineno-0-26 name=__codelineno-0-26></a><span class=sd>        Autocorrelation of the input image.</span>
-</span><span id=__span-0-27><a id=__codelineno-0-27 name=__codelineno-0-27></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-27><a id=__codelineno-0-27 name=__codelineno-0-27></a><span class=sd>    """</span>
 </span><span id=__span-0-28><a id=__codelineno-0-28 name=__codelineno-0-28></a>    <span class=c1># normalize image</span>
 </span><span id=__span-0-29><a id=__codelineno-0-29 name=__codelineno-0-29></a>    <span class=n>image</span> <span class=o>=</span> <span class=p>(</span><span class=n>image</span> <span class=o>-</span> <span class=n>np</span><span class=o>.</span><span class=n>mean</span><span class=p>(</span><span class=n>image</span><span class=p>))</span> <span class=o>/</span> <span class=n>np</span><span class=o>.</span><span class=n>std</span><span class=p>(</span><span class=n>image</span><span class=p>)</span>
 </span><span id=__span-0-30><a id=__codelineno-0-30 name=__codelineno-0-30></a>
@@ -123,7 +123,7 @@
 </span><span id=__span-0-47><a id=__codelineno-0-47 name=__codelineno-0-47></a>    <span class=n>axes</span><span class=p>:</span> <span class=nb>str</span><span class=p>,</span>
 </span><span id=__span-0-48><a id=__codelineno-0-48 name=__codelineno-0-48></a>    <span class=n>average_z</span><span class=p>:</span> <span class=nb>bool</span> <span class=o>=</span> <span class=kc>True</span><span class=p>,</span>
 </span><span id=__span-0-49><a id=__codelineno-0-49 name=__codelineno-0-49></a><span class=p>)</span> <span class=o>-&gt;</span> <span class=n>NDArray</span><span class=p>:</span>
-</span><span id=__span-0-50><a id=__codelineno-0-50 name=__codelineno-0-50></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Compute the autocorrelation of an image stack, averaged over samples.</span>
+</span><span id=__span-0-50><a id=__codelineno-0-50 name=__codelineno-0-50></a><span class=w>    </span><span class=sd>"""Compute the autocorrelation of an image stack, averaged over samples.</span>
 </span><span id=__span-0-51><a id=__codelineno-0-51 name=__codelineno-0-51></a>
 </span><span id=__span-0-52><a id=__codelineno-0-52 name=__codelineno-0-52></a><span class=sd>    The input is normalized to `SC(Z)YX` using `axes`, `autocorrelation` is computed</span>
 </span><span id=__span-0-53><a id=__codelineno-0-53 name=__codelineno-0-53></a><span class=sd>    per image, and the results are averaged over the sample dimension. Channels are</span>
@@ -145,7 +145,7 @@
 </span><span id=__span-0-69><a id=__codelineno-0-69 name=__codelineno-0-69></a><span class=sd>    numpy.ndarray</span>
 </span><span id=__span-0-70><a id=__codelineno-0-70 name=__codelineno-0-70></a><span class=sd>        Averaged autocorrelation, `C(Z)YX` with the channel dimension dropped when</span>
 </span><span id=__span-0-71><a id=__codelineno-0-71 name=__codelineno-0-71></a><span class=sd>        there is a single channel.</span>
-</span><span id=__span-0-72><a id=__codelineno-0-72 name=__codelineno-0-72></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-72><a id=__codelineno-0-72 name=__codelineno-0-72></a><span class=sd>    """</span>
 </span><span id=__span-0-73><a id=__codelineno-0-73 name=__codelineno-0-73></a>    <span class=c1># normalize to canonical SC(Z)YX; also validates axes, Y/X presence, etc.</span>
 </span><span id=__span-0-74><a id=__codelineno-0-74 name=__codelineno-0-74></a>    <span class=n>reshaped</span> <span class=o>=</span> <span class=n>reshape_array</span><span class=p>(</span><span class=n>image</span><span class=p>,</span> <span class=n>axes</span><span class=p>)</span>
 </span><span id=__span-0-75><a id=__codelineno-0-75 name=__codelineno-0-75></a>    <span class=n>has_z</span> <span class=o>=</span> <span class=n>reshaped</span><span class=o>.</span><span class=n>ndim</span> <span class=o>==</span> <span class=mi>5</span>

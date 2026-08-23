@@ -19,13 +19,13 @@
 <span class=normal><a href=#__codelineno-0-82>82</a></span>
 <span class=normal><a href=#__codelineno-0-83>83</a></span>
 <span class=normal><a href=#__codelineno-0-84>84</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-64><a id=__codelineno-0-64 name=__codelineno-0-64></a><span class=k>class</span><span class=w> </span><span class=nc>Win</span><span class=p>(</span><span class=n>QWidget</span><span class=p>):</span>
-</span><span id=__span-0-65><a id=__codelineno-0-65 name=__codelineno-0-65></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;docstring for Win&quot;&quot;&quot;</span> <span class=s2>&quot;&quot;</span>
+</span><span id=__span-0-65><a id=__codelineno-0-65 name=__codelineno-0-65></a><span class=w>    </span><span class=sd>"""docstring for Win"""</span> <span class=s2>""</span>
 </span><span id=__span-0-66><a id=__codelineno-0-66 name=__codelineno-0-66></a>
 </span><span id=__span-0-67><a id=__codelineno-0-67 name=__codelineno-0-67></a>    <span class=k>def</span><span class=w> </span><span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
 </span><span id=__span-0-68><a id=__codelineno-0-68 name=__codelineno-0-68></a>        <span class=nb>super</span><span class=p>()</span><span class=o>.</span><span class=fm>__init__</span><span class=p>()</span>
 </span><span id=__span-0-69><a id=__codelineno-0-69 name=__codelineno-0-69></a>        <span class=n>line_edit</span> <span class=o>=</span> <span class=n>QLineEdit</span><span class=p>()</span>
 </span><span id=__span-0-70><a id=__codelineno-0-70 name=__codelineno-0-70></a>        <span class=c1># line_edit.setText(config.data_config.axes)</span>
-</span><span id=__span-0-71><a id=__codelineno-0-71 name=__codelineno-0-71></a>        <span class=n>btn</span> <span class=o>=</span> <span class=n>QPushButton</span><span class=p>(</span><span class=s2>&quot;Test&quot;</span><span class=p>)</span>
+</span><span id=__span-0-71><a id=__codelineno-0-71 name=__codelineno-0-71></a>        <span class=n>btn</span> <span class=o>=</span> <span class=n>QPushButton</span><span class=p>(</span><span class=s2>"Test"</span><span class=p>)</span>
 </span><span id=__span-0-72><a id=__codelineno-0-72 name=__codelineno-0-72></a>        <span class=n>btn</span><span class=o>.</span><span class=n>clicked</span><span class=o>.</span><span class=n>connect</span><span class=p>(</span><span class=k>lambda</span><span class=p>:</span> <span class=nb>print</span><span class=p>(</span><span class=bp>self</span><span class=o>.</span><span class=n>axes</span><span class=p>))</span>
 </span><span id=__span-0-73><a id=__codelineno-0-73 name=__codelineno-0-73></a>        <span class=n>vbox</span> <span class=o>=</span> <span class=n>QVBoxLayout</span><span class=p>()</span>
 </span><span id=__span-0-74><a id=__codelineno-0-74 name=__codelineno-0-74></a>        <span class=n>vbox</span><span class=o>.</span><span class=n>addWidget</span><span class=p>(</span><span class=n>line_edit</span><span class=p>)</span>
@@ -34,7 +34,7 @@
 </span><span id=__span-0-77><a id=__codelineno-0-77 name=__codelineno-0-77></a>
 </span><span id=__span-0-78><a id=__codelineno-0-78 name=__codelineno-0-78></a>        <span class=nb>type</span><span class=p>(</span><span class=bp>self</span><span class=p>)</span><span class=o>.</span><span class=n>axes</span> <span class=o>=</span> <span class=n>bind</span><span class=p>(</span>
 </span><span id=__span-0-79><a id=__codelineno-0-79 name=__codelineno-0-79></a>            <span class=n>line_edit</span><span class=p>,</span>
-</span><span id=__span-0-80><a id=__codelineno-0-80 name=__codelineno-0-80></a>            <span class=s2>&quot;text&quot;</span><span class=p>,</span>
+</span><span id=__span-0-80><a id=__codelineno-0-80 name=__codelineno-0-80></a>            <span class=s2>"text"</span><span class=p>,</span>
 </span><span id=__span-0-81><a id=__codelineno-0-81 name=__codelineno-0-81></a>            <span class=n>default_value</span><span class=o>=</span><span class=n>config</span><span class=o>.</span><span class=n>data_config</span><span class=o>.</span><span class=n>axes</span><span class=p>,</span>  <span class=c1># type: ignore</span>
 </span><span id=__span-0-82><a id=__codelineno-0-82 name=__codelineno-0-82></a>            <span class=n>validation_fn</span><span class=o>=</span><span class=n>are_axes_valid</span><span class=p>,</span>
 </span><span id=__span-0-83><a id=__codelineno-0-83 name=__codelineno-0-83></a>        <span class=p>)</span>
@@ -89,12 +89,12 @@
 </span><span id=__span-0-10><a id=__codelineno-0-10 name=__codelineno-0-10></a>    <span class=n>default_value</span><span class=p>:</span> <span class=n>Any</span> <span class=o>|</span> <span class=kc>None</span> <span class=o>=</span> <span class=kc>None</span><span class=p>,</span>
 </span><span id=__span-0-11><a id=__codelineno-0-11 name=__codelineno-0-11></a>    <span class=n>validation_fn</span><span class=p>:</span> <span class=n>Callable</span> <span class=o>|</span> <span class=kc>None</span> <span class=o>=</span> <span class=kc>None</span><span class=p>,</span>
 </span><span id=__span-0-12><a id=__codelineno-0-12 name=__codelineno-0-12></a><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>property</span><span class=p>:</span>
-</span><span id=__span-0-13><a id=__codelineno-0-13 name=__codelineno-0-13></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Returns a property bound to the given widget.</span>
+</span><span id=__span-0-13><a id=__codelineno-0-13 name=__codelineno-0-13></a><span class=w>    </span><span class=sd>"""Returns a property bound to the given widget.</span>
 </span><span id=__span-0-14><a id=__codelineno-0-14 name=__codelineno-0-14></a>
 </span><span id=__span-0-15><a id=__codelineno-0-15 name=__codelineno-0-15></a><span class=sd>    This can be used as a general way to bind a widget property to a class property.</span>
 </span><span id=__span-0-16><a id=__codelineno-0-16 name=__codelineno-0-16></a><span class=sd>    So that when the class property is accessed, it gets the value from the widget,</span>
 </span><span id=__span-0-17><a id=__codelineno-0-17 name=__codelineno-0-17></a><span class=sd>    and when the class property is set, it sets the value in the widget.</span>
-</span><span id=__span-0-18><a id=__codelineno-0-18 name=__codelineno-0-18></a><span class=sd>    In this way, we don&#39;t need to watch for widget&#39;s value changed signals</span>
+</span><span id=__span-0-18><a id=__codelineno-0-18 name=__codelineno-0-18></a><span class=sd>    In this way, we don't need to watch for widget's value changed signals</span>
 </span><span id=__span-0-19><a id=__codelineno-0-19 name=__codelineno-0-19></a><span class=sd>    to update the class attributes.</span>
 </span><span id=__span-0-20><a id=__codelineno-0-20 name=__codelineno-0-20></a>
 </span><span id=__span-0-21><a id=__codelineno-0-21 name=__codelineno-0-21></a><span class=sd>    Parameters</span>
@@ -113,13 +113,13 @@
 </span><span id=__span-0-34><a id=__codelineno-0-34 name=__codelineno-0-34></a><span class=sd>    Returns</span>
 </span><span id=__span-0-35><a id=__codelineno-0-35 name=__codelineno-0-35></a><span class=sd>    -------</span>
 </span><span id=__span-0-36><a id=__codelineno-0-36 name=__codelineno-0-36></a><span class=sd>        property: A property</span>
-</span><span id=__span-0-37><a id=__codelineno-0-37 name=__codelineno-0-37></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-37><a id=__codelineno-0-37 name=__codelineno-0-37></a><span class=sd>    """</span>
 </span><span id=__span-0-38><a id=__codelineno-0-38 name=__codelineno-0-38></a>
 </span><span id=__span-0-39><a id=__codelineno-0-39 name=__codelineno-0-39></a>    <span class=k>def</span><span class=w> </span><span class=nf>getter</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
 </span><span id=__span-0-40><a id=__codelineno-0-40 name=__codelineno-0-40></a>        <span class=n>ui_value</span> <span class=o>=</span> <span class=n>widget</span><span class=o>.</span><span class=n>property</span><span class=p>(</span><span class=n>prop_name</span><span class=p>)</span>
 </span><span id=__span-0-41><a id=__codelineno-0-41 name=__codelineno-0-41></a>        <span class=k>if</span> <span class=n>validation_fn</span><span class=p>:</span>
 </span><span id=__span-0-42><a id=__codelineno-0-42 name=__codelineno-0-42></a>            <span class=k>if</span> <span class=ow>not</span> <span class=n>validation_fn</span><span class=p>(</span><span class=n>ui_value</span><span class=p>):</span>
-</span><span id=__span-0-43><a id=__codelineno-0-43 name=__codelineno-0-43></a>                <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&quot;Invalid input: </span><span class=si>{</span><span class=n>ui_value</span><span class=si>}</span><span class=s2>&quot;</span><span class=p>)</span>
+</span><span id=__span-0-43><a id=__codelineno-0-43 name=__codelineno-0-43></a>                <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>"Invalid input: </span><span class=si>{</span><span class=n>ui_value</span><span class=si>}</span><span class=s2>"</span><span class=p>)</span>
 </span><span id=__span-0-44><a id=__codelineno-0-44 name=__codelineno-0-44></a>                <span class=n>ui_value</span> <span class=o>=</span> <span class=n>default_value</span>
 </span><span id=__span-0-45><a id=__codelineno-0-45 name=__codelineno-0-45></a>
 </span><span id=__span-0-46><a id=__codelineno-0-46 name=__codelineno-0-46></a>        <span class=k>return</span> <span class=n>ui_value</span>

@@ -32,36 +32,36 @@
 <span class=normal><a href=#__codelineno-0-39>39</a></span>
 <span class=normal><a href=#__codelineno-0-40>40</a></span>
 <span class=normal><a href=#__codelineno-0-41>41</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-8><a id=__codelineno-0-8 name=__codelineno-0-8></a><span class=k>def</span><span class=w> </span><span class=nf>create_gpu_label</span><span class=p>()</span> <span class=o>-&gt;</span> <span class=n>QLabel</span><span class=p>:</span>
-</span><span id=__span-0-9><a id=__codelineno-0-9 name=__codelineno-0-9></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;A label widget indicating whether GPU or CPU is available with torch.</span>
+</span><span id=__span-0-9><a id=__codelineno-0-9 name=__codelineno-0-9></a><span class=w>    </span><span class=sd>"""A label widget indicating whether GPU or CPU is available with torch.</span>
 </span><span id=__span-0-10><a id=__codelineno-0-10 name=__codelineno-0-10></a>
 </span><span id=__span-0-11><a id=__codelineno-0-11 name=__codelineno-0-11></a><span class=sd>    Returns</span>
 </span><span id=__span-0-12><a id=__codelineno-0-12 name=__codelineno-0-12></a><span class=sd>    -------</span>
 </span><span id=__span-0-13><a id=__codelineno-0-13 name=__codelineno-0-13></a><span class=sd>    QLabel</span>
 </span><span id=__span-0-14><a id=__codelineno-0-14 name=__codelineno-0-14></a><span class=sd>        GPU label widget.</span>
-</span><span id=__span-0-15><a id=__codelineno-0-15 name=__codelineno-0-15></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-15><a id=__codelineno-0-15 name=__codelineno-0-15></a><span class=sd>    """</span>
 </span><span id=__span-0-16><a id=__codelineno-0-16 name=__codelineno-0-16></a>    <span class=k>if</span> <span class=n>is_gpu_available</span><span class=p>():</span>
-</span><span id=__span-0-17><a id=__codelineno-0-17 name=__codelineno-0-17></a>        <span class=n>text</span> <span class=o>=</span> <span class=s2>&quot;GPU&quot;</span>
-</span><span id=__span-0-18><a id=__codelineno-0-18 name=__codelineno-0-18></a>        <span class=n>color</span> <span class=o>=</span> <span class=s2>&quot;ADC2A9&quot;</span>  <span class=c1># green</span>
+</span><span id=__span-0-17><a id=__codelineno-0-17 name=__codelineno-0-17></a>        <span class=n>text</span> <span class=o>=</span> <span class=s2>"GPU"</span>
+</span><span id=__span-0-18><a id=__codelineno-0-18 name=__codelineno-0-18></a>        <span class=n>color</span> <span class=o>=</span> <span class=s2>"ADC2A9"</span>  <span class=c1># green</span>
 </span><span id=__span-0-19><a id=__codelineno-0-19 name=__codelineno-0-19></a>    <span class=k>else</span><span class=p>:</span>
-</span><span id=__span-0-20><a id=__codelineno-0-20 name=__codelineno-0-20></a>        <span class=n>text</span> <span class=o>=</span> <span class=s2>&quot;CPU&quot;</span>
-</span><span id=__span-0-21><a id=__codelineno-0-21 name=__codelineno-0-21></a>        <span class=n>color</span> <span class=o>=</span> <span class=s2>&quot;FFDBA4&quot;</span>  <span class=c1># yellow</span>
+</span><span id=__span-0-20><a id=__codelineno-0-20 name=__codelineno-0-20></a>        <span class=n>text</span> <span class=o>=</span> <span class=s2>"CPU"</span>
+</span><span id=__span-0-21><a id=__codelineno-0-21 name=__codelineno-0-21></a>        <span class=n>color</span> <span class=o>=</span> <span class=s2>"FFDBA4"</span>  <span class=c1># yellow</span>
 </span><span id=__span-0-22><a id=__codelineno-0-22 name=__codelineno-0-22></a>
 </span><span id=__span-0-23><a id=__codelineno-0-23 name=__codelineno-0-23></a>    <span class=n>gpu_label</span> <span class=o>=</span> <span class=n>QLabel</span><span class=p>(</span><span class=n>text</span><span class=p>)</span>
 </span><span id=__span-0-24><a id=__codelineno-0-24 name=__codelineno-0-24></a>    <span class=n>font_color</span> <span class=o>=</span> <span class=n>gpu_label</span><span class=o>.</span><span class=n>palette</span><span class=p>()</span><span class=o>.</span><span class=n>color</span><span class=p>(</span><span class=n>gpu_label</span><span class=o>.</span><span class=n>foregroundRole</span><span class=p>())</span><span class=o>.</span><span class=n>name</span><span class=p>()[</span><span class=mi>1</span><span class=p>:]</span>
 </span><span id=__span-0-25><a id=__codelineno-0-25 name=__codelineno-0-25></a>    <span class=n>gpu_label</span><span class=o>.</span><span class=n>setStyleSheet</span><span class=p>(</span>
-</span><span id=__span-0-26><a id=__codelineno-0-26 name=__codelineno-0-26></a>        <span class=sa>f</span><span class=s2>&quot;&quot;&quot;</span>
+</span><span id=__span-0-26><a id=__codelineno-0-26 name=__codelineno-0-26></a>        <span class=sa>f</span><span class=s2>"""</span>
 </span><span id=__span-0-27><a id=__codelineno-0-27 name=__codelineno-0-27></a><span class=s2>            QLabel </span><span class=se>{{</span>
 </span><span id=__span-0-28><a id=__codelineno-0-28 name=__codelineno-0-28></a><span class=s2>                font-weight: bold; color: #</span><span class=si>{</span><span class=n>color</span><span class=si>}</span><span class=s2>;</span>
 </span><span id=__span-0-29><a id=__codelineno-0-29 name=__codelineno-0-29></a><span class=s2>            </span><span class=se>}}</span>
 </span><span id=__span-0-30><a id=__codelineno-0-30 name=__codelineno-0-30></a><span class=s2>            QToolTip </span><span class=se>{{</span>
 </span><span id=__span-0-31><a id=__codelineno-0-31 name=__codelineno-0-31></a><span class=s2>                color: </span><span class=si>{</span><span class=n>font_color</span><span class=si>}</span><span class=s2>;</span>
 </span><span id=__span-0-32><a id=__codelineno-0-32 name=__codelineno-0-32></a><span class=s2>            </span><span class=se>}}</span>
-</span><span id=__span-0-33><a id=__codelineno-0-33 name=__codelineno-0-33></a><span class=s2>        &quot;&quot;&quot;</span>
+</span><span id=__span-0-33><a id=__codelineno-0-33 name=__codelineno-0-33></a><span class=s2>        """</span>
 </span><span id=__span-0-34><a id=__codelineno-0-34 name=__codelineno-0-34></a>    <span class=p>)</span>
 </span><span id=__span-0-35><a id=__codelineno-0-35 name=__codelineno-0-35></a>    <span class=n>gpu_label</span><span class=o>.</span><span class=n>setToolTip</span><span class=p>(</span>
-</span><span id=__span-0-36><a id=__codelineno-0-36 name=__codelineno-0-36></a>        <span class=s2>&quot;Indicates whether PyTorch has access to a GPU.</span><span class=se>\n</span><span class=s2>&quot;</span>
-</span><span id=__span-0-37><a id=__codelineno-0-37 name=__codelineno-0-37></a>        <span class=s2>&quot;If your machine has GPU and this label indicates</span><span class=se>\n</span><span class=s2>&quot;</span>
-</span><span id=__span-0-38><a id=__codelineno-0-38 name=__codelineno-0-38></a>        <span class=s2>&quot;CPU, please check your PyTorch installation.&quot;</span>
+</span><span id=__span-0-36><a id=__codelineno-0-36 name=__codelineno-0-36></a>        <span class=s2>"Indicates whether PyTorch has access to a GPU.</span><span class=se>\n</span><span class=s2>"</span>
+</span><span id=__span-0-37><a id=__codelineno-0-37 name=__codelineno-0-37></a>        <span class=s2>"If your machine has GPU and this label indicates</span><span class=se>\n</span><span class=s2>"</span>
+</span><span id=__span-0-38><a id=__codelineno-0-38 name=__codelineno-0-38></a>        <span class=s2>"CPU, please check your PyTorch installation."</span>
 </span><span id=__span-0-39><a id=__codelineno-0-39 name=__codelineno-0-39></a>    <span class=p>)</span>
 </span><span id=__span-0-40><a id=__codelineno-0-40 name=__codelineno-0-40></a>
 </span><span id=__span-0-41><a id=__codelineno-0-41 name=__codelineno-0-41></a>    <span class=k>return</span> <span class=n>gpu_label</span>

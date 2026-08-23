@@ -49,8 +49,8 @@
 </span><span id=__span-0-12><a id=__codelineno-0-12 name=__codelineno-0-12></a>    <span class=n>data_shape</span><span class=p>:</span> <span class=n>Sequence</span><span class=p>[</span><span class=nb>int</span><span class=p>],</span>
 </span><span id=__span-0-13><a id=__codelineno-0-13 name=__codelineno-0-13></a>    <span class=n>patch_data</span><span class=p>:</span> <span class=n>NDArray</span><span class=p>,</span>
 </span><span id=__span-0-14><a id=__codelineno-0-14 name=__codelineno-0-14></a><span class=p>)</span> <span class=o>-&gt;</span> <span class=n>NDArray</span><span class=p>[</span><span class=n>np</span><span class=o>.</span><span class=n>float32</span><span class=p>]:</span>
-</span><span id=__span-0-15><a id=__codelineno-0-15 name=__codelineno-0-15></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;</span>
-</span><span id=__span-0-16><a id=__codelineno-0-16 name=__codelineno-0-16></a><span class=sd>    Pad patch data with zeros where it is outside the bounds of it&#39;s source image.</span>
+</span><span id=__span-0-15><a id=__codelineno-0-15 name=__codelineno-0-15></a><span class=w>    </span><span class=sd>"""</span>
+</span><span id=__span-0-16><a id=__codelineno-0-16 name=__codelineno-0-16></a><span class=sd>    Pad patch data with zeros where it is outside the bounds of it's source image.</span>
 </span><span id=__span-0-17><a id=__codelineno-0-17 name=__codelineno-0-17></a>
 </span><span id=__span-0-18><a id=__codelineno-0-18 name=__codelineno-0-18></a><span class=sd>    This ensures the patch data is contained in an array with the expected patch size.</span>
 </span><span id=__span-0-19><a id=__codelineno-0-19 name=__codelineno-0-19></a>
@@ -76,7 +76,7 @@
 </span><span id=__span-0-39><a id=__codelineno-0-39 name=__codelineno-0-39></a><span class=sd>    -------</span>
 </span><span id=__span-0-40><a id=__codelineno-0-40 name=__codelineno-0-40></a><span class=sd>    numpy.typing.NDArray[np.float32]</span>
 </span><span id=__span-0-41><a id=__codelineno-0-41 name=__codelineno-0-41></a><span class=sd>        The resulting padded patch.</span>
-</span><span id=__span-0-42><a id=__codelineno-0-42 name=__codelineno-0-42></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-42><a id=__codelineno-0-42 name=__codelineno-0-42></a><span class=sd>    """</span>
 </span><span id=__span-0-43><a id=__codelineno-0-43 name=__codelineno-0-43></a>    <span class=n>coords_</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>array</span><span class=p>(</span><span class=n>coords</span><span class=p>)</span>
 </span><span id=__span-0-44><a id=__codelineno-0-44 name=__codelineno-0-44></a>    <span class=n>patch</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>zeros</span><span class=p>((</span><span class=n>patch_data</span><span class=o>.</span><span class=n>shape</span><span class=p>[</span><span class=mi>0</span><span class=p>],</span> <span class=o>*</span><span class=n>patch_size</span><span class=p>),</span> <span class=n>dtype</span><span class=o>=</span><span class=n>np</span><span class=o>.</span><span class=n>float32</span><span class=p>)</span>
 </span><span id=__span-0-45><a id=__codelineno-0-45 name=__codelineno-0-45></a>    <span class=c1># data start will be zero unless coords are negative</span>

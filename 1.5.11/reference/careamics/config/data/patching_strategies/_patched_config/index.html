@@ -18,7 +18,7 @@
 <span class=normal><a href=#__codelineno-0-26>26</a></span>
 <span class=normal><a href=#__codelineno-0-27>27</a></span>
 <span class=normal><a href=#__codelineno-0-28>28</a></span></pre></div></td><td class=code><div><pre><span></span><code><span id=__span-0-9><a id=__codelineno-0-9 name=__codelineno-0-9></a><span class=k>def</span><span class=w> </span><span class=nf>is_squared_in_yx</span><span class=p>(</span><span class=n>patch_size</span><span class=p>:</span> <span class=n>Sequence</span><span class=p>[</span><span class=nb>int</span><span class=p>])</span> <span class=o>-&gt;</span> <span class=n>Sequence</span><span class=p>[</span><span class=nb>int</span><span class=p>]:</span>
-</span><span id=__span-0-10><a id=__codelineno-0-10 name=__codelineno-0-10></a><span class=w>    </span><span class=sd>&quot;&quot;&quot;Validate that the patch size is squared in YX.</span>
+</span><span id=__span-0-10><a id=__codelineno-0-10 name=__codelineno-0-10></a><span class=w>    </span><span class=sd>"""Validate that the patch size is squared in YX.</span>
 </span><span id=__span-0-11><a id=__codelineno-0-11 name=__codelineno-0-11></a>
 </span><span id=__span-0-12><a id=__codelineno-0-12 name=__codelineno-0-12></a><span class=sd>    Parameters</span>
 </span><span id=__span-0-13><a id=__codelineno-0-13 name=__codelineno-0-13></a><span class=sd>    ----------</span>
@@ -29,11 +29,11 @@
 </span><span id=__span-0-18><a id=__codelineno-0-18 name=__codelineno-0-18></a><span class=sd>    -------</span>
 </span><span id=__span-0-19><a id=__codelineno-0-19 name=__codelineno-0-19></a><span class=sd>    Sequence[int]</span>
 </span><span id=__span-0-20><a id=__codelineno-0-20 name=__codelineno-0-20></a><span class=sd>        The input patch size if it is squared in YX.</span>
-</span><span id=__span-0-21><a id=__codelineno-0-21 name=__codelineno-0-21></a><span class=sd>    &quot;&quot;&quot;</span>
+</span><span id=__span-0-21><a id=__codelineno-0-21 name=__codelineno-0-21></a><span class=sd>    """</span>
 </span><span id=__span-0-22><a id=__codelineno-0-22 name=__codelineno-0-22></a>    <span class=k>if</span> <span class=n>patch_size</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span> <span class=o>!=</span> <span class=n>patch_size</span><span class=p>[</span><span class=o>-</span><span class=mi>2</span><span class=p>]:</span>
 </span><span id=__span-0-23><a id=__codelineno-0-23 name=__codelineno-0-23></a>        <span class=k>raise</span> <span class=ne>ValueError</span><span class=p>(</span>
-</span><span id=__span-0-24><a id=__codelineno-0-24 name=__codelineno-0-24></a>            <span class=sa>f</span><span class=s2>&quot;Patch size must be squared in YX, but got sizes </span><span class=si>{</span><span class=n>patch_size</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span><span class=si>}</span><span class=s2> and &quot;</span>
-</span><span id=__span-0-25><a id=__codelineno-0-25 name=__codelineno-0-25></a>            <span class=sa>f</span><span class=s2>&quot;</span><span class=si>{</span><span class=n>patch_size</span><span class=p>[</span><span class=o>-</span><span class=mi>2</span><span class=p>]</span><span class=si>}</span><span class=s2>.&quot;</span>
+</span><span id=__span-0-24><a id=__codelineno-0-24 name=__codelineno-0-24></a>            <span class=sa>f</span><span class=s2>"Patch size must be squared in YX, but got sizes </span><span class=si>{</span><span class=n>patch_size</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span><span class=si>}</span><span class=s2> and "</span>
+</span><span id=__span-0-25><a id=__codelineno-0-25 name=__codelineno-0-25></a>            <span class=sa>f</span><span class=s2>"</span><span class=si>{</span><span class=n>patch_size</span><span class=p>[</span><span class=o>-</span><span class=mi>2</span><span class=p>]</span><span class=si>}</span><span class=s2>."</span>
 </span><span id=__span-0-26><a id=__codelineno-0-26 name=__codelineno-0-26></a>        <span class=p>)</span>
 </span><span id=__span-0-27><a id=__codelineno-0-27 name=__codelineno-0-27></a>
 </span><span id=__span-0-28><a id=__codelineno-0-28 name=__codelineno-0-28></a>    <span class=k>return</span> <span class=n>patch_size</span>
