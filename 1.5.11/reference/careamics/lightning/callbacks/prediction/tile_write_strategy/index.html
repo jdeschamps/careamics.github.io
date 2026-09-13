@@ -319,7 +319,7 @@
 </span><span id=__span-0-158><a id=__codelineno-0-158 name=__codelineno-0-158></a><span class=sd>            Tiles to stitch and write.</span>
 </span><span id=__span-0-159><a id=__codelineno-0-159 name=__codelineno-0-159></a><span class=sd>        """</span>
 </span><span id=__span-0-160><a id=__codelineno-0-160 name=__codelineno-0-160></a>        <span class=c1># stitch prediction</span>
-</span><span id=__span-0-161><a id=__codelineno-0-161 name=__codelineno-0-161></a>        <span class=n>prediction_image</span> <span class=o>=</span> <span class=n>stitch_single_prediction</span><span class=p>(</span><span class=n>tiles</span><span class=p>)</span>
+</span><span id=__span-0-161><a id=__codelineno-0-161 name=__codelineno-0-161></a>        <span class=n>prediction_image</span> <span class=o>=</span> <span class=n>stitch_single_prediction</span><span class=p>(</span><span class=n>tiles</span><span class=p>,</span> <span class=n>restore_shape</span><span class=o>=</span><span class=kc>True</span><span class=p>)</span>
 </span><span id=__span-0-162><a id=__codelineno-0-162 name=__codelineno-0-162></a>        <span class=n>source</span><span class=p>:</span> <span class=n>Path</span> <span class=o>=</span> <span class=n>Path</span><span class=p>(</span><span class=n>tiles</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span><span class=o>.</span><span class=n>source</span><span class=p>)</span>
 </span><span id=__span-0-163><a id=__codelineno-0-163 name=__codelineno-0-163></a>
 </span><span id=__span-0-164><a id=__codelineno-0-164 name=__codelineno-0-164></a>        <span class=c1># Handle array sources with postfix</span>
